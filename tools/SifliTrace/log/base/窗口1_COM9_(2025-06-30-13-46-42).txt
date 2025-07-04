@@ -1,0 +1,211 @@
+SFBL
+SFBL
+SFBL
+SFBL
+Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+NAND ID 0xd1d13c
+det bbm table with 1, 1, 2
+detect result 2
+V1 1 in block 992, V2 0 in block 994
+Latest version 1
+V1 1 in block 993, V2 0 in block 995
+Latest version 1
+v1 1 in blk 992, v2 1 in block 993
+BBM MEM: ctx 2001f860, map1 2001f450, map2 2001f658 
+sif_bbm_init done
+
+ \ | /
+- SiFli Corporation
+ / | \     build on Jun  9 2025, 2.4.0 build 00000000
+ 2020 - 2022 Copyright by SiFli team
+mount /dev sucess
+[413] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+[420] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036237, rtc ppm=0
+
+[427] I/drv.rtc main: DIVA=36, DIVA_FRA=3091, DIVB=256
+
+[433] I/drv.rtc main: Init RTC, wake = 0
+
+NAND factory magic error 0x6e11802 vs 0x53450617
+[488] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+
+[494] I/drv.audprc main: HAL_AUDPRC_Init res 0
+
+[499] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+
+[505] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+call par CFG1(3313)
+fc 9, xtal 2000, pll 2129
+call par CFG1(3313)
+fc 7, xtal 2000, pll 1707
+[550] I/drv.lcd main: [NONE] -> [OPENING]
+[555] I/drv.lcd lcd_task: open
+[558] I/drv.epic lcd_task: drv_gpu opened.
+[563] I/drv.lcd lcd_task: HW open
+[573] I/drv.lcd lcd_task: Try registered LCD driver...
+msh />[2148] I/NO_TAG lcd_task: SH8603B_Init 
+
+SH8603B_Init_Finish
+[4162] I/NO_TAG lcd_task: 
+ lcd_error  SH8603B_ReadID 0x0 
+
+[4169] I/drv.lcd lcd_task: Found lcd SH8603B id:9c03h
+[4175] I/drv.lcd lcd_task: HW open done.
+[4179] I/drv.lcd lcd_task: [OPENING] -> [INITIALIZED]
+[4185] I/drv.lcd lcd_task: open done.
+[4189] I/drv.lcd_fb main: drv_lcd_fb_init
+[4194] I/drv.lcd_fb main: drv_lcd_fb_init done.
+[4219] I/TOUCH main: Open
+[4223] I/TOUCH tp_init: Find touch screen driver...
+[4228] I/TOUCH tp_init: Probe 10006499
+[4233] I/TOUCH tp_init: touch screen found driver  0x2001f28c, ft3169
+[4240] I/TOUCH main: Opened.
+[4244] I/LVGL main: [littlevgl2rtt] Welcome to the littlevgl2rtt lib.
+[4525] I/drv.lcd lcd_task: Auto turn on display.
+[4531] I/drv.lcd lcd_task: set brightness 50
+lcd_debug run  SH8603B_SetBrightness br = 50, bright = 127
+[4542] I/drv.lcd lcd_task: display on
+lcd_debug  SH8603B_DisplayOn
+[4549] I/drv.lcd lcd_task: [INITIALIZED] -> [ON]
+[5024] E/drv.ft3169 tp_init: ft3169 id_H=64
+[5030] E/drv.ft3169 tp_init: ft3169 id_L=56
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+NAND ID 0xd1d13c
+det bbm table with 1, 1, 2
+detect result 2
+V1 1 in block 992, V2 0 in block 994
+Latest version 1
+V1 1 in block 993, V2 0 in block 995
+Latest version 1
+v1 1 in blk 992, v2 1 in block 993
+BBM MEM: ctx 2001f860, map1 2001f450, map2 2001f658 
+sif_bbm_init done
+
+ \ | /
+- SiFli Corporation
+ / | \     build on Jun  9 2025, 2.4.0 build 00000000
+ 2020 - 2022 Copyright by SiFli team
+mount /dev sucess
+[413] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+[420] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036221, rtc ppm=0
+
+[427] I/drv.rtc main: DIVA=36, DIVA_FRA=3100, DIVB=256
+
+[433] I/drv.rtc main: Init RTC, wake = 0
+
+NAND factory magic error 0x6e11802 vs 0x53450617
+[488] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+
+[494] I/drv.audprc main: HAL_AUDPRC_Init res 0
+
+[499] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+
+[505] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+call par CFG1(3313)
+fc 9, xtal 2000, pll 2129
+call par CFG1(3313)
+fc 7, xtal 2000, pll 1707
+[550] I/drv.lcd main: [NONE] -> [OPENING]
+[555] I/drv.lcd lcd_task: open
+[558] I/drv.epic lcd_task: drv_gpu opened.
+[563] I/drv.lcd lcd_task: HW open
+[573] I/drv.lcd lcd_task: Try registered LCD driver...
+msh />[2146] I/NO_TAG lcd_task: SH8603B_Init 
+
+SH8603B_Init_Finish
+[4160] I/NO_TAG lcd_task: 
+ lcd_error  SH8603B_ReadID 0x0 
+
+[4166] I/drv.lcd lcd_task: Found lcd SH8603B id:9c03h
+[4172] I/drv.lcd lcd_task: HW open done.
+[4176] I/drv.lcd lcd_task: [OPENING] -> [INITIALIZED]
+[4182] I/drv.lcd lcd_task: open done.
+[4187] I/drv.lcd_fb main: drv_lcd_fb_init
+[4191] I/drv.lcd_fb main: drv_lcd_fb_init done.
+[4217] I/TOUCH main: Open
+[4220] I/TOUCH tp_init: Find touch screen driver...
+[4226] I/TOUCH tp_init: Probe 10006499
+[4230] I/TOUCH tp_init: touch screen found driver  0x2001f28c, ft3169
+[4238] I/TOUCH main: Opened.
+[4241] I/LVGL main: [littlevgl2rtt] Welcome to the littlevgl2rtt lib.
+[4524] I/drv.lcd lcd_task: Auto turn on display.
+[4529] I/drv.lcd lcd_task: set brightness 50
+lcd_debug run  SH8603B_SetBrightness br = 50, bright = 127
+[4541] I/drv.lcd lcd_task: display on
+lcd_debug  SH8603B_DisplayOn
+[4548] I/drv.lcd lcd_task: [INITIALIZED] -> [ON]
+[5020] E/drv.ft3169 tp_init: ft3169 id_H=64
+[5027] E/drv.ft3169 tp_init: ft3169 id_L=56
+SFBL
+Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+NAND ID 0xd1d13c
+det bbm table with 1, 1, 2
+detect result 2
+V1 1 in block 992, V2 0 in block 994
+Latest version 1
+V1 1 in block 993, V2 0 in block 995
+Latest version 1
+v1 1 in blk 992, v2 1 in block 993
+BBM MEM: ctx 2001f860, map1 2001f450, map2 2001f658 
+sif_bbm_init done
+
+ \ | /
+- SiFli Corporation
+ / | \     build on Jun  9 2025, 2.4.0 build 00000000
+ 2020 - 2022 Copyright by SiFli team
+mount /dev sucess
+[414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+[421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036289, rtc ppm=0
+
+[428] I/drv.rtc main: DIVA=36, DIVA_FRA=3061, DIVB=256
+
+[434] I/drv.rtc main: Init RTC, wake = 0
+
+NAND factory magic error 0x6e11802 vs 0x53450617
+[489] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+
+[495] I/drv.audprc main: HAL_AUDPRC_Init res 0
+
+[500] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+
+[506] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+call par CFG1(3313)
+fc 9, xtal 2000, pll 2128
+call par CFG1(3313)
+fc 7, xtal 2000, pll 1706
+[551] I/drv.lcd main: [NONE] -> [OPENING]
+[556] I/drv.lcd lcd_task: open
+[559] I/drv.epic lcd_task: drv_gpu opened.
+[564] I/drv.lcd lcd_task: HW open
+[574] I/drv.lcd lcd_task: Try registered LCD driver...
+msh />[2148] I/NO_TAG lcd_task: SH8603B_Init 
+
+SH8603B_Init_Finish
+[4162] I/NO_TAG lcd_task: 
+ lcd_error  SH8603B_ReadID 0x0 
+
+[4169] I/drv.lcd lcd_task: Found lcd SH8603B id:9c03h
+[4175] I/drv.lcd lcd_task: HW open done.
+[4179] I/drv.lcd lcd_task: [OPENING] -> [INITIALIZED]
+[4185] I/drv.lcd lcd_task: open done.
+[4189] I/drv.lcd_fb main: drv_lcd_fb_init
+[4194] I/drv.lcd_fb main: drv_lcd_fb_init done.
+[4219] I/TOUCH main: Open
+[4223] I/TOUCH tp_init: Find touch screen driver...
+[4228] I/TOUCH tp_init: Probe 10006499
+[4233] I/TOUCH tp_init: touch screen found driver  0x2001f28c, ft3169
+[4240] I/TOUCH main: Opened.
+[4243] I/LVGL main: [littlevgl2rtt] Welcome to the littlevgl2rtt lib.
+[4526] I/drv.lcd lcd_task: Auto turn on display.
+[4531] I/drv.lcd lcd_task: set brightness 50
+lcd_debug run  SH8603B_SetBrightness br = 50, bright = 127
+[4543] I/drv.lcd lcd_task: display on
+lcd_debug  SH8603B_DisplayOn
+[4550] I/drv.lcd lcd_task: [INITIALIZED] -> [ON]
+[5023] E/drv.ft3169 tp_init: ft3169 id_H=64
+[5030] E/drv.ft3169 tp_init: ft3169 id_L=56

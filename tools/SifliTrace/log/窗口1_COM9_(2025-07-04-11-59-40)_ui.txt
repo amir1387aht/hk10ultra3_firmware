@@ -1,0 +1,81 @@
+07-04 11:59:40:666    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+07-04 11:59:40:670    NAND ID 0xd1d13c
+07-04 11:59:40:670    det bbm table with 1, 1, 2
+07-04 11:59:40:671    detect result 2
+07-04 11:59:40:671    V1 1 in block 992, V2 0 in block 994
+07-04 11:59:40:671    Latest version 1
+07-04 11:59:40:671    V1 1 in block 993, V2 0 in block 995
+07-04 11:59:40:671    Latest version 1
+07-04 11:59:40:672    v1 1 in blk 992, v2 1 in block 993
+07-04 11:59:40:672    BBM MEM: ctx 2003c7bc, map1 2003c3ac, map2 2003c5b4 
+07-04 11:59:40:673    sif_bbm_init done
+07-04 11:59:40:673    
+07-04 11:59:40:673     \ | /
+07-04 11:59:40:673    - SiFli Corporation
+07-04 11:59:40:673     / | \     build on Jul  4 2025, 2.4.0 build 00000000
+07-04 11:59:40:675     2020 - 2022 Copyright by SiFli team
+07-04 11:59:40:675    mount /dev sucess
+07-04 11:59:40:675    [406] I/drv.rtc main: PSCLR=0x24306100 DivAI=36 DivAF=3096 B=256
+07-04 11:59:40:675    [413] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036302, rtc ppm=0
+07-04 11:59:40:675    
+07-04 11:59:40:676    [421] I/drv.rtc main: DIVA=36, DIVA_FRA=3053, DIVB=256
+07-04 11:59:40:676    
+07-04 11:59:40:676    [427] I/drv.rtc main: Init RTC, wake = 1
+07-04 11:59:40:677    
+07-04 11:59:40:677    NAND factory magic error 0x6e11802 vs 0x53450617
+07-04 11:59:40:677    [440] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+07-04 11:59:40:677    
+07-04 11:59:40:678    [446] I/drv.audprc main: HAL_AUDPRC_Init res 0
+07-04 11:59:40:678    
+07-04 11:59:40:678    [451] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+07-04 11:59:40:680    
+07-04 11:59:40:680    [457] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+07-04 11:59:40:680    lvsf_font_load: faces 1 ft_cache_size 300000
+07-04 11:59:40:680    call par CFG1(3313)
+07-04 11:59:40:680    fc 9, xtal 2000, pll 2131
+07-04 11:59:40:681    call par CFG1(3313)
+07-04 11:59:40:681    fc 7, xtal 2000, pll 1708
+07-04 11:59:40:681    mount fs[elm] on / failed.
+07-04 11:59:40:683    msh />
+07-04 12:00:05:946    SFBL
+07-04 12:00:08:221    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+07-04 12:00:08:222    NAND ID 0xd1d13c
+07-04 12:00:08:223    det bbm table with 1, 1, 2
+07-04 12:00:08:224    detect result 2
+07-04 12:00:08:224    V1 1 in block 992, V2 0 in block 994
+07-04 12:00:08:226    Latest versio
+07-04 12:00:08:226    n 1
+07-04 12:00:08:227    V1 1 in block 993, V2 0 in block 995
+07-04 12:00:08:227    Latest version 1
+07-04 12:00:08:228    v1 1 in blk 992, v2 1 in block 993
+07-04 12:00:08:228    BBM MEM: ctx 2003c7bc, map1 2003c3ac, map2 2003c5b4 
+07-04 12:00:08:228    sif_bbm_init done
+07-04 12:00:08:230    
+07-04 12:00:08:230     \ | /
+07-04 12:00:08:230    - SiFli Corporation
+07-04 12:00:08:231     / | \     build on Jul  4 2025, 2.4.0 build 00000000
+07-04 12:00:08:232     2020 - 2022 Copyright by SiFli team
+07-04 12:00:08:232    mount /dev sucess
+07-04 12:00:08:233    [414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+07-04 12:00:08:233    [421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036335, rtc ppm=0
+07-04 12:00:08:233    
+07-04 12:00:08:234    [428] I/drv.rtc main: DIVA=36, DIVA_FRA=3034, DIVB=256
+07-04 12:00:08:234    
+07-04 12:00:08:234    [434] I/drv.rtc main: Init RTC, wake = 0
+07-04 12:00:08:234    
+07-04 12:00:08:237    NAND factory magic error 0x6e11802 vs 0x53450617
+07-04 12:00:08:240    [488] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+07-04 12:00:08:240    
+07-04 12:00:08:240    [494] I/drv.audprc main: HAL_AUDPRC_Init res 0
+07-04 12:00:08:241    
+07-04 12:00:08:241    [499] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+07-04 12:00:08:242    
+07-04 12:00:08:242    [505] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+07-04 12:00:08:243    lvsf_font_load: faces 1 ft_cache_size 300000
+07-04 12:00:08:245    call par CFG1(3313)
+07-04 12:00:08:245    fc 9, xtal 2000, pll 2129
+07-04 12:00:08:246    call par CFG1(3313)
+07-04 12:00:08:246    fc 7, xtal 2000, pll 1709
+07-04 12:00:08:247    mount fs[elm] on / failed.
+07-04 12:00:08:248    msh />
+07-04 12:00:45:958 SC:receive cmd: stopcom

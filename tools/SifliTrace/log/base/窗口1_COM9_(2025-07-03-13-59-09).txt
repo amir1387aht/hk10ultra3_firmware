@@ -1,0 +1,2804 @@
+SFBL
+Serial:c2,Chip:4,Package:3,Rev:3 Reason:00000000
+Serial PowerOnMOde:0 rtc_record:00000000
+reset_clk
+
+ \ | /
+- SiFli Corporation
+ / | \     build on May 24 2024, 2.1.2 build 54f094
+ 2020 - 2022 Copyright by SiFli team
+mount /dev sucess
+[32;22m[I/FAL] Flash Abstraction Layer (V0.5.99) initialize success.[0m
+[32;22m[I/FAL] The FAL MTD NAND device (upay_safety)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (sys)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (solution_code_Y)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (root)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (dyn)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (music)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (dfu)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (ble)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (upay)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (app)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (contact)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_rp)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_ip)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_sp)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_sport)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_assert)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_log)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_metrics)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_monkey)  blk:131072 sec:2048 created successfully[0m
+[997] drv.rtc: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+[1003] drv.rtc: RC10K Freq=9kHz, cycle=1015731, rtc ppm=-7
+
+[1010] drv.rtc: DIVA=36, DIVA_FRA=15060, DIVB=256
+
+[1016] drv.rtc: Init RTC, wake = 0
+
+[1169] drv.audprc: init 00 ADC_PATH_CFG0 0x606
+
+[1175] drv.audprc: HAL_AUDPRC_Init res 0
+
+[1181] drv.audcodec: HAL_AUDCODEC_Init res 0
+
+app_bmem_init
+app_bmem_load: app_bmem_16, num 800
+app_bmem_load: app_bmem_32, num 600
+app_bmem_load: app_bmem_64, num 500
+app_bmem_load: app_bmem_104, num 500
+[1218] sensor: rt_sensor init success
+sensor init success bd1668!
+[1227] sensor: rt_sensor init success
+[1231] sensor.gs: sensor register success!
+
+[1237] TOUCH: Regist touch screen driver, probe=10242b85 
+call par CFG1(35bb)
+fc 9, xtal 2000, pll 2094
+call par CFG1(35bb)
+fc 7, xtal 2000, pll 1677
+app_mem_set_parameter: is 0 ip 2519000 ft 500000 ms 0 mp 32000
+[1289] APP.UI: app_shipping_init
+[1293] APP.UI: SHIPPING_MODE_flag:0x0,charger_status:0 wakeup_src:0x0
+battery_charger_init ok!
+ble_data_service_register: service = 603a5ee4 
+sensors_service_register: mem usage, total 407152 used 11980 max_used 12240
+sensors_service_register: service = 603a5f50 
+[1323] ble_protocol: ble_protocol_init:count=1
+
+[1333] APP.UI: app_db_setting_init
+[1339] APP.UI: app_comm_init
+lv_freetype_set_parameter: bpp 2 max_fsize 255 extern 1 extern_cache_limit 81920
+[1352] bt_device: bt notify cb register pass:1
+[1357] bt_service: app_bt_register_notify ret:0
+[1364] APP.UI: init_pin: 747 id = 0
+
+[1369] APP.UI: init_pin: 773 id = 1
+
+[1375] DS: data service subscribe (btn0), service (603a7790)
+[1382] DS: datac subscribe dev open
+button_0000000000000:  msg_id 0x8000
+[1391] DS: data service subscribe (btn1), service (603a77d0)
+[1398] DS: datac subscribe dev open
+button_11111111111111: msg_id 0x8000
+[1407] APP.FWK.PM: pwr_fsm:0, 4
+
+disk_init:0
+init:30080
+mount fs[elm] on / succ.
+disk_init:1
+init:800
+mount fs[elm] on /sys succ.
+disk_init:2
+init:8107
+mount fs[elm] on /dyn succ.
+disk_init:3
+init:10560
+mount fs[elm] on /music succ.
+Directory /:
+app_config          <DIR>                    
+dummy               0                        
+dyn                 <DIR>                    
+fonts               <DIR>                    
+images              <DIR>                    
+language            <DIR>                    
+music               <DIR>                    
+ring                <DIR>                    
+support_script      <DIR>                    
+sys                 <DIR>                    
+ramfs               <DIR>                    
+disk free: 5.9 MB [ 3037 block, 2048 bytes per block ] [total block 30041 total size 61523968]
+lv_task_mutex_init
+dfu_db_init: sector_size 4096 size 16384
+fdb_kvdb_init: /sys/dfu/
+[2063] DFUCTRLEXT: check_backup_ftab 11280
+[2079] DFUCTRLEXT: ftab not ready, running on hcpu1
+[2085] DFUCTRLEXT: init_flash_des 0, 0x622a0000, 0x62600000
+[2092] DFUCTRLEXT: dfu_ctrl_ext_init
+[2112] sibles: enable BLE Core..
+ble_tipc_init: tpic enable 1
+ram file system initializated;
+[2126] FLASHDB: service_flashdb_thread_init
+[2133] APP.UI: app_pm_init
+[2137] APP.UI: app_preprocess_thread_init
+[2143] bt_device: bt notify cb register pass:2
+[2148] bt_service: app_bt_register_notify ret:0
+[2154] APP.UI: lvsf_trans_anim_set_parameter:zoom_none 320 zoom_min 160 width 312 height 360 color_depth 16 snapshot_color_dep
+mainmenu_db_func_init
+[2171] APP.UI: screen_always_on_init
+lv_obj_datasubs_init 
+[2178] APP.UI: lvsf_bg_db_init
+[2182] TLV.FWK: app_tileview_init
+[2186] APP.UI: app_watch_init
+[2190] APP.UI: app_clock_list_init
+[2194] [APP_OTA]: ota mode 0, res state 0, img state 0
+[2201] APP.UI: app_contact_setting_init
+[2212] [FAT]: app_file_recv_init
+[2217] [APP_OTA]: ota mode 0, res state 0, img state 0
+[2223] [APP_OTA]: app_ota_init
+[2227] DS: data service subscribe (BLE_APP), service (603a5ee4)
+[2235] DS: datac subscribe dev open
+ble_service_cb: type 0000
+subscribe_rsp:0,12
+ble_service_cb: type 9601
+[2247] APP.UI: app_ble_service_subscribe_init
+[2256] APP.UI: app_jsapp_list_init
+name = -1039924477 scode 0 u = 142
+[2371] APP.UI: app_watch_entry
+[2376] drv.lcd: open
+[2379] drv.lcd: HW open
+[2383] drv.lcd: Try registered LCD driver...
+
+CO5300_ReadID 0x331100 
+[3044] co5300: LCD module use CO5300 IC 
+
+
+CO5300_ReadID 0x331100 
+[4841] co5300: LCD module use CO5300 IC 
+
+[4846] drv.lcd: Found lcd co5300 id:331100h
+[4851] drv.lcd: HW open done.
+[4854] drv.lcd: [NONE] -> [INITIALIZED]
+[4859] drv.lcd: open done.
+[4867] [APP_OTA]: ota mode 0, res state 0, img state 0
+lv_freetype_init: orig_size 350000 sec_hash_tab 4628 max_cache_size 207224 sec_limit 138148
+lv_freetype_init: faces 3 max_cache_size 350000 extern_cache 1
+lvsf_font_set_order_common(origin): font_order: 
+                     wk_no_korean:    8   10   14   22   26   30   34   38   42   44   48   54   62   70   90 
+                     _tiny55_full:    8   10   14   22   26   30   34   38   42   44   48   54   62   70   90 
+                          ota_err:    8   10   14   22   26   30   34   38   42   44   48   54   62   70   90 
+[5405] APP.UI: watch_entry
+[5413] TOUCH: Open
+[5415] TOUCH: Opened.
+[5419] drv.dk05: wheel open
+[5423] LVGL: [littlevgl2rtt] Welcome to the littlevgl2rtt lib.
+rt_adc_read:  40066;
+battery_get_original_voltage: volt 4006 
+battery_get_voltage: volt 4006 smooth volt: 4006;
+[5654] APP.UI: app_blocking_when_low_voltage: volt 4006 threshold 3560
+[5662] APP.UI: app_ring_stop
+[5665] [APP_OTA]: ota mode 0, res state 0, img state 0
+power_on_anim_page_init: time 0
+[5707] APP.GIF: lv_agif_dec_create_ext: /images/gif/switch_anim/gif_power_on.agif fd 8
+[5741] APP.GIF: lv_agif_dec_task_pause: 6039cc70
+Motor 1013f1f7
+[5755] FLASHDB: service_flashdb_init
+[5759] FLASHDB: service_flashdb_kvdb_init
+[5764] FLASHDB: flashdb_kvdb_init: msg
+[5775] FLASHDB: flashdb_kvdb_init: 0 ms
+
+[5780] FLASHDB: flashdb_kvdb_init: app
+[5796] FLASHDB: app: sector_size 4096 size 655360
+fdb_kvdb_init: /sys/app/
+play ring:/ring/long/wk_poweron.wav
+[5837] audio: mp3 open /ring/long/wk_poweron.wav callback=0x1024d721
+[5845] audio: mp3 open /ring/long/wk_poweron.wav
+[5879] audio: no ID3
+[5884] audio: wav len=44
+[6044] drv.lcd: Auto turn on display.
+[6056] chg.eta4662: eta4662_poll ChargeStatus:0 PowerGood:0 OvpFlag:0; [0x09]: 0x00
+
+[6065] drv.lcd: set brightness 50
+[6069] drv.lcd: display on
+[6073] drv.lcd: [INITIALIZED] -> [ON]
+[27823] FLASHDB: flashdb_kvdb_init: 2330 ms
+
+[27828] FLASHDB: flashdb_kvdb_init: upay
+[27838] FLASHDB: upay: sector_size 4096 size 65536
+fdb_kvdb_init: /sys/upay/
+[28311] FLASHDB: flashdb_kvdb_init: 51 ms
+
+[29316] FLASHDB: device_name:HK9 Mini+, device_type_id:5333, sw_verno:5.01
+[29324] data_db: init_data_db
+[29331] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 65536
+[29566] FLASHDB: [service_flashdb_tsdb_init]: his_rp, 25 ms
+[29576] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 16384
+[29633] FLASHDB: [service_flashdb_tsdb_init]: his_ip, 6 ms
+[29643] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 16384
+[29739] FLASHDB: [service_flashdb_tsdb_init]: his_sp, 11 ms
+[29749] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 16384
+[29806] FLASHDB: [service_flashdb_tsdb_init]: his_sport, 7 ms
+[29813] FLASHDB: flashdb_kvdb_init: contact
+[29823] FLASHDB: contact: sector_size 4096 size 16384
+fdb_kvdb_init: /sys/contact/
+[29952] FLASHDB: flashdb_kvdb_init: 14 ms
+
+db_read_local: local8201 len 1044
+flashdb_read: local8201 len 1048 1048 time 2 (ms)
+db_read_local: local8207 len 164
+flashdb_read: local8207 len 168 168 time 6 (ms)
+db_write_local: local8207 len 33287
+db_write_local: local8207 len 33287
+[30060] audio: audio server run
+[30064] audio: audio_btdownlink run
+[30070] nvds: ble db init: sector_size 4096 size 16384
+fdb_kvdb_init: /sys/ble/
+[30452] nvds: NVDS otp Update Addr res 6, addr a7-97-2b-11-ab-c2
+[30473] nvds: sifli_nvds_read_tag_value: val:603b38a5 tag:1
+[30480] nvds: NVDS loc Update Addr ret 0, addr a7-97-2b-11-ab-c2
+[30490] nvds: sifli_nvds_read_tag_value: val:603b3898 tag:13
+[30497] nvds: read sleep time 4500
+[30506] mw.sys: turn on lcpu
+[52645] TOUCH: Find touch screen driver...
+[52650] TOUCH: Probe 10242b85
+[52654] audio: wav run...ctrl=0x60413dec
+[52661] audio: audio_open type=5 rwflag=0 tx cache=2058 rx cache=0
+[52669] audio: audio cmd=0
+[52673] audio: audio_client_start h=60414370 n=ring t=5
+[52679] audio: notify listern(0, 0)
+[52683] audio: start first stream
+[52687] audio: audio_device_close in
+[52691] audio: audio_device_close do nothing
+[52696] audio: audio_device_open in busy=0 reg=1 c=60414370
+[52702] audio: audio_device_speaker_open
+[52707] drv.audprc: set g_eq_enable=1
+[52711] audio: ch: tx=1 rx=0,rate: tx=16000 rx=0
+[52718] audio: set tx callback
+[52721] drv.audcodec: AUDCODEC set source 0
+
+[52726] audio: prc_codec : sub_type=1 channel 1, samplerate 16000, bits 16
+[52734] drv.audprc: AUDPRC set dest 0
+
+[52739] audio: speaker OUTPUTSRC channel=1 in_rate=16000 out_rate=16000
+[52747] audio: speaker select=0x5050 mixer=0x5150
+[52752] audio: tx[0]: sub_type 0, ch 1, samrate 16000, bits 16
+
+[52759] audio: no eq init volume=-16
+[52763] drv.audcodec: dac set volume: prc=0 codec=-16
+
+[52770] drv.audcodec: codec dac mute set:1
+
+[52775] audio: speaker START stream=0x100
+[52779] drv.audprc: samplerate = 16000, select voice eq
+
+[52786] drv.audprc: bf0_audio_start 0x100 done
+
+[52791] audio: codec START stream=0x100
+enable pll 
+new PLL_ENABLE vco:9, freq_type:2
+pll lock! freq_type:2
+[52825] drv.audcodec: pll config state:2, samplerate:16000 
+
+[52832] drv.audcodec: bf0_audio_start 0x100 done
+
+sifli_aw8155 to do power handle 
+sifli_aw8155_start,mode:1 
+app_motor_power: on 
+[52852] motor_device: rt_motor_open ret:0 flag:80
+[53133] drv.audcodec: codec dac mute set:0
+
+[53138] audio: audio_device_open out
+[53142] audio: mp3 user callback
+[53146] APP.UI: ring_callback_func: cmd 0 
+
+[53151] audio: callback opened ok
+[53154] audio: audio_client_start out
+[53159] audio: tx[0]  len:0
+[53162] audio: audio_open ret=0x60414370
+[53167] audio: wav open ctrl=0x60413dec, client=0x60414370, c=1 samrate=16000
+[53267] audio: server volume=15, mute=0 eq_mute=0
+[53273] audio: not eq change volume=-16
+[53282] drv.audcodec: dac set volume: prc=0 codec=-16
+
+[53708] drv.chsc6417: chsc6x: chsc6x_chip_id 0x5c 0x7c 
+
+[53715] drv.chsc6417: chsc6x: chsc6x_chip_id 0x5c  
+
+[53722] drv.chsc6417: chsc6417tp probe OK
+
+[53727] TOUCH: touch screen found driver  607f2a98, chsc6417tp
+[53734] drv.chsc6417: chsc6417_touch_init++
+
+[53746] drv.chsc6417: chsc6x: read 0x8000-12 OK! 
+
+[53752] drv.chsc6417: chsc6x: g_mccode is 0x1 
+
+[53829] drv.chsc6417: chsc6x: get_running_cfg pass !
+
+[53836] drv.chsc6417: chsc6x: vid=47,pid=96,boot_ver=0x236,cfg_ver=3,chip_id=0x5c
+
+[54408] drv.chsc6417: Enable palmcheck OK 
+
+[54413] drv.chsc6417: chsc6417_touch_init OK
+
+[54747] motor_device: rt_motor_ctrl ret:0 flag:80 *args:1
+[54754] motor_device: rt_motor_ctrl ret:0 flag:80 *args:2
+Motor 10001095
+[56724] motor_device: rt_motor_ctrl ret:0 flag:80 *args:1
+app_motor_power: off 
+[56732] motor_device: rt_motor_close ret:0 flag:0
+[64511] APP.UI: power_on_anim_done_callback: 2
+[64517] APP.UI: power_on_anim_rel_sema: err 0
+[67441] audio: audio_ioctl: ret=0
+[68161] audio: wav--end
+[68163] APP.UI: ring_callback_func: cmd 8 
+
+[68170] APP.UI: app_ring_end_stop:1--1
+[68174] APP.UI: app_ring_stop
+[68350] audio: mp3 close cmd
+[68353] audio: audio_close type=5 n=ring h=0x60414370
+[68360] audio: audio cmd=1
+[68363] audio: audio_client_stop 0x60414370 ring pm_debug=1
+[68369] audio: mp3 user callback
+[68373] APP.UI: ring_callback_func: cmd 1 
+
+[68378] audio: callback closed ok
+[68382] audio: audio_device_close in
+[68386] audio: audio_device_speaker_close
+[68391] audio: close PA
+sifli_aw8155_stop 
+[68401] audio: mute audcodec output
+[68405] drv.audcodec: codec dac mute set:1
+
+[68410] drv.audcodec: bf0_audio_stop 0x100
+
+[68415] drv.audcodec: bf0_audio_stop 0x100 done
+
+[68420] drv.audprc: bf0_audio_stop 0x1102
+
+[68425] drv.audprc: bf0_audio_stop 0x1102 done
+
+[68431] drv.audcodec: bf0_audio_stop 0x401
+
+[68436] drv.audcodec: bf0_audio_stop 0x401 done
+
+PLL disable
+[68443] drv.audcodec: bf0_audio_stop 0x0
+
+[68448] drv.audcodec: bf0_audio_stop 0x0 done
+
+[68453] drv.audprc: bf0_audio_stop 0x0
+
+[68457] drv.audprc: bf0_audio_stop 0x0 done
+
+[68462] drv.audprc: bf0_audio_stop 0x1
+
+[68467] drv.audprc: bf0_audio_stop 0x1 done
+
+[68472] audio: close_hardware_device out
+[68477] audio: audio_device_close out
+[68481] audio: suspend empty
+[68484] audio: notify listern(1, 0)
+[68489] audio: audio_client_stop out
+[68493] audio: audio_close done
+[68497] audio: wav exit..
+[68500] audio: wav exit done
+flashdb_read: mgid len 120 0 time 1803 (ms)
+[69910] APP.UI: message_flashdb_init: total_number 30
+db_read_local: local8210 len 2064
+flashdb_read: local8210 len 2068 2068 time 3 (ms)
+[69973] NO_TAG: fs_file_list_update: /music/song/audio_list.txt not exist,create
+[70103] audio: mp3_getinfo /music/song/local_music1.mp3
+[70109] audio: mp3 open /music/song/local_music1.mp3
+[70127] audio: ID3 len=4200 fsize=1262256 10
+[70132] audio: id3v2 ver:3 flags:00 len:4200
+
+[70430] audio: mp3 open /music/song/local_music1.mp3
+[70436] audio: mp3 open /music/song/local_music1.mp3
+[70453] audio: ID3 len=0x105e
+audio_file_joint_begin:local_music1.mp3;#1:Masked Wolf;#2:Astronaut in the Ocean;#4:78;
+[70594] audio: mp3_getinfo /music/song/local_music10.mp3
+[70601] audio: mp3 open /music/song/local_music10.mp3
+[70621] audio: ID3 len=4181 fsize=1308212 10
+[70626] audio: id3v2 ver:3 flags:00 len:4181
+
+[70927] audio: mp3 open /music/song/local_music10.mp3
+[70933] audio: mp3 open /music/song/local_music10.mp3
+[70951] audio: ID3 len=0x104b
+audio_file_joint_begin:local_music10.mp3;#1:郭顶;#2:凄美地;#4:81;
+[71007] audio: mp3_getinfo /music/song/local_music11.mp3
+[71013] audio: mp3 open /music/song/local_music11.mp3
+[71034] audio: ID3 len=4185 fsize=1704859 10
+[71039] audio: id3v2 ver:3 flags:00 len:4185
+
+[71336] audio: mp3 open /music/song/local_music11.mp3
+[71342] audio: mp3 open /music/song/local_music11.mp3
+[71360] audio: ID3 len=0x104f
+audio_file_joint_begin:local_music11.mp3;#1:三叔说;#2:海市蜃楼;#4:106;
+[71421] audio: mp3_getinfo /music/song/local_music12.mp3
+[71428] audio: mp3 open /music/song/local_music12.mp3
+[71450] audio: ID3 len=4189 fsize=1735792 10
+[71456] audio: id3v2 ver:3 flags:00 len:4189
+
+[71549] nvds: sifli_nvds_read_tag_value: val:603bab63 tag:47
+[71661] bt_common: svc_set init_gainst_data 585
+[71670] bt_common: hfp state change new_sate 0x 0,old_state 0xff
+[71679] bt_common: hid_init
+
+[71702] ble_cm: read_bond_infor_from_flash: 0
+[71995] audio: mp3 open /music/song/local_music12.mp3
+[72001] audio: mp3 open /music/song/local_music12.mp3
+[72019] audio: ID3 len=0x1053
+audio_file_joint_begin:local_music12.mp3;#1:刘羽晨;#2:想你的声音啊;#4:108;
+[72078] audio: mp3_getinfo /music/song/local_music13.mp3
+[72084] audio: mp3 open /music/song/local_music13.mp3
+[72106] audio: ID3 len=4189 fsize=1452416 10
+[72111] audio: id3v2 ver:3 flags:00 len:4189
+
+[72408] audio: mp3 open /music/song/local_music13.mp3
+[72414] audio: mp3 open /music/song/local_music13.mp3
+[72433] audio: ID3 len=0x1053
+audio_file_joint_begin:local_music13.mp3;#1:买辣椒也用券;#2:起风了;#4:90;
+[72490] audio: mp3_getinfo /music/song/local_music14.mp3
+[72496] audio: mp3 open /music/song/local_music14.mp3
+[72520] audio: ID3 len=4185 fsize=1287318 10
+[72525] audio: id3v2 ver:3 flags:00 len:4185
+
+[72823] audio: mp3 open /music/song/local_music14.mp3
+[72829] audio: mp3 open /music/song/local_music14.mp3
+[72848] audio: ID3 len=0x104f
+audio_file_joint_begin:local_music14.mp3;#1:王齐铭;#2:海边探戈;#4:80;
+[72906] audio: mp3_getinfo /music/song/local_music2.mp3
+[72912] audio: mp3 open /music/song/local_music2.mp3
+[72937] audio: ID3 len=4184 fsize=1736623 10
+[72942] audio: id3v2 ver:3 flags:00 len:4184
+
+[73238] audio: mp3 open /music/song/local_music2.mp3
+[73244] audio: mp3 open /music/song/local_music2.mp3
+[73262] audio: ID3 len=0x104e
+audio_file_joint_begin:local_music2.mp3;#1:Vanotek;#2:back to me;#4:108;
+[73319] audio: mp3_getinfo /music/song/local_music5.mp3
+[73325] audio: mp3 open /music/song/local_music5.mp3
+[73350] audio: ID3 len=4187 fsize=1227134 10
+[73355] audio: id3v2 ver:3 flags:00 len:4187
+
+[73652] audio: mp3 open /music/song/local_music5.mp3
+[73658] audio: mp3 open /music/song/local_music5.mp3
+[73676] audio: ID3 len=0x1051
+audio_file_joint_begin:local_music5.mp3;#1:全昭弥;#2:Fast forward;#4:76;
+[73737] audio: mp3_getinfo /music/song/local_music6.mp3
+[73743] audio: mp3 open /music/song/local_music6.mp3
+[73766] audio: ID3 len=4189 fsize=1371750 10
+[73771] audio: id3v2 ver:3 flags:00 len:4189
+
+[74067] audio: mp3 open /music/song/local_music6.mp3
+[74073] audio: mp3 open /music/song/local_music6.mp3
+[74092] audio: ID3 len=0x1053
+audio_file_joint_begin:local_music6.mp3;#1:LBI利比;#2:小城夏天;#4:85;
+[74149] audio: mp3_getinfo /music/song/local_music7.mp3
+[74155] audio: mp3 open /music/song/local_music7.mp3
+[74179] audio: ID3 len=4185 fsize=2069738 10
+[74184] audio: id3v2 ver:3 flags:00 len:4185
+
+[74484] audio: mp3 open /music/song/local_music7.mp3
+[74490] audio: mp3 open /music/song/local_music7.mp3
+[74510] audio: ID3 len=0x104f
+audio_file_joint_begin:local_music7.mp3;#1:Olly Murs;#2:That Girl;#4:129;
+[74568] audio: mp3_getinfo /music/song/local_music9.mp3
+[74574] audio: mp3 open /music/song/local_music9.mp3
+[74600] audio: ID3 len=4187 fsize=1224626 10
+[74605] audio: id3v2 ver:3 flags:00 len:4187
+
+[74901] audio: mp3 open /music/song/local_music9.mp3
+[74907] audio: mp3 open /music/song/local_music9.mp3
+[74927] audio: ID3 len=0x1051
+audio_file_joint_begin:local_music9.mp3;#1:蔡健雅;#2:红色高跟鞋;#4:76;
+[75222] NO_TAG: fs_file_list_update: /ring/long/audio_list.txt not exist,create
+[76058] NO_TAG: fs_file_list_update: /ring/short/audio_list.txt not exist,create
+[76071] NO_TAG: fs_file_list_update: open /ring/short/audio_list.txt failed!
+[76084] NO_TAG: fs_file_list_iteration: /ring/short/audio_list.txt not exist
+[76100] NO_TAG: fs_file_list_update: /music/record/audio_list.txt not exist,create
+app_init_all_setting_config_custmize
+[76984] sibles: 
+BLE ready!
+
+[76988] btcomm: Clear mask 1
+[77005] nvds: sifli_nvds_read_tag_value: val:603b816d tag:1
+[77012] ble_connect: BLE_POWER_ON_IND!
+
+set cmd 0x91, stop_status:0, msg_status:1
+[77054] sibles: GAP event 3328
+[77058] BLE_GAP: evt 145, ret 0
+
+[77081] bt_common: svc_release gap_dm_sync_reg_cfm_hdl 866
+[77090] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[77101] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[77108] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[77116] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[77124] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[77133] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[77141] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77149] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+st = 0
+[77157] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77165] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+[77172] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77181] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+[77187] bt_common: hid_gap_l2ca_reg_cfm_standbyst
+
+[77194] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77202] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+[77209] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[77218] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[77226] bt_common: hfp state change new_sate 0x 1,old_state 0xff
+[77235] bt_common: << Local device addreess: C2AB:11:2B97A7
+
+[77243] bt_rt_device.urc: URC BT addr ind
+[77249] bt_common: hid_enb_req
+
+[77256] nvds: sifli_nvds_read_tag_value: val:603b81a9 tag:1
+[77268] bt_common: hidh_enb_req
+
+[77272] bt_common: hidh_enb_req,rec_byte_num = 322
+
+[77281] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[77290] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[77966] bt_common: hfp msg *msg_type 8000 inst_data->st 1
+
+[77973] bt_common: >> Handfree enable success
+
+[77982] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[77989] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[77997] bt_common: >> AVCTP enabled
+
+[78002] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[78010] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[78016] bt_common: hidh_gap_sds_reg_cfm_idlest
+
+[78023] bt_common: hids_hid_enb_cfm
+
+[78028] bt_common: >> HID enabled
+
+[78032] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[78040] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[78047] bt_common: hfp state change new_sate 0x 2,old_state 0x 2
+[78055] bt_common: hfp msg *msg_type 8000 inst_data->st 1
+
+[78062] bt_common: >> Headset enable success
+
+[78067] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[78076] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[78083] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[78090] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[78100] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[78107] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[78118] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[78124] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[78135] bt_common: << Local LMP version: 12
+
+[78140] bt_common: << Local LMP subversion: 542
+
+[78146] bt_common: << Local controller manufacturer name id: 2636
+
+[78154] bt_common: svc_set gap_rfc_acpt_conn_req_hdl 399
+[78161] bt_common: svc_release connable_hdl 8039
+[78173] bt_common: svc_set gap_rfc_acpt_conn_req_hdl 399
+[78180] bt_common: svc_release connable_hdl 8039
+[78191] bt_common: << Local device name changed!
+
+[78215] bt_common: << Class of device has been changed!
+
+[78237] NO_TAG: BT CM rd local dev cfm
+[78241] btcomm: Clear mask 2
+[78245] bt_common: << Local device name: HK9 Mini+ Call
+
+flashdb_read: setting8021 len 76 0 time 3931 (ms)
+db_read_setting: setting8021 ret_len 0
+flashdb_read: settingb022 len 19 0 time 2424 (ms)
+db_read_setting: settingb022 ret_len 0
+flashdb_read: setting8013 len 5 0 time 2398 (ms)
+db_read_setting: setting8013 ret_len 0
+[161062] bt_common: << Class of device: 0x240418
+
+flashdb_read: setting920b len 36 0 time 8967 (ms)
+db_read_setting: setting920b ret_len 0
+[161080] bt_rt_device.control: bt_sifli_control 232 bt_set_event = 0 
+[161090] NO_TAG: bt_cm_close_bt, close_process1 conn_num 0 
+[161097] bt_common: close req closeflag1, hdlffff
+
+[161104] bt_common: close ret1 0 ret2 ffffffff
+
+[161113] bt_common: << Write scan enable success
+
+[161138] bt_common: << Scan mode: 0
+
+[161143] bt_common: <<            No scans enbd.
+
+[161231] bt_rt_device.urc: urc bt close:1
+[161236] bt_rt_device.control: BT_CONTROL_CLOSE_DEVICE cmd:b031
+[161243] bt_device: rt_bt_close ret:0 flag:0
+[161248] bt_service: app_close_bt ret:0
+shor_scan_timer_del
+[161350] bt_rt_device.control: bt_sifli_control_open 204 bt_set_event = 10000 
+[161359] bt_common: open req 
+
+[161366] bt_rt_device.control: bt_sifli_control_open 214 bt_set_event = 0 
+[161374] bt_rt_device.control: BT_CONTROL_OPEN_DEVICE
+[161380] bt_device: rt_bt_open ret:0 flag:10
+[161388] bt_common: << Write scan enable success
+
+[161401] bt_common: << Scan mode: 3
+
+[161406] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+[161506] bt_service: app_open_bt ret:0
+[161510] audio: a2dp set speaker volume: 61-->7
+
+[161610] bt_service: app_bt_set_volume ret:0
+[161615] audio: set speaker volume: 13-->13
+
+[161621] bt_service: app_bt_set_volume ret:0
+shor_bt_scan
+shor_scan_timer_create
+[161633] bt_service: app_bt_switch_off ret:0
+[161640] bt_service: app_bt_switch_on ret:0
+[161645] bt_connect: [app_bt_change_page_activity] is_high:1
+[161659] bt_common: << Write scan enable success
+
+[161693] bt_common: << Write scan enable success
+
+[161702] bt_common: << Scan mode: 3
+
+[161707] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+[161720] bt_common: << Scan mode: 3
+
+[161724] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+[161809] bt_connect: [app_bt_connect_req] mask:23 type:1 addr:00000000
+[161816] bt_connect: db addr:00:00:00:00:00:00
+[161822] bt_connect: [app_bt_connect_req] bt addr invalid
+[161828] bt_common: bt_avsnk_open 0 flag
+
+[161834] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[161841] NO_TAG: fsm: SDS st:0 evt:0
+[161846] NO_TAG: fsm: SDS st:1 evt:3
+[161851] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+st = 2
+[161859] bt_common: enable(1) ret 0
+[161864] bt_common: >> AUDIO SOURCE ENB
+
+[161869] bt_common: << av had been enabled 
+
+[161874] bt_rt_device.urc: URC BT avsnk open complete ind
+[161882] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[161889] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[161899] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[161906] NO_TAG: fsm: SDS st:0 evt:0
+[161910] NO_TAG: fsm: SDS st:1 evt:3
+[161918] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+st = 3
+[161926] bt_common: enable(0) ret 0
+[161930] bt_common: << av had been enabled 
+
+[161937] bt_service: app_bt_open_a2dp ret:0
+flashdb_read: setting9b10 len 7 0 time 1572 (ms)
+db_read_setting: setting9b10 ret_len 0
+flashdb_read: setting9b25 len 33 0 time 1530 (ms)
+db_read_setting: setting9b25 ret_len 0
+flashdb_read: setting9b26 len 31 0 time 1557 (ms)
+db_read_setting: setting9b26 ret_len 0
+flashdb_read: setting9b27 len 22 0 time 1535 (ms)
+db_read_setting: setting9b27 ret_len 0
+flashdb_read: setting9b28 len 14 0 time 1535 (ms)
+db_read_setting: setting9b28 ret_len 0
+flashdb_read: setting9b29 len 14 0 time 1534 (ms)
+db_read_setting: setting9b29 ret_len 0
+flashdb_read: setting9b2a len 14 0 time 1536 (ms)
+db_read_setting: setting9b2a ret_len 0
+flashdb_read: setting9b2b len 14 0 time 1539 (ms)
+db_read_setting: setting9b2b ret_len 0
+flashdb_read: setting9b30 len 256 0 time 1544 (ms)
+db_read_setting: setting9b30 ret_len 0
+flashdb_read: setting9b35 len 2904 0 time 1543 (ms)
+db_read_setting: setting9b35 ret_len 0
+flashdb_read: setting9208 len 488 0 time 1547 (ms)
+db_read_setting: setting9208 ret_len 0
+flashdb_read: setting9b39 len 118 0 time 1546 (ms)
+db_read_setting: setting9b39 ret_len 0
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+Serial:c2,Chip:4,Package:3,Rev:3 Reason:00000000
+Serial PowerOnMOde:0 rtc_record:00000000
+reset_clk
+
+ \ | /
+- SiFli Corporation
+ / | \     build on May 24 2024, 2.1.2 build 54f094
+ 2020 - 2022 Copyright by SiFli team
+mount /dev sucess
+[32;22m[I/FAL] Flash Abstraction Layer (V0.5.99) initialize success.[0m
+[32;22m[I/FAL] The FAL MTD NAND device (upay_safety)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (sys)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (solution_code_Y)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (root)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (dyn)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (music)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (dfu)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (ble)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (upay)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (app)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (contact)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_rp)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_ip)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_sp)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_sport)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_assert)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_log)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_metrics)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_monkey)  blk:131072 sec:2048 created successfully[0m
+[997] drv.rtc: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+[1004] drv.rtc: RC10K Freq=9kHz, cycle=1015653, rtc ppm=-7
+
+[1011] drv.rtc: DIVA=36, DIVA_FRA=15107, DIVB=256
+
+[1017] drv.rtc: Init RTC, wake = 0
+
+[1169] drv.audprc: init 00 ADC_PATH_CFG0 0x606
+
+[1175] drv.audprc: HAL_AUDPRC_Init res 0
+
+[1181] drv.audcodec: HAL_AUDCODEC_Init res 0
+
+app_bmem_init
+app_bmem_load: app_bmem_16, num 800
+app_bmem_load: app_bmem_32, num 600
+app_bmem_load: app_bmem_64, num 500
+app_bmem_load: app_bmem_104, num 500
+[1218] sensor: rt_sensor init success
+sensor init success bd1668!
+[1227] sensor: rt_sensor init success
+[1231] sensor.gs: sensor register success!
+
+[1237] TOUCH: Regist touch screen driver, probe=10242b85 
+call par CFG1(35bb)
+fc 9, xtal 2000, pll 2097
+call par CFG1(35bb)
+fc 7, xtal 2000, pll 1679
+app_mem_set_parameter: is 0 ip 2519000 ft 500000 ms 0 mp 32000
+[1289] APP.UI: app_shipping_init
+[1293] APP.UI: SHIPPING_MODE_flag:0x0,charger_status:0 wakeup_src:0x0
+battery_charger_init ok!
+ble_data_service_register: service = 603a5ee4 
+sensors_service_register: mem usage, total 407152 used 11980 max_used 12240
+sensors_service_register: service = 603a5f50 
+[1323] ble_protocol: ble_protocol_init:count=1
+
+[1333] APP.UI: app_db_setting_init
+[1339] APP.UI: app_comm_init
+lv_freetype_set_parameter: bpp 2 max_fsize 255 extern 1 extern_cache_limit 81920
+[1352] bt_device: bt notify cb register pass:1
+[1357] bt_service: app_bt_register_notify ret:0
+[1364] APP.UI: init_pin: 747 id = 0
+
+[1369] APP.UI: init_pin: 773 id = 1
+
+[1375] DS: data service subscribe (btn0), service (603a7790)
+[1382] DS: datac subscribe dev open
+button_0000000000000:  msg_id 0x8000
+[1391] DS: data service subscribe (btn1), service (603a77d0)
+[1398] DS: datac subscribe dev open
+button_11111111111111: msg_id 0x8000
+[1407] APP.FWK.PM: pwr_fsm:0, 4
+
+disk_init:0
+init:30080
+mount fs[elm] on / succ.
+disk_init:1
+init:800
+mount fs[elm] on /sys succ.
+disk_init:2
+init:8107
+mount fs[elm] on /dyn succ.
+disk_init:3
+init:10560
+mount fs[elm] on /music succ.
+Directory /:
+app_config          <DIR>                    
+dummy               0                        
+dyn                 <DIR>                    
+fonts               <DIR>                    
+images              <DIR>                    
+language            <DIR>                    
+music               <DIR>                    
+ring                <DIR>                    
+support_script      <DIR>                    
+sys                 <DIR>                    
+ramfs               <DIR>                    
+disk free: 5.9 MB [ 3037 block, 2048 bytes per block ] [total block 30041 total size 61523968]
+lv_task_mutex_init
+dfu_db_init: sector_size 4096 size 16384
+fdb_kvdb_init: /sys/dfu/
+[2154] DFUCTRLEXT: check_backup_ftab 11280
+[2170] DFUCTRLEXT: ftab not ready, running on hcpu1
+[2176] DFUCTRLEXT: init_flash_des 0, 0x622a0000, 0x62600000
+[2183] DFUCTRLEXT: dfu_ctrl_ext_init
+[2203] sibles: enable BLE Core..
+ble_tipc_init: tpic enable 1
+ram file system initializated;
+[2218] FLASHDB: service_flashdb_thread_init
+[2225] APP.UI: app_pm_init
+[2228] APP.UI: app_preprocess_thread_init
+[2234] bt_device: bt notify cb register pass:2
+[2240] bt_service: app_bt_register_notify ret:0
+[2245] APP.UI: lvsf_trans_anim_set_parameter:zoom_none 320 zoom_min 160 width 312 height 360 color_depth 16 snapshot_color_dep
+mainmenu_db_func_init
+[2262] APP.UI: screen_always_on_init
+lv_obj_datasubs_init 
+[2269] APP.UI: lvsf_bg_db_init
+[2273] TLV.FWK: app_tileview_init
+[2277] APP.UI: app_watch_init
+[2282] APP.UI: app_clock_list_init
+[2286] [APP_OTA]: ota mode 0, res state 0, img state 0
+[2292] APP.UI: app_contact_setting_init
+[2304] [FAT]: app_file_recv_init
+[2308] [APP_OTA]: ota mode 0, res state 0, img state 0
+[2314] [APP_OTA]: app_ota_init
+[2319] DS: data service subscribe (BLE_APP), service (603a5ee4)
+[2326] DS: datac subscribe dev open
+ble_service_cb: type 0000
+subscribe_rsp:0,12
+ble_service_cb: type 9601
+[2339] APP.UI: app_ble_service_subscribe_init
+[2347] APP.UI: app_jsapp_list_init
+name = -1039924477 scode 0 u = 142
+[2463] APP.UI: app_watch_entry
+[2468] drv.lcd: open
+[2470] drv.lcd: HW open
+[2474] drv.lcd: Try registered LCD driver...
+
+CO5300_ReadID 0x331100 
+[3140] co5300: LCD module use CO5300 IC 
+
+
+CO5300_ReadID 0x331100 
+[4938] co5300: LCD module use CO5300 IC 
+
+[4943] drv.lcd: Found lcd co5300 id:331100h
+[4948] drv.lcd: HW open done.
+[4952] drv.lcd: [NONE] -> [INITIALIZED]
+[4956] drv.lcd: open done.
+[4964] [APP_OTA]: ota mode 0, res state 0, img state 0
+lv_freetype_init: orig_size 350000 sec_hash_tab 4628 max_cache_size 207224 sec_limit 138148
+lv_freetype_init: faces 3 max_cache_size 350000 extern_cache 1
+lvsf_font_set_order_common(origin): font_order: 
+                     wk_no_korean:    8   10   14   22   26   30   34   38   42   44   48   54   62   70   90 
+                     _tiny55_full:    8   10   14   22   26   30   34   38   42   44   48   54   62   70   90 
+                          ota_err:    8   10   14   22   26   30   34   38   42   44   48   54   62   70   90 
+[5505] APP.UI: watch_entry
+[5513] TOUCH: Open
+[5515] TOUCH: Opened.
+[5520] drv.dk05: wheel open
+[5523] LVGL: [littlevgl2rtt] Welcome to the littlevgl2rtt lib.
+rt_adc_read:  40036;
+battery_get_original_voltage: volt 4003 
+battery_get_voltage: volt 4003 smooth volt: 4003;
+[5752] APP.UI: app_blocking_when_low_voltage: volt 4003 threshold 3560
+[5760] APP.UI: app_ring_stop
+[5763] [APP_OTA]: ota mode 0, res state 0, img state 0
+power_on_anim_page_init: time 0
+[5805] APP.GIF: lv_agif_dec_create_ext: /images/gif/switch_anim/gif_power_on.agif fd 8
+[5840] APP.GIF: lv_agif_dec_task_pause: 6039cc70
+Motor 1013f1f7
+[5853] FLASHDB: service_flashdb_init
+[5857] FLASHDB: service_flashdb_kvdb_init
+[5862] FLASHDB: flashdb_kvdb_init: msg
+[5873] FLASHDB: flashdb_kvdb_init: 0 ms
+
+[5878] FLASHDB: flashdb_kvdb_init: app
+[5894] FLASHDB: app: sector_size 4096 size 655360
+fdb_kvdb_init: /sys/app/
+play ring:/ring/long/wk_poweron.wav
+[5935] audio: mp3 open /ring/long/wk_poweron.wav callback=0x1024d721
+[5943] audio: mp3 open /ring/long/wk_poweron.wav
+[5976] audio: no ID3
+[5982] audio: wav len=44
+[6142] drv.lcd: Auto turn on display.
+[6154] chg.eta4662: eta4662_poll ChargeStatus:0 PowerGood:0 OvpFlag:0; [0x09]: 0x00
+
+[6163] drv.lcd: set brightness 50
+[6167] drv.lcd: display on
+[6170] drv.lcd: [INITIALIZED] -> [ON]
+[28080] FLASHDB: flashdb_kvdb_init: 2346 ms
+
+[28085] FLASHDB: flashdb_kvdb_init: upay
+[28095] FLASHDB: upay: sector_size 4096 size 65536
+fdb_kvdb_init: /sys/upay/
+[28578] FLASHDB: flashdb_kvdb_init: 51 ms
+
+[29558] FLASHDB: device_name:HK9 Mini+, device_type_id:5333, sw_verno:5.01
+[29566] data_db: init_data_db
+[29574] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 65536
+[29804] FLASHDB: [service_flashdb_tsdb_init]: his_rp, 25 ms
+[29813] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 16384
+[29870] FLASHDB: [service_flashdb_tsdb_init]: his_ip, 6 ms
+[29880] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 16384
+[29974] FLASHDB: [service_flashdb_tsdb_init]: his_sp, 10 ms
+[29984] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 16384
+[30044] FLASHDB: [service_flashdb_tsdb_init]: his_sport, 6 ms
+[30051] FLASHDB: flashdb_kvdb_init: contact
+[30060] FLASHDB: contact: sector_size 4096 size 16384
+fdb_kvdb_init: /sys/contact/
+[30188] FLASHDB: flashdb_kvdb_init: 14 ms
+
+db_read_local: local8201 len 1044
+flashdb_read: local8201 len 1048 1048 time 2 (ms)
+db_read_local: local8207 len 164
+flashdb_read: local8207 len 168 168 time 5 (ms)
+db_write_local: local8207 len 33287
+db_write_local: local8207 len 33287
+[30295] audio: audio server run
+[30299] audio: audio_btdownlink run
+[30305] nvds: ble db init: sector_size 4096 size 16384
+fdb_kvdb_init: /sys/ble/
+[30686] nvds: NVDS otp Update Addr res 6, addr a7-97-2b-11-ab-c2
+[30707] nvds: sifli_nvds_read_tag_value: val:603b38a5 tag:1
+[30714] nvds: NVDS loc Update Addr ret 0, addr a7-97-2b-11-ab-c2
+[30724] nvds: sifli_nvds_read_tag_value: val:603b3898 tag:13
+[30731] nvds: read sleep time 4500
+[30740] mw.sys: turn on lcpu
+[52877] TOUCH: Find touch screen driver...
+[52882] TOUCH: Probe 10242b85
+[52887] audio: wav run...ctrl=0x60413dec
+[52893] audio: audio_open type=5 rwflag=0 tx cache=2058 rx cache=0
+[52902] audio: audio cmd=0
+[52905] audio: audio_client_start h=60414370 n=ring t=5
+[52911] audio: notify listern(0, 0)
+[52915] audio: start first stream
+[52919] audio: audio_device_close in
+[52923] audio: audio_device_close do nothing
+[52928] audio: audio_device_open in busy=0 reg=1 c=60414370
+[52935] audio: audio_device_speaker_open
+[52939] drv.audprc: set g_eq_enable=1
+[52943] audio: ch: tx=1 rx=0,rate: tx=16000 rx=0
+[52950] audio: set tx callback
+[52953] drv.audcodec: AUDCODEC set source 0
+
+[52958] audio: prc_codec : sub_type=1 channel 1, samplerate 16000, bits 16
+[52967] drv.audprc: AUDPRC set dest 0
+
+[52971] audio: speaker OUTPUTSRC channel=1 in_rate=16000 out_rate=16000
+[52979] audio: speaker select=0x5050 mixer=0x5150
+[52984] audio: tx[0]: sub_type 0, ch 1, samrate 16000, bits 16
+
+[52992] audio: no eq init volume=-16
+[52996] drv.audcodec: dac set volume: prc=0 codec=-16
+
+[53002] drv.audcodec: codec dac mute set:1
+
+[53007] audio: speaker START stream=0x100
+[53011] drv.audprc: samplerate = 16000, select voice eq
+
+[53018] drv.audprc: bf0_audio_start 0x100 done
+
+[53023] audio: codec START stream=0x100
+enable pll 
+new PLL_ENABLE vco:9, freq_type:2
+pll lock! freq_type:2
+[53057] drv.audcodec: pll config state:2, samplerate:16000 
+
+[53064] drv.audcodec: bf0_audio_start 0x100 done
+
+sifli_aw8155 to do power handle 
+sifli_aw8155_start,mode:1 
+app_motor_power: on 
+[53085] motor_device: rt_motor_open ret:0 flag:80
+[53374] drv.audcodec: codec dac mute set:0
+
+[53379] audio: audio_device_open out
+[53384] audio: mp3 user callback
+[53388] APP.UI: ring_callback_func: cmd 0 
+
+[53399] audio: callback opened ok
+[53403] audio: audio_client_start out
+[53408] audio: tx[0]  len:0
+[53412] audio: audio_open ret=0x60414370
+[53417] audio: wav open ctrl=0x60413dec, client=0x60414370, c=1 samrate=16000
+[53499] audio: server volume=15, mute=0 eq_mute=0
+[53504] audio: not eq change volume=-16
+[53509] drv.audcodec: dac set volume: prc=0 codec=-16
+
+[53945] drv.chsc6417: chsc6x: chsc6x_chip_id 0x5c 0x7c 
+
+[53954] drv.chsc6417: chsc6x: chsc6x_chip_id 0x5c  
+
+[53968] drv.chsc6417: chsc6417tp probe OK
+
+[53977] TOUCH: touch screen found driver  607f2a98, chsc6417tp
+[53986] drv.chsc6417: chsc6417_touch_init++
+
+[54002] drv.chsc6417: chsc6x: read 0x8000-12 OK! 
+
+[54010] drv.chsc6417: chsc6x: g_mccode is 0x1 
+
+[54092] drv.chsc6417: chsc6x: get_running_cfg pass !
+
+[54099] drv.chsc6417: chsc6x: vid=47,pid=96,boot_ver=0x236,cfg_ver=3,chip_id=0x5c
+
+[54671] drv.chsc6417: Enable palmcheck OK 
+
+[54677] drv.chsc6417: chsc6417_touch_init OK
+
+[54973] motor_device: rt_motor_ctrl ret:0 flag:80 *args:1
+[54979] motor_device: rt_motor_ctrl ret:0 flag:80 *args:2
+Motor 10001095
+[56968] motor_device: rt_motor_ctrl ret:0 flag:80 *args:1
+app_motor_power: off 
+[56977] motor_device: rt_motor_close ret:0 flag:0
+[64599] APP.UI: power_on_anim_done_callback: 2
+[64604] APP.UI: power_on_anim_rel_sema: err 0
+[67675] audio: audio_ioctl: ret=0
+[68391] audio: wav--end
+[68394] APP.UI: ring_callback_func: cmd 8 
+
+[68476] APP.UI: app_ring_end_stop:1--1
+[68480] APP.UI: app_ring_stop
+[68580] audio: mp3 close cmd
+[68583] audio: audio_close type=5 n=ring h=0x60414370
+[68589] audio: audio cmd=1
+[68593] audio: audio_client_stop 0x60414370 ring pm_debug=1
+[68599] audio: mp3 user callback
+[68603] APP.UI: ring_callback_func: cmd 1 
+
+[68608] audio: callback closed ok
+[68612] audio: audio_device_close in
+[68616] audio: audio_device_speaker_close
+[68620] audio: close PA
+sifli_aw8155_stop 
+[68630] audio: mute audcodec output
+[68635] drv.audcodec: codec dac mute set:1
+
+[68640] drv.audcodec: bf0_audio_stop 0x100
+
+[68645] drv.audcodec: bf0_audio_stop 0x100 done
+
+[68650] drv.audprc: bf0_audio_stop 0x1102
+
+[68655] drv.audprc: bf0_audio_stop 0x1102 done
+
+[68660] drv.audcodec: bf0_audio_stop 0x401
+
+[68665] drv.audcodec: bf0_audio_stop 0x401 done
+
+PLL disable
+[68672] drv.audcodec: bf0_audio_stop 0x0
+
+[68677] drv.audcodec: bf0_audio_stop 0x0 done
+
+[68683] drv.audprc: bf0_audio_stop 0x0
+
+[68687] drv.audprc: bf0_audio_stop 0x0 done
+
+[68692] drv.audprc: bf0_audio_stop 0x1
+
+[68697] drv.audprc: bf0_audio_stop 0x1 done
+
+[68702] audio: close_hardware_device out
+[68706] audio: audio_device_close out
+[68711] audio: suspend empty
+[68714] audio: notify listern(1, 0)
+[68718] audio: audio_client_stop out
+[68723] audio: audio_close done
+[68726] audio: wav exit..
+[68730] audio: wav exit done
+flashdb_read: mgid len 120 0 time 1786 (ms)
+[69986] APP.UI: message_flashdb_init: total_number 30
+db_read_local: local8210 len 2064
+flashdb_read: local8210 len 2068 2068 time 4 (ms)
+[70046] NO_TAG: fs_file_list_update: /music/song/audio_list.txt not exist,create
+[70085] audio: mp3_getinfo /music/song/local_music1.mp3
+[70091] audio: mp3 open /music/song/local_music1.mp3
+[70109] audio: ID3 len=4200 fsize=1262256 10
+[70114] audio: id3v2 ver:3 flags:00 len:4200
+
+[70411] audio: mp3 open /music/song/local_music1.mp3
+[70417] audio: mp3 open /music/song/local_music1.mp3
+[70434] audio: ID3 len=0x105e
+audio_file_joint_begin:local_music1.mp3;#1:Masked Wolf;#2:Astronaut in the Ocean;#4:78;
+[70500] audio: mp3_getinfo /music/song/local_music10.mp3
+[70506] audio: mp3 open /music/song/local_music10.mp3
+[70527] audio: ID3 len=4181 fsize=1308212 10
+[70532] audio: id3v2 ver:3 flags:00 len:4181
+
+[70833] audio: mp3 open /music/song/local_music10.mp3
+[70839] audio: mp3 open /music/song/local_music10.mp3
+[70856] audio: ID3 len=0x104b
+audio_file_joint_begin:local_music10.mp3;#1:郭顶;#2:凄美地;#4:81;
+[70912] audio: mp3_getinfo /music/song/local_music11.mp3
+[70919] audio: mp3 open /music/song/local_music11.mp3
+[70939] audio: ID3 len=4185 fsize=1704859 10
+[70945] audio: id3v2 ver:3 flags:00 len:4185
+
+[71241] audio: mp3 open /music/song/local_music11.mp3
+[71247] audio: mp3 open /music/song/local_music11.mp3
+[71265] audio: ID3 len=0x104f
+audio_file_joint_begin:local_music11.mp3;#1:三叔说;#2:海市蜃楼;#4:106;
+[71327] audio: mp3_getinfo /music/song/local_music12.mp3
+[71333] audio: mp3 open /music/song/local_music12.mp3
+[71356] audio: ID3 len=4189 fsize=1735792 10
+[71361] audio: id3v2 ver:3 flags:00 len:4189
+
+[71660] audio: mp3 open /music/song/local_music12.mp3
+[71666] audio: mp3 open /music/song/local_music12.mp3
+[71684] audio: ID3 len=0x1053
+audio_file_joint_begin:local_music12.mp3;#1:刘羽晨;#2:想你的声音啊;#4:108;
+[71741] audio: mp3_getinfo /music/song/local_music13.mp3
+[71748] audio: mp3 open /music/song/local_music13.mp3
+[71769] audio: ID3 len=4189 fsize=1452416 10
+[71774] audio: id3v2 ver:3 flags:00 len:4189
+
+[71788] nvds: sifli_nvds_read_tag_value: val:603bab63 tag:47
+[71901] bt_common: svc_set init_gainst_data 585
+[71910] bt_common: hfp state change new_sate 0x 0,old_state 0xff
+[71919] bt_common: hid_init
+
+[71942] ble_cm: read_bond_infor_from_flash: 0
+[72313] audio: mp3 open /music/song/local_music13.mp3
+[72319] audio: mp3 open /music/song/local_music13.mp3
+[72338] audio: ID3 len=0x1053
+audio_file_joint_begin:local_music13.mp3;#1:买辣椒也用券;#2:起风了;#4:90;
+[72395] audio: mp3_getinfo /music/song/local_music14.mp3
+[72401] audio: mp3 open /music/song/local_music14.mp3
+[72425] audio: ID3 len=4185 fsize=1287318 10
+[72430] audio: id3v2 ver:3 flags:00 len:4185
+
+[72729] audio: mp3 open /music/song/local_music14.mp3
+[72735] audio: mp3 open /music/song/local_music14.mp3
+[72754] audio: ID3 len=0x104f
+audio_file_joint_begin:local_music14.mp3;#1:王齐铭;#2:海边探戈;#4:80;
+[72812] audio: mp3_getinfo /music/song/local_music2.mp3
+[72818] audio: mp3 open /music/song/local_music2.mp3
+[72843] audio: ID3 len=4184 fsize=1736623 10
+[72849] audio: id3v2 ver:3 flags:00 len:4184
+
+[73145] audio: mp3 open /music/song/local_music2.mp3
+[73151] audio: mp3 open /music/song/local_music2.mp3
+[73169] audio: ID3 len=0x104e
+audio_file_joint_begin:local_music2.mp3;#1:Vanotek;#2:back to me;#4:108;
+[73226] audio: mp3_getinfo /music/song/local_music5.mp3
+[73232] audio: mp3 open /music/song/local_music5.mp3
+[73256] audio: ID3 len=4187 fsize=1227134 10
+[73261] audio: id3v2 ver:3 flags:00 len:4187
+
+[73558] audio: mp3 open /music/song/local_music5.mp3
+[73564] audio: mp3 open /music/song/local_music5.mp3
+[73582] audio: ID3 len=0x1051
+audio_file_joint_begin:local_music5.mp3;#1:全昭弥;#2:Fast forward;#4:76;
+[73640] audio: mp3_getinfo /music/song/local_music6.mp3
+[73646] audio: mp3 open /music/song/local_music6.mp3
+[73669] audio: ID3 len=4189 fsize=1371750 10
+[73674] audio: id3v2 ver:3 flags:00 len:4189
+
+[73970] audio: mp3 open /music/song/local_music6.mp3
+[73976] audio: mp3 open /music/song/local_music6.mp3
+[73994] audio: ID3 len=0x1053
+audio_file_joint_begin:local_music6.mp3;#1:LBI利比;#2:小城夏天;#4:85;
+[74052] audio: mp3_getinfo /music/song/local_music7.mp3
+[74058] audio: mp3 open /music/song/local_music7.mp3
+[74082] audio: ID3 len=4185 fsize=2069738 10
+[74087] audio: id3v2 ver:3 flags:00 len:4185
+
+[74386] audio: mp3 open /music/song/local_music7.mp3
+[74392] audio: mp3 open /music/song/local_music7.mp3
+[74410] audio: ID3 len=0x104f
+audio_file_joint_begin:local_music7.mp3;#1:Olly Murs;#2:That Girl;#4:129;
+[74467] audio: mp3_getinfo /music/song/local_music9.mp3
+[74474] audio: mp3 open /music/song/local_music9.mp3
+[74499] audio: ID3 len=4187 fsize=1224626 10
+[74504] audio: id3v2 ver:3 flags:00 len:4187
+
+[74802] audio: mp3 open /music/song/local_music9.mp3
+[74807] audio: mp3 open /music/song/local_music9.mp3
+[74829] audio: ID3 len=0x1051
+audio_file_joint_begin:local_music9.mp3;#1:蔡健雅;#2:红色高跟鞋;#4:76;
+[75061] NO_TAG: fs_file_list_update: /ring/long/audio_list.txt not exist,create
+[75900] NO_TAG: fs_file_list_update: /ring/short/audio_list.txt not exist,create
+[75913] NO_TAG: fs_file_list_update: open /ring/short/audio_list.txt failed!
+[75926] NO_TAG: fs_file_list_iteration: /ring/short/audio_list.txt not exist
+[75940] NO_TAG: fs_file_list_update: /music/record/audio_list.txt not exist,create
+app_init_all_setting_config_custmize
+[77156] sibles: 
+BLE ready!
+
+[77160] btcomm: Clear mask 1
+[77175] nvds: sifli_nvds_read_tag_value: val:603b3a39 tag:1
+[77183] ble_connect: BLE_POWER_ON_IND!
+
+set cmd 0x91, stop_status:0, msg_status:1
+[77224] sibles: GAP event 3328
+[77228] BLE_GAP: evt 145, ret 0
+
+[77251] bt_common: svc_release gap_dm_sync_reg_cfm_hdl 866
+[77260] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[77271] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[77278] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[77287] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[77295] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[77303] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[77311] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77319] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+st = 0
+[77327] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77335] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+[77343] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77351] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+[77357] bt_common: hid_gap_l2ca_reg_cfm_standbyst
+
+[77364] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77372] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+[77380] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[77390] bt_common: << Local device addreess: C2AB:11:2B97A7
+
+[77398] bt_rt_device.urc: URC BT addr ind
+[77404] bt_common: hid_enb_req
+
+[77414] nvds: sifli_nvds_read_tag_value: val:603b8289 tag:1
+[77426] bt_common: hidh_enb_req
+
+[77430] bt_common: hidh_enb_req,rec_byte_num = 322
+
+[77439] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[77446] bt_common: hfp state change new_sate 0x 1,old_state 0xff
+[77456] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[78133] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[78142] bt_common: >> AVCTP enabled
+
+[78146] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[78155] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[78162] bt_common: hidh_gap_sds_reg_cfm_idlest
+
+[78168] bt_common: hids_hid_enb_cfm
+
+[78173] bt_common: >> HID enabled
+
+[78178] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[78185] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[78193] bt_common: hfp msg *msg_type 8000 inst_data->st 1
+
+[78200] bt_common: >> Handfree enable success
+
+[78205] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[78213] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[78220] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[78226] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[78236] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[78243] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[78256] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[78263] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[78273] bt_common: << Local LMP version: 12
+
+[78278] bt_common: << Local LMP subversion: 542
+
+[78284] bt_common: << Local controller manufacturer name id: 2636
+
+[78293] bt_common: << Local device name changed!
+
+[78299] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[78313] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[78321] bt_common: hfp state change new_sate 0x 2,old_state 0x 2
+[78329] bt_common: hfp msg *msg_type 8000 inst_data->st 1
+
+[78335] bt_common: >> Headset enable success
+
+[78344] bt_common: svc_set gap_rfc_acpt_conn_req_hdl 399
+[78351] bt_common: svc_release connable_hdl 8039
+[78359] bt_common: svc_set gap_rfc_acpt_conn_req_hdl 399
+[78366] bt_common: svc_release connable_hdl 8039
+[78392] bt_common: << Class of device has been changed!
+
+[78402] NO_TAG: BT CM rd local dev cfm
+[78406] btcomm: Clear mask 2
+[78410] bt_common: << Local device name: HK9 Mini+ Call
+
+flashdb_read: setting8021 len 76 0 time 3870 (ms)
+db_read_setting: setting8021 ret_len 0
+flashdb_read: settingb022 len 19 0 time 2418 (ms)
+db_read_setting: settingb022 ret_len 0
+flashdb_read: setting8013 len 5 0 time 2418 (ms)
+db_read_setting: setting8013 ret_len 0
+[160808] bt_common: << Class of device: 0x240418
+
+flashdb_read: setting920b len 36 0 time 8953 (ms)
+db_read_setting: setting920b ret_len 0
+[160829] bt_rt_device.control: bt_sifli_control 232 bt_set_event = 0 
+[160839] NO_TAG: bt_cm_close_bt, close_process1 conn_num 0 
+[160846] bt_common: close req closeflag1, hdlffff
+
+[160852] bt_common: close ret1 0 ret2 ffffffff
+
+[160861] bt_common: << Write scan enable success
+
+[160887] bt_common: << Scan mode: 0
+
+[160891] bt_common: <<            No scans enbd.
+
+[160980] bt_rt_device.urc: urc bt close:1
+[160985] bt_rt_device.control: BT_CONTROL_CLOSE_DEVICE cmd:b031
+[160992] bt_device: rt_bt_close ret:0 flag:0
+[160997] bt_service: app_close_bt ret:0
+shor_scan_timer_del
+[161004] bt_rt_device.control: bt_sifli_control_open 204 bt_set_event = 10000 
+[161108] bt_common: open req 
+
+[161114] bt_rt_device.control: bt_sifli_control_open 214 bt_set_event = 0 
+[161122] bt_rt_device.control: BT_CONTROL_OPEN_DEVICE
+[161128] bt_device: rt_bt_open ret:0 flag:10
+[161133] bt_service: app_open_bt ret:0
+[161141] bt_common: << Write scan enable success
+
+[161154] bt_common: << Scan mode: 3
+
+[161159] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+[161245] audio: a2dp set speaker volume: 61-->7
+
+[161251] bt_service: app_bt_set_volume ret:0
+[161350] audio: set speaker volume: 13-->13
+
+[161356] bt_service: app_bt_set_volume ret:0
+shor_bt_scan
+shor_scan_timer_create
+[161368] bt_service: app_bt_switch_off ret:0
+[161375] bt_service: app_bt_switch_on ret:0
+[161380] bt_connect: [app_bt_change_page_activity] is_high:1
+[161392] bt_common: << Write scan enable success
+
+[161426] bt_common: << Write scan enable success
+
+[161435] bt_common: << Scan mode: 3
+
+[161440] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+[161455] bt_common: << Scan mode: 3
+
+[161460] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+[161539] bt_connect: [app_bt_connect_req] mask:23 type:1 addr:00000000
+[161546] bt_connect: db addr:00:00:00:00:00:00
+[161646] bt_connect: [app_bt_connect_req] bt addr invalid
+[161653] bt_common: bt_avsnk_open 0 flag
+
+[161659] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[161666] NO_TAG: fsm: SDS st:0 evt:0
+[161671] NO_TAG: fsm: SDS st:1 evt:3
+[161676] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+st = 2
+[161684] bt_common: enable(1) ret 0
+[161689] bt_common: >> AUDIO SOURCE ENB
+
+[161694] bt_common: << av had been enabled 
+
+[161699] bt_rt_device.urc: URC BT avsnk open complete ind
+[161707] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[161714] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[161724] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[161731] NO_TAG: fsm: SDS st:0 evt:0
+[161735] NO_TAG: fsm: SDS st:1 evt:3
+[161742] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+st = 3
+[161751] bt_common: enable(0) ret 0
+[161755] bt_common: << av had been enabled 
+
+[161762] bt_service: app_bt_open_a2dp ret:0
+flashdb_read: setting9b10 len 7 0 time 1592 (ms)
+db_read_setting: setting9b10 ret_len 0
+flashdb_read: setting9b25 len 33 0 time 1560 (ms)
+db_read_setting: setting9b25 ret_len 0
+flashdb_read: setting9b26 len 31 0 time 1577 (ms)
+db_read_setting: setting9b26 ret_len 0
+flashdb_read: setting9b27 len 22 0 time 1548 (ms)
+db_read_setting: setting9b27 ret_len 0
+flashdb_read: setting9b28 len 14 0 time 1522 (ms)
+db_read_setting: setting9b28 ret_len 0
+flashdb_read: setting9b29 len 14 0 time 1522 (ms)
+db_read_setting: setting9b29 ret_len 0
+flashdb_read: setting9b2a len 14 0 time 1524 (ms)
+db_read_setting: setting9b2a ret_len 0
+flashdb_read: setting9b2b len 14 0 time 1528 (ms)
+db_read_setting: setting9b2b ret_len 0
+flashdb_read: setting9b30 len 256 0 time 1528 (ms)
+db_read_setting: setting9b30 ret_len 0
+flashdb_read: setting9b35 len 2904 0 time 1528 (ms)
+db_read_setting: setting9b35 ret_len 0
+flashdb_read: setting9208 len 488 0 time 1538 (ms)
+db_read_setting: setting9208 ret_len 0
+flashdb_read: setting9b39 len 118 0 time 1536 (ms)
+db_read_setting: setting9b39 ret_len 0
+flashdb_read: setting9b3a len 816 0 time 1562 (ms)
+db_read_setting: setting9b3a ret_len 0
+[360245] bt_service: app_bt_switch_off ret:0
+[360250] bt_service: app_bt_switch_on ret:0
+[360255] bt_connect: [app_bt_change_page_activity] is_high:0
+shor_scan_timer_del
+shor_scan_timeroutaudio_time=0
+[360293] bt_common: << Write scan enable success
+
+[360328] bt_common: << Write scan enable success
+
+[360337] bt_common: << Scan mode: 3
+
+[360341] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+[360357] bt_common: << Scan mode: 3
+
+[360362] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+flashdb_read: setting9b3b len 5 0 time 1549 (ms)
+db_read_setting: setting9b3b ret_len 0
+flashdb_read: setting9b3c len 14 0 time 1538 (ms)
+db_read_setting: setting9b3c ret_len 0
+flashdb_read: setting9b3d len 14 0 time 1542 (ms)
+db_read_setting: setting9b3d ret_len 0
+flashdb_read: setting9b3e len 14 0 time 1542 (ms)
+db_read_setting: setting9b3e ret_len 0
+flashdb_read: setting9b3f len 14 0 time 1545 (ms)
+db_read_setting: setting9b3f ret_len 0
+flashdb_read: setting9b40 len 14 0 time 1544 (ms)
+db_read_setting: setting9b40 ret_len 0
+flashdb_read: setting9b90 len 5 0 time 1549 (ms)
+db_read_setting: setting9b90 ret_len 0
+flashdb_read: setting9b93 len 5 0 time 1549 (ms)
+db_read_setting: setting9b93 ret_len 0
+flashdb_read: setting9b6b len 6 0 time 1570 (ms)
+db_read_setting: setting9b6b ret_len 0
+flashdb_read: setting8002 len 24 0 time 1546 (ms)
+db_read_setting: setting8002 ret_len 0
+flashdb_read: setting801a len 26 0 time 1548 (ms)
+db_read_setting: setting801a ret_len 0
+flashdb_read: setting9b5a len 5 0 time 1548 (ms)
+db_read_setting: setting9b5a ret_len 0
+flashdb_read: setting9b5b len 5 0 time 1550 (ms)
+db_read_setting: setting9b5b ret_len 0
+flashdb_read: setting9207 len 18 0 time 1548 (ms)
+db_read_setting: setting9207 ret_len 0
+flashdb_read: setting920c len 11 0 time 1552 (ms)
+db_read_setting: setting920c ret_len 0
+flashdb_read: setting9b5c len 7 0 time 1553 (ms)
+db_read_setting: setting9b5c ret_len 0
+flashdb_read: setting9219 len 16 0 time 1553 (ms)
+db_read_setting: setting9219 ret_len 0
+flashdb_read: setting9b5d len 12 0 time 1555 (ms)
+db_read_setting: setting9b5d ret_len 0
+flashdb_read: setting9b5e len 8 0 time 1575 (ms)
+db_read_setting: setting9b5e ret_len 0
+flashdb_read: setting9b5f len 23 0 time 1562 (ms)
+db_read_setting: setting9b5f ret_len 0
+flashdb_read: setting801b len 6 0 time 1556 (ms)
+db_read_setting: setting801b ret_len 0
+flashdb_read: setting801d len 8 0 time 1558 (ms)
+db_read_setting: setting801d ret_len 0
+flashdb_read: setting801e len 5 0 time 1557 (ms)
+db_read_setting: setting801e ret_len 0
+flashdb_read: setting8026 len 196 0 time 1562 (ms)
+db_read_setting: setting8026 ret_len 0
+flashdb_read: setting9b01 len 8 0 time 1549 (ms)
+db_read_setting: setting9b01 ret_len 0
+flashdb_read: setting801c len 11 0 time 1540 (ms)
+db_read_setting: setting801c ret_len 0
+flashdb_read: setting8024 len 6 0 time 1533 (ms)
+db_read_setting: setting8024 ret_len 0
+flashdb_read: setting8019 len 26 0 time 1536 (ms)
+db_read_setting: setting8019 ret_len 0
+flashdb_read: setting8023 len 5 0 time 1561 (ms)
+db_read_setting: setting8023 ret_len 0
+flashdb_read: setting9213 len 36 0 time 1537 (ms)
+db_read_setting: setting9213 ret_len 0
+flashdb_read: setting9218 len 7 0 time 1540 (ms)
+db_read_setting: setting9218 ret_len 0
+flashdb_read: setting8014 len 8 0 time 1532 (ms)
+db_read_setting: setting8014 ret_len 0
+flashdb_read: setting8a05 len 1340 0 time 1529 (ms)
+db_read_setting: setting8a05 ret_len 0
+flashdb_read: setting8a06 len 5 0 time 1538 (ms)
+db_read_setting: setting8a06 ret_len 0
+flashdb_read: settinga017 len 5 0 time 1535 (ms)
+db_read_setting: settinga017 ret_len 0
+flashdb_read: setting7002 len 2965 0 time 1530 (ms)
+db_read_setting: setting7002 ret_len 0
+flashdb_read: setting9b8a len 135 0 time 1543 (ms)
+db_read_setting: setting9b8a ret_len 0
+flashdb_read: setting9b8c len 134 0 time 1570 (ms)
+db_read_setting: setting9b8c ret_len 0
+flashdb_read: setting9b8d len 5 0 time 1547 (ms)
+db_read_setting: setting9b8d ret_len 0
+flashdb_read: setting810f len 5 0 time 1543 (ms)
+db_read_setting: setting810f ret_len 0
+flashdb_read: setting8a0a len 5 0 time 1547 (ms)
+db_read_setting: setting8a0a ret_len 0
+flashdb_read: setting8314 len 5 0 time 1546 (ms)
+db_read_setting: setting8314 ret_len 0
+flashdb_read: setting8a0b len 5 0 time 1551 (ms)
+db_read_setting: setting8a0b ret_len 0
+flashdb_read: setting8a0c len 5 0 time 1550 (ms)
+db_read_setting: setting8a0c ret_len 0
+flashdb_read: setting8a0d len 24 0 time 1549 (ms)
+db_read_setting: setting8a0d ret_len 0
+flashdb_read: setting8a0e len 24 0 time 1559 (ms)
+db_read_setting: setting8a0e ret_len 0
+flashdb_read: setting8a10 len 5 0 time 1558 (ms)
+db_read_setting: setting8a10 ret_len 0
+flashdb_read: setting8a11 len 533 0 time 1582 (ms)
+db_read_setting: setting8a11 ret_len 0
+flashdb_read: setting9b9c len 1038 0 time 1562 (ms)
+db_read_setting: setting9b9c ret_len 0
+flashdb_read: setting9b9d len 134 0 time 1561 (ms)
+db_read_setting: setting9b9d ret_len 0
+flashdb_read: setting8a14 len 46 0 time 1562 (ms)
+db_read_setting: setting8a14 ret_len 0
+flashdb_read: setting8a15 len 5 0 time 1560 (ms)
+db_read_setting: setting8a15 ret_len 0
+flashdb_read: setting8a16 len 8 0 time 1560 (ms)
+db_read_setting: setting8a16 ret_len 0
+flashdb_read: setting9bb3 len 6 0 time 1558 (ms)
+db_read_setting: setting9bb3 ret_len 0
+flashdb_read: setting9202 len 206 0 time 1555 (ms)
+db_read_setting: setting9202 ret_len 0
+flashdb_read: setting802c len 8 0 time 1542 (ms)
+db_read_setting: setting802c ret_len 0
+flashdb_read: setting802d len 5 0 time 1543 (ms)
+db_read_setting: setting802d ret_len 0
+flashdb_read: setting8031 len 12 0 time 1570 (ms)
+db_read_setting: setting8031 ret_len 0
+[1201838] nvds: sifli_nvds_read_tag_value: val:603c1dfd tag:1
+mac addr: a7 97 2b 11 ab c2
+ble_service_cb: type 9901
+handle_ble_send_msg_from_app type len 0x9901 108
+[1201857] setting: handle_system_cfg_changed: 39169
+
+flashdb_read: setting8001 len 8 0 time 1546 (ms)
+db_read_setting: setting8001 ret_len 0
+app_init_all_app_setting_config:BMR reg is 0x0 lock_time is 0x1388.
+flashdb_read: setting8022 len 844 0 time 1544 (ms)
+db_read_setting: setting8022 ret_len 0
+[1231181] APP.UI: /ring/long/qibla_local.mp3 0  1100000
+[1231213] APP.UI: /ring/long/ring_siren.mp3 0  1100000
+[1231246] APP.UI: /ring/long/wk_alarm.mp3 0  1100000
+[1231279] APP.UI: /ring/long/wk_bt_paired_ch.mp3 0  1100000
+[1231314] APP.UI: /ring/long/wk_bt_paired_en.mp3 0  1100000
+[1231349] APP.UI: /ring/long/wk_byebye_ch.mp3 0  1100000
+[1231384] APP.UI: /ring/long/wk_byebye_en.mp3 0  1100000
+[1231420] APP.UI: /ring/long/wk_calling.mp3 0  1100000
+[1231456] APP.UI: /ring/long/wk_drainage.mp3 0  1100000
+[1231493] APP.UI: /ring/long/wk_i_am_here_ch.mp3 0  1100000
+[1231530] APP.UI: /ring/long/wk_i_am_here_en.mp3 0  1100000
+[1231569] APP.UI: /ring/long/wk_message.mp3 0  1100000
+[1231608] APP.UI: /ring/long/wk_poweron.wav 0  1100000
+[1231647] APP.UI: /ring/long/wk_sport_321.mp3 0  1100000
+[1231686] APP.UI: /ring/long/wk_sport_321_en.mp3 0  1100000
+[1231727] APP.UI: /ring/long/wk_sport_medal.mp3 0  1100000
+[1231768] APP.UI: /ring/long/wk_sport_pause_ch.mp3 0  1100000
+[1231810] APP.UI: /ring/long/wk_sport_pause_en.mp3 0  1100000
+[1231853] APP.UI: /ring/long/wk_sport_resume_ch.mp3 0  1100000
+[1231896] APP.UI: /ring/long/wk_sport_resume_en.mp3 0  1100000
+[1231941] APP.UI: /ring/long/wk_sport_start_ch.mp3 0  1100000
+[1231986] APP.UI: /ring/long/wk_sport_start_en.mp3 0  1100000
+[1232031] APP.UI: /ring/long/wk_sport_stop_ch.mp3 0  1100000
+[1232077] APP.UI: /ring/long/wk_sport_stop_en.mp3 0  1100000
+[1232124] APP.UI: /ring/long/wk_tomcat.mp3 0  1100000
+[1232134] NO_TAG: fs_file_list_iteration: /ring/short/audio_list.txt not exist
+flashdb_read: setting8003 len 5 0 time 1537 (ms)
+db_read_setting: setting8003 ret_len 0
+[app_get_lcd_backlight]  brightness = [60]     
+
+[app_set_lcd_backlight]  brightness = [60]     
+
+[1246702] drv.lcd: set brightness 60
+[1246707] drv.lcd: display on
+flashdb_read: setting8007 len 10 0 time 1531 (ms)
+db_read_setting: setting8007 ret_len 0
+flashdb_read: setting802e len 9 0 time 1536 (ms)
+db_read_setting: setting802e ret_len 0
+flashdb_read: setting800e len 5 0 time 1541 (ms)
+db_read_setting: setting800e ret_len 0
+[1290299] nvds: sifli_nvds_read_tag_value: val:603ba325 tag:1
+mac addr: a7 97 2b 11 ab c2
+ble_service_cb: type 9901
+handle_ble_send_msg_from_app type len 0x9901 108
+[1290318] setting: handle_system_cfg_changed: 39169
+
+flashdb_read: setting920a len 27 0 time 1540 (ms)
+db_read_setting: setting920a ret_len 0
+flashdb_read: setting9208 len 10 0 time 1539 (ms)
+db_read_setting: setting9208 ret_len 0
+flashdb_read: setting920d len 8 0 time 1566 (ms)
+db_read_setting: setting920d ret_len 0
+flashdb_read: setting920e len 5 0 time 1547 (ms)
+db_read_setting: setting920e ret_len 0
+flashdb_read: setting9205 len 10 0 time 1547 (ms)
+db_read_setting: setting9205 ret_len 0
+flashdb_read: setting9bb6 len 11 0 time 1546 (ms)
+db_read_setting: setting9bb6 ret_len 0
+[1378176] sibles: status=0, start_handle=0xe
+[1378184] sibles: status=0, start_handle=0x14
+[1378190] [APP_OTA]: ota mode 0, res state 0, img state 0
+[1378198] sibles: status=0, start_handle=0x1a
+[1378204] sibles: status=0, start_handle=0x1f
+adv local_name:HK9 Mini+, len:9 
+[1378215] sibles: GAP event 3597
+[1378219] ble_connect: ble_advertising_build_adv_data: mac=C2:AB:11:2B:97:A7
+[1378227] ble_connect: ble_advertising_build_rsp_data: name=HK9 Mini+,len=9
+[1378237] ble_connect: notify_ble_start_adv adv!
+
+[1378255] sibles: GAP event 3492
+[1378259] sibles: GAP event 3328
+[1378263] BLE_GAP: evt 160, ret 0
+
+[1378268] NO_TAG: Sibles ADV start 0!
+
+[1378289] sibles: GAP event 3328
+[1378293] BLE_GAP: evt 169, ret 0
+
+[1378315] sibles: GAP event 3328
+[1378319] BLE_GAP: evt 170, ret 0
+
+[1378342] sibles: GAP event 3328
+[1378346] BLE_GAP: evt 164, ret 0
+
+[1378351] ble_connect: ADV start resutl 0, mode 0
+
+[1378411] APP.UI: BLE_APP_START_ADV
+flashdb_read: setting800d len 6 0 time 1555 (ms)
+db_read_setting: setting800d ret_len 0
+flashdb_read: setting820b len 34 0 time 1548 (ms)
+db_read_setting: setting820b ret_len 0
+[1407594] APP.UI: screen_always_on_info_init: saved_name (NULL)
+flashdb_read: setting801d len 8 0 time 1553 (ms)
+db_read_setting: setting801d ret_len 0
+app_set_screen_long_time: long time 300000
+db_read_local: local8212 len 380
+flashdb_read: local8212 len 384 0 time 1555 (ms)
+[1437019] APP_TWS_COMM: app_tws_list_comm_init p_list_item 603ba318
+flashdb_read: setting801f len 21 0 time 1550 (ms)
+db_read_setting: setting801f ret_len 0
+flashdb_read: setting8020 len 20 0 time 1548 (ms)
+db_read_setting: setting8020 ret_len 0
+[1472101] sibles: GAP event 3493
+[1472105] ble_connect: ADV stopped reason 69, mode 0
+
+app_power_off_ble_done_callback: 0 !
+[1472116] ble_connect: my_ble_advertising_start:adv=0,connect=0,is_fast=1
+[1472124] ble_connect: my_ble_switch_adv_handler:context->state=1,context->adv_transist=2
+[1472146] sibles: GAP event 3328
+[1472150] BLE_GAP: evt 167, ret 0
+
+[1472165] sibles: GAP event 3492
+[1472169] sibles: GAP event 3328
+[1472173] BLE_GAP: evt 160, ret 0
+
+[1472178] NO_TAG: Sibles ADV start 0!
+
+[1472194] sibles: GAP event 3328
+[1472198] BLE_GAP: evt 169, ret 0
+
+[1472214] sibles: GAP event 3328
+[1472218] BLE_GAP: evt 170, ret 0
+
+[1472235] sibles: GAP event 3328
+[1472238] BLE_GAP: evt 164, ret 0
+
+[1472243] ble_connect: ADV start resutl 0, mode 0
+
+[1472499] APP.UI: BLE_APP_STOP_ADV
+[1472503] APP.UI: BLE_APP_START_ADV
+flashdb_read: setting800c len 21 0 time 1594 (ms)
+db_read_setting: setting800c ret_len 0
+flashdb_read: setting8025 len 5 0 time 1556 (ms)
+db_read_setting: setting8025 ret_len 0
+[1496133] DS: data service subscribe (SENSORS_APP), service (603a5f50)
+[1496141] DS: datac subscribe dev open
+sensors_service_cb: type 0000
+sensors_thread: mem usage, total 407152 used 137284 max_used 150096
+[1496157] APP.UI: app_sensor_service_cb: type 8000, 8000 
+
+[1496164] APP.UI: app_sensor_service_cb: subscribe_rsp 0, 13
+[1496171] APP.UI: app_sensors_service_subscribe_init
+read_setting: setsbe02
+flashdb_read: setsbe02 len 20 20 time 0 (ms)
+battery_read_final_info: volt 4331
+sensors_service_cb: type be02
+sensors_thread: mem usage, total 407152 used 137416 max_used 150096
+sensors_service_cb: type 830b
+read_setting: setsa85a
+sensors_thread: mem usage, total 407152 used 137372 max_used 150096
+[1496359] drv.rtc: Get initial cycles: 1015653 rtc=1672560000.0000
+
+sensors_service_cb: type a00a
+db_read_local: local9b0a len 1
+sensor_algo_thread_entry: type 3 sub_type 830b
+rt_adc_read:  39827;
+battery_get_original_voltage: volt 3982 
+battery_get_voltage: volt 3982 smooth volt: 3982;
+battery_voltage_convert_to_percent time:158187
+original voltage:3982 filtered voltage: 3982;
+remain_percent(70)
+battery: level 70 state 0
+---------battery send level one_time or 1
+ipc_send_msg_from_sensor_to_app, type a30d len 20
+[1496511] APP.UI: app_sensor_service_cb: type a30d, a30d 
+
+ble_service_cb: type 9b0f
+handle_ble_send_msg_from_app type len 0x9b0f 20
+[1496528] ble_protocol: [heartbeat]current:1672560000,last:0,interval:0
+[1496536] ble_protocol: ble_push_send_data:is_connected=0,0,0
+sensor_algo_thread_entry: type 3 sub_type a00a
+[1496636] drv.rtc: Get initial cycles: 1015653 rtc=1672560000.0000
+
+flashdb_read: setsa85a len 2 0 time 1531 (ms)
+sensors_service_cb: type a85a
+sensor_algo_thread_entry: type 3 sub_type a85a
+sensors_service_cb: type 830b
+flashdb_read: local9b0a len 5 5 time 1529 (ms)
+rt_adc_read:  39833;
+battery_get_original_voltage: volt 3983 
+battery_get_voltage: volt 3983 smooth volt: 3983;
+battery_voltage_convert_to_percent time:1533
+remain_percent(70)
+sensor_algo_thread_entry: type 3 sub_type 830b
+[1511168] drv.rtc: Get initial cycles: 1015653 rtc=1672560000.0156
+
+sensors_service_cb: type a00a
+db_read_local: local9b0a len 1
+sensor_algo_thread_entry: type 3 sub_type a00a
+[1511507] drv.rtc: Get initial cycles: 1015653 rtc=1672560000.0117
+
+flashdb_read: setting8211 len 16 0 time 1578 (ms)
+db_read_setting: setting8211 ret_len 0
+flashdb_read: local9b0a len 5 5 time 1547 (ms)
+flashdb_read: settinga401 len 97 0 time 1561 (ms)
+db_read_setting: settinga401 ret_len 0
+[1540551] data_query: query_rp_hr_data
+
+[1540556] data_query: query_tsdb_data:(607f1910) from 1672531200 to 1672617599.
+
+[1542762] data_query: query_tsdb_data:(607f1910) count 0.
+
+flashdb_read: setting8211 len 16 0 time 3237 (ms)
+db_read_setting: setting8211 ret_len 0
+[1566694] sibles: GAP event 3493
+[1566698] ble_connect: ADV stopped reason 69, mode 0
+
+app_power_off_ble_done_callback: 0 !
+[1566709] ble_connect: my_ble_advertising_start:adv=0,connect=0,is_fast=1
+[1566717] ble_connect: my_ble_switch_adv_handler:context->state=1,context->adv_transist=2
+[1566746] sibles: GAP event 3328
+[1566750] BLE_GAP: evt 167, ret 0
+
+[1566774] sibles: GAP event 3492
+[1566778] sibles: GAP event 3328
+[1566782] BLE_GAP: evt 160, ret 0
+
+[1566787] NO_TAG: Sibles ADV start 0!
+
+[1566810] sibles: GAP event 3328
+[1566814] BLE_GAP: evt 169, ret 0
+
+[1566835] sibles: GAP event 3328
+[1566839] BLE_GAP: evt 170, ret 0
+
+[1566863] sibles: GAP event 3328
+[1566867] BLE_GAP: evt 164, ret 0
+
+[1566872] ble_connect: ADV start resutl 0, mode 0
+
+flashdb_read: setting9201 len 8 0 time 3016 (ms)
+db_read_setting: setting9201 ret_len 0
+[DBG]is_it_the_same_day off-time:[1970:1:1]
+[DBG]is_it_the_same_day cur-time:[2023:1:1]
+[DBG]is_it_the_same_day ret=0
+flashdb_read: settinga401 len 97 0 time 3060 (ms)
+db_read_setting: settinga401 ret_len 0
+[1585340] data_query: query_rp_hr_data
+
+[1585373] data_query: query_tsdb_data:(607f1910) from 1672531200 to 1672617599.
+
+[1589120] data_query: query_tsdb_data:(607f1910) count 0.
+
+flashdb_read: settinga403 len 26 0 time 3266 (ms)
+db_read_setting: settinga403 ret_len 0
+flashdb_read: setting9201 len 8 0 time 2867 (ms)
+db_read_setting: setting9201 ret_len 0
+[DBG]is_it_the_same_day off-time:[1970:1:1]
+[DBG]is_it_the_same_day cur-time:[2023:1:1]
+[DBG]is_it_the_same_day ret=0
+sensors_service_cb: type a855
+sensors_thread: mem usage, total 407152 used 137652 max_used 150096
+sensor_algo_thread_entry: type 3 sub_type a855
+flashdb_read: settinga404 len 52 0 time 3036 (ms)
+db_read_setting: settinga404 ret_len 0
+flashdb_read: settinga403 len 26 0 time 3029 (ms)
+db_read_setting: settinga403 ret_len 0
+flashdb_read: settinga405 len 232 0 time 3039 (ms)
+db_read_setting: settinga405 ret_len 0
+[1661005] sibles: GAP event 3493
+[1661009] ble_connect: ADV stopped reason 69, mode 0
+
+app_power_off_ble_done_callback: 0 !
+[1661020] ble_connect: my_ble_advertising_start:adv=0,connect=0,is_fast=1
+[1661028] ble_connect: my_ble_switch_adv_handler:context->state=1,context->adv_transist=2
+[1661055] sibles: GAP event 3328
+[1661059] BLE_GAP: evt 167, ret 0
+
+[1661083] sibles: GAP event 3492
+[1661088] sibles: GAP event 3328
+[1661092] BLE_GAP: evt 160, ret 0
+
+[1661096] NO_TAG: Sibles ADV start 0!
+
+[1661118] sibles: GAP event 3328
+[1661122] BLE_GAP: evt 169, ret 0
+
+[1661145] sibles: GAP event 3328
+[1661149] BLE_GAP: evt 170, ret 0
+
+[1661172] sibles: GAP event 3328
+[1661176] BLE_GAP: evt 164, ret 0
+
+[1661181] ble_connect: ADV start resutl 0, mode 0
+
+flashdb_read: settinga404 len 52 0 time 3055 (ms)
+db_read_setting: settinga404 ret_len 0
+flashdb_read: setting7003 len 18 0 time 3056 (ms)
+db_read_setting: setting7003 ret_len 0
+db_read_local: locala309 len 63
+flashdb_read: settinga405 len 232 0 time 3051 (ms)
+db_read_setting: settinga405 ret_len 0
+sensors_service_cb: type a853
+sensors_thread: mem usage, total 407152 used 138060 max_used 150096
+flashdb_read: locala309 len 67 67 time 1504 (ms)
+sensor_algo_thread_entry: type 3 sub_type a853
+activity history data:[0-0-0]
+flashdb_read: setting7003 len 18 0 time 1501 (ms)
+db_read_setting: setting7003 ret_len 0
+sensors_service_cb: type a854
+sensors_thread: mem usage, total 407152 used 141128 max_used 150096
+db_read_local: locala309 len 63
+sensor_algo_thread_entry: type 3 sub_type a854
+flashdb_read: setting9213 len 3236 0 time 3057 (ms)
+db_read_setting: setting9213 ret_len 0
+sensors_service_cb: type 9b5a
+sensors_thread: mem usage, total 407152 used 141088 max_used 150096
+flashdb_read: locala309 len 67 67 time 1551 (ms)
+sensors_service_cb: type 9207
+sensor_algo_thread_entry: type 3 sub_type 9b5a
+sensors_thread: mem usage, total 407152 used 144408 max_used 150096
+sensors_service_cb: type 920c
+sensors_thread: mem usage, total 407152 used 144348 max_used 150096
+sensors_service_cb: type 9b5c
+sensors_service_cb: type 9219
+sensors_service_cb: type 9b5d
+sensors_service_cb: type 9b5e
+sensors_service_cb: type 9b5f
+sensors_thread: mem usage, total 407152 used 144408 max_used 150096
+sensors_service_cb: type 8023
+sensors_thread: mem usage, total 407152 used 144348 max_used 150096
+db_read_local: locala908 len 16
+sensor_algo_thread_entry: type 3 sub_type 9207
+-----set_sport_property_init: 175 60 25 1 70
+sensor_algo_thread_entry: type 3 sub_type 920c
+sensor_algo_thread_entry: type 3 sub_type 9b5c
+sensor_algo_thread_entry: type 3 sub_type 9219
+sensor_algo_thread_entry: type 3 sub_type 9b5d
+sensor_algo_thread_entry: type 3 sub_type 9b5e
+sensor_algo_thread_entry: type 3 sub_type 9b5f
+sensor_algo_thread_entry: type 3 sub_type 8023
+flashdb_read: setting9213 len 3236 0 time 1509 (ms)
+db_read_setting: setting9213 ret_len 0
+sensors_service_cb: type 9213
+sensors_thread: mem usage, total 407152 used 141148 max_used 150096
+sensors_service_cb: type 9b5a
+sensors_thread: mem usage, total 407152 used 141088 max_used 150096
+sensor_algo_thread_entry: type 3 sub_type 9213
+sensors_service_cb: type 9207
+sensor_algo_thread_entry: type 3 sub_type 9b5a
+sensors_thread: mem usage, total 407152 used 141964 max_used 150096
+sensors_service_cb: type 920c
+sensors_thread: mem usage, total 407152 used 141088 max_used 150096
+sensors_service_cb: type 9b5c
+sensors_service_cb: type 9219
+sensors_service_cb: type 9b5d
+sensors_service_cb: type 9b5e
+sensors_service_cb: type 9b5f
+sensors_thread: mem usage, total 407152 used 141148 max_used 150096
+sensor_algo_thread_entry: type 3 sub_type 9207
+sensors_service_cb: type 8023
+-----set_sport_property_init: 175 60 25 1 70
+sensors_thread: mem usage, total 407152 used 141088 max_used 150096
+sensor_algo_thread_entry: type 3 sub_type 920c
+GSENSOR: open
+sensor_algo_thread_entry: type 3 sub_type 9b5c
+sensors_service_cb: type a008
+sensor_algo_thread_entry: type 3 sub_type 9219
+db_read_local: locala908 len 16
+sensor_algo_thread_entry: type 3 sub_type 9b5d
+sensor_algo_thread_entry: type 3 sub_type 9b5e
+sensor_algo_thread_entry: type 3 sub_type 9b5f
+sensor_algo_thread_entry: type 3 sub_type 8023
+sensor_algo_thread_entry: type 3 sub_type a008
+[1747586] gsensor_algo: gsensor_setting_req: state 1 mode 0 open 0
+
+[1747594] sensor.gs: set mode to POLLING
+
+[1747693] sensor.gs: gsensors_set_power: power 2
+
+[1747700] driver.gs: gsensor_hw_init ok !gensor_id = 0.00
+
+sc7a20_id: 0x28
+[1749827] drv.sc7a20: gesensor thread init ok! 
+
+[1749834] drv.sc7a20: gsensor int has opened ! 
+
+[1755655] sibles: GAP event 3493
+[1755660] ble_connect: ADV stopped reason 69, mode 0
+
+app_power_off_ble_done_callback: 0 !
+[1755671] ble_connect: my_ble_advertising_start:adv=0,connect=0,is_fast=1
+[1755679] ble_connect: my_ble_switch_adv_handler:context->state=1,context->adv_transist=2
+[1755707] sibles: GAP event 3328
+[1755711] BLE_GAP: evt 167, ret 0
+
+[1755733] sibles: GAP event 3492
+[1755737] sibles: GAP event 3328
+[1755741] BLE_GAP: evt 160, ret 0
+
+[1755746] NO_TAG: Sibles ADV start 0!
+
+[1755768] sibles: GAP event 3328
+[1755772] BLE_GAP: evt 169, ret 0
+
+[1755794] sibles: GAP event 3328
+[1755798] BLE_GAP: evt 170, ret 0
+
+[1755821] sibles: GAP event 3328
+[1755825] BLE_GAP: evt 164, ret 0
+
+[1755830] ble_connect: ADV start resutl 0, mode 0
+
+flashdb_read: locala908 len 20 0 time 3199 (ms)
+app_init_all_sensor_setting_config HR_CALI_PARAM_INFO r 1
+[1762088] [APP_OTA]: ota mode 0, res state 0, img state 0
+flashdb_read: locala908 len 20 0 time 3058 (ms)
+app_init_all_sensor_setting_config HR_CALI_PARAM_INFO r 0
+sensors_service_cb: type 9b5b
+sensors_thread: mem usage, total 407152 used 154932 max_used 155748
+db_read_local: locala856 len 24
+sensor_algo_thread_entry: type 3 sub_type 9b5b
+------sensor_save_config: switch to integer hour meas
+sensor_algo_thread_entry: type 3 sub_type a009
+[1776467] hr_algo: hr_setting_req: state 0 mode 4 type:2
+
+flashdb_read: locala856 len 28 28 time 9 (ms)
+db_write_local: locala856 len 43094
+[1776494] APP.UI: BLE_APP_STOP_ADV
+[1776498] APP.UI: BLE_APP_START_ADV
+flashdb_read: U0000 len 12288 12288 time 1527 (ms)
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Arabic.bin Arabic ar_AE
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Dutch.bin Dutch nl_NL
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/French.bin French fr_FR
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/German.bin German de_DE
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Greek.bin Greek el_GR
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Hebrew.bin Hebrew iw_IL
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Indonesian.bin Indonesian in_ID
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Italian.bin Italian it_IT
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Japanese.bin Japanese ja_JP
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Persian.bin Persian fa_IR
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Polish.bin Polish pl_PL
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Portuguese.bin Portuguese pt_PT
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Russian.bin Russian ru_RU
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Simplified_Chinese.bin Simplified_Chinese zh_CN
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Spanish.bin Spanish es_ES
+[1777266] APP.UI: BLE_APP_STOP_ADV
+[1777270] APP.UI: BLE_APP_START_ADV
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Thai.bin Thai th_TH
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Traditional_Chinese.bin Traditional_Chinese zh_TW app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Turkish.bin Turkish tr_TR
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Ukrainian.bin Ukrainian uk_UA
+app_fat_ex_get_lang_pack_list: Succ to lang_decode_header /language/installer/Vietnamese.bin Vietnamese vi_VN
+app_fat_ex_get_lang_pack_list: path /language/installer/ dir 603b4acc num 20
+[1778060] APP.UI: BLE_APP_STOP_ADV
+[1778064] APP.UI: BLE_APP_START_ADV
+flashdb_read: setting8002 len 24 0 time 1586 (ms)
+db_read_setting: setting8002 ret_len 0
+app_init_lang_setting: lang (NULL)
+app_fat_ex_install_lang_pack: pgm_name (NULL) new_pgm_name Simplified_Chinese
+lang_decode_trans: file /ramfs/ex_lang.bin num 1079 version v1.0.4 pgm_name Simplified_Chinese locale zh_CN 603c74a0 mem 1
+app_fat_ex_install_lang_pack: Succ to register lang_pack /language/installer//Simplified_Chinese.bin pgm_name Simplified_Chines match lang
+[1793843] APP.UI: app_fat_watchface_dsc_auto_add: Succ to add app wf_clock22
+
+[1793869] APP.UI: app_fat_watchface_dsc_auto_add: Succ to add app wf_clock25
+
+[1793916] APP.UI: app_fat_watchface_dsc_auto_add: Succ to add app wf_clock30
+
+[1793947] APP.UI: app_fat_watchface_dsc_auto_add: Succ to add app wf_clock37
+
+[1793975] APP.UI: app_fat_watchface_dsc_auto_add: Succ to add app wf_clock36
+
+[1794040] APP.UI: app_fat_watchface_dsc_auto_add: Succ to add app wf_clock33
+
+flashdb_read: tileview_Watchface len 28 0 time 1601 (ms)
+flashdb_read: tileview_HiBoard_tlv len 28 0 time 1579 (ms)
+flashdb_read: tileview_tlv_activity len 28 0 time 1583 (ms)
+SFBL
+Serial:c2,Chip:4,Package:3,Rev:3 Reason:00000000
+Serial PowerOnMOde:4 rtc_record:00000000
+reset_clk
+mount /dev sucess
+[32;22m[I/FAL] Flash Abstraction Layer (V0.5.99) initialize success.[0m
+[32;22m[I/FAL] The FAL MTD NAND device (upay_safety)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (sys)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (solution_code_Y)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (root)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (dyn)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (music)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (dfu)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (ble)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (upay)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (app)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (contact)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_rp)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_ip)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_sp)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (his_sport)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_assert)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_log)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_metrics)  blk:131072 sec:2048 created successfully[0m
+[32;22m[I/FAL] The FAL MTD NAND device (debug_monkey)  blk:131072 sec:2048 created successfully[0m
+[957] drv.rtc: PSCLR=0x24ec0d00 DivAI=36 DivAF=15107 B=256
+[964] drv.rtc: RC10K Freq=9kHz, cycle=1015827, rtc ppm=-7
+
+[971] drv.rtc: DIVA=36, DIVA_FRA=15003, DIVB=256
+
+[977] drv.rtc: Init RTC, wake = 1
+
+[1088] drv.audprc: init 00 ADC_PATH_CFG0 0x606
+
+[1093] drv.audprc: HAL_AUDPRC_Init res 0
+
+[1099] drv.audcodec: HAL_AUDCODEC_Init res 0
+
+app_bmem_init
+app_bmem_load: app_bmem_16, num 800
+app_bmem_load: app_bmem_32, num 600
+app_bmem_load: app_bmem_64, num 500
+app_bmem_load: app_bmem_104, num 500
+[1137] sensor: rt_sensor init success
+sensor init success bd1668!
+[1145] sensor: rt_sensor init success
+[1150] sensor.gs: sensor register success!
+
+[1155] TOUCH: Regist touch screen driver, probe=10242b85 
+call par CFG1(35bb)
+fc 9, xtal 2000, pll 2095
+call par CFG1(35bb)
+fc 7, xtal 2000, pll 1677
+app_mem_set_parameter: is 0 ip 2519000 ft 500000 ms 0 mp 32000
+[1207] APP.UI: app_shipping_init
+[1211] APP.UI: SHIPPING_MODE_flag:0x0,charger_status:0 wakeup_src:0x0
+battery_charger_init ok!
+ble_data_service_register: service = 603a5ee4 
+sensors_service_register: mem usage, total 407152 used 11980 max_used 12240
+sensors_service_register: service = 603a5f50 
+[1241] ble_protocol: ble_protocol_init:count=1
+
+[1251] APP.UI: app_db_setting_init
+[1257] APP.UI: app_comm_init
+lv_freetype_set_parameter: bpp 2 max_fsize 255 extern 1 extern_cache_limit 81920
+[1270] bt_device: bt notify cb register pass:1
+[1275] bt_service: app_bt_register_notify ret:0
+[1282] APP.UI: init_pin: 747 id = 0
+
+[1287] APP.UI: init_pin: 773 id = 1
+
+[1293] DS: data service subscribe (btn0), service (603a7790)
+[1300] DS: datac subscribe dev open
+button_0000000000000:  msg_id 0x8000
+[1309] DS: data service subscribe (btn1), service (603a77d0)
+[1316] DS: datac subscribe dev open
+button_11111111111111: msg_id 0x8000
+[1325] APP.FWK.PM: pwr_fsm:0, 4
+
+disk_init:0
+init:30080
+mount fs[elm] on / succ.
+disk_init:1
+init:800
+mount fs[elm] on /sys succ.
+disk_init:2
+init:8107
+mount fs[elm] on /dyn succ.
+disk_init:3
+init:10560
+mount fs[elm] on /music succ.
+Directory /:
+app_config          <DIR>                    
+dummy               0                        
+dyn                 <DIR>                    
+fonts               <DIR>                    
+images              <DIR>                    
+language            <DIR>                    
+music               <DIR>                    
+ring                <DIR>                    
+support_script      <DIR>                    
+sys                 <DIR>                    
+ramfs               <DIR>                    
+disk free: 5.9 MB [ 3037 block, 2048 bytes per block ] [total block 30041 total size 61523968]
+lv_task_mutex_init
+dfu_db_init: sector_size 4096 size 16384
+fdb_kvdb_init: /sys/dfu/
+[2041] DFUCTRLEXT: check_backup_ftab 11280
+[2057] DFUCTRLEXT: ftab not ready, running on hcpu1
+[2063] DFUCTRLEXT: init_flash_des 0, 0x622a0000, 0x62600000
+[2070] DFUCTRLEXT: dfu_ctrl_ext_init
+[2090] sibles: enable BLE Core..
+ble_tipc_init: tpic enable 1
+ram file system initializated;
+[2105] FLASHDB: service_flashdb_thread_init
+[2112] APP.UI: app_pm_init
+[2115] APP.UI: app_preprocess_thread_init
+[2121] bt_device: bt notify cb register pass:2
+[2127] bt_service: app_bt_register_notify ret:0
+[2132] APP.UI: lvsf_trans_anim_set_parameter:zoom_none 320 zoom_min 160 width 312 height 360 color_depth 16 snapshot_color_dep
+mainmenu_db_func_init
+[2149] APP.UI: screen_always_on_init
+lv_obj_datasubs_init 
+[2156] APP.UI: lvsf_bg_db_init
+[2160] TLV.FWK: app_tileview_init
+[2164] APP.UI: app_watch_init
+[2169] APP.UI: app_clock_list_init
+[2173] [APP_OTA]: ota mode 0, res state 0, img state 0
+[2179] APP.UI: app_contact_setting_init
+[2191] [FAT]: app_file_recv_init
+[2195] [APP_OTA]: ota mode 0, res state 0, img state 0
+[2201] [APP_OTA]: app_ota_init
+[2206] DS: data service subscribe (BLE_APP), service (603a5ee4)
+[2213] DS: datac subscribe dev open
+ble_service_cb: type 0000
+subscribe_rsp:0,12
+ble_service_cb: type 9601
+[2226] APP.UI: app_ble_service_subscribe_init
+[2234] APP.UI: app_jsapp_list_init
+name = -1039924477 scode 0 u = 142
+[2350] APP.UI: app_watch_entry
+[2355] drv.lcd: open
+[2358] drv.lcd: HW open
+[2361] drv.lcd: Try registered LCD driver...
+
+CO5300_ReadID 0x331100 
+[3027] co5300: LCD module use CO5300 IC 
+
+
+CO5300_ReadID 0x331100 
+[4824] co5300: LCD module use CO5300 IC 
+
+[4828] drv.lcd: Found lcd co5300 id:331100h
+[4833] drv.lcd: HW open done.
+[4837] drv.lcd: [NONE] -> [INITIALIZED]
+[4841] drv.lcd: open done.
+[4850] [APP_OTA]: ota mode 0, res state 0, img state 0
+lv_freetype_init: orig_size 350000 sec_hash_tab 4628 max_cache_size 207224 sec_limit 138148
+lv_freetype_init: faces 3 max_cache_size 350000 extern_cache 1
+lvsf_font_set_order_common(origin): font_order: 
+                     wk_no_korean:    8   10   14   22   26   30   34   38   42   44   48   54   62   70   90 
+                     _tiny55_full:    8   10   14   22   26   30   34   38   42   44   48   54   62   70   90 
+                          ota_err:    8   10   14   22   26   30   34   38   42   44   48   54   62   70   90 
+[5390] APP.UI: watch_entry
+[5398] TOUCH: Open
+[5400] TOUCH: Opened.
+[5404] drv.dk05: wheel open
+[5408] LVGL: [littlevgl2rtt] Welcome to the littlevgl2rtt lib.
+rt_adc_read:  39811;
+battery_get_original_voltage: volt 3981 
+battery_get_voltage: volt 3981 smooth volt: 3981;
+[5637] APP.UI: app_blocking_when_low_voltage: volt 3981 threshold 3560
+[5644] APP.UI: app_ring_stop
+[5648] [APP_OTA]: ota mode 0, res state 0, img state 0
+power_on_anim_page_init: time 0
+[5689] APP.GIF: lv_agif_dec_create_ext: /images/gif/switch_anim/gif_power_on.agif fd 8
+[5724] APP.GIF: lv_agif_dec_task_pause: 6039cc70
+Motor 1013f1f7
+[5737] FLASHDB: service_flashdb_init
+[5742] FLASHDB: service_flashdb_kvdb_init
+[5747] FLASHDB: flashdb_kvdb_init: msg
+[5758] FLASHDB: flashdb_kvdb_init: 0 ms
+
+[5763] FLASHDB: flashdb_kvdb_init: app
+[5779] FLASHDB: app: sector_size 4096 size 655360
+fdb_kvdb_init: /sys/app/
+play ring:/ring/long/wk_poweron.wav
+[5820] audio: mp3 open /ring/long/wk_poweron.wav callback=0x1024d721
+[5828] audio: mp3 open /ring/long/wk_poweron.wav
+[5862] audio: no ID3
+[5867] audio: wav len=44
+[6027] drv.lcd: Auto turn on display.
+[6040] chg.eta4662: eta4662_poll ChargeStatus:0 PowerGood:0 OvpFlag:0; [0x09]: 0x00
+
+[6049] drv.lcd: set brightness 50
+[6053] drv.lcd: display on
+[6056] drv.lcd: [INITIALIZED] -> [ON]
+[27774] FLASHDB: flashdb_kvdb_init: 2327 ms
+
+[27779] FLASHDB: flashdb_kvdb_init: upay
+[27788] FLASHDB: upay: sector_size 4096 size 65536
+fdb_kvdb_init: /sys/upay/
+[28261] FLASHDB: flashdb_kvdb_init: 50 ms
+
+[29265] FLASHDB: device_name:HK9 Mini+, device_type_id:5333, sw_verno:5.01
+[29274] data_db: init_data_db
+[29281] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 65536
+[29522] FLASHDB: [service_flashdb_tsdb_init]: his_rp, 25 ms
+[29532] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 16384
+[29590] FLASHDB: [service_flashdb_tsdb_init]: his_ip, 7 ms
+[29599] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 16384
+[29695] FLASHDB: [service_flashdb_tsdb_init]: his_sp, 11 ms
+[29705] FLASHDB: service_flashdb_tsdb_init: sector_size 4096 size 16384
+[29768] FLASHDB: [service_flashdb_tsdb_init]: his_sport, 7 ms
+[29775] FLASHDB: flashdb_kvdb_init: contact
+[29784] FLASHDB: contact: sector_size 4096 size 16384
+fdb_kvdb_init: /sys/contact/
+[29917] FLASHDB: flashdb_kvdb_init: 14 ms
+
+db_read_local: local8201 len 1044
+flashdb_read: local8201 len 1048 1048 time 2 (ms)
+db_read_local: local8207 len 164
+flashdb_read: local8207 len 168 168 time 5 (ms)
+db_write_local: local8207 len 33287
+db_write_local: local8207 len 33287
+[30019] audio: audio server run
+[30023] audio: audio_btdownlink run
+[30029] nvds: ble db init: sector_size 4096 size 16384
+fdb_kvdb_init: /sys/ble/
+[30398] nvds: NVDS otp Update Addr res 6, addr a7-97-2b-11-ab-c2
+[30418] nvds: sifli_nvds_read_tag_value: val:603b4761 tag:1
+[30425] nvds: NVDS loc Update Addr ret 0, addr a7-97-2b-11-ab-c2
+[30435] nvds: sifli_nvds_read_tag_value: val:603b4754 tag:13
+[30442] nvds: read sleep time 4500
+[30451] mw.sys: turn on lcpu
+[52585] TOUCH: Find touch screen driver...
+[52590] TOUCH: Probe 10242b85
+[52595] audio: wav run...ctrl=0x60413dec
+[52601] audio: audio_open type=5 rwflag=0 tx cache=2058 rx cache=0
+[52609] audio: audio cmd=0
+[52613] audio: audio_client_start h=60414370 n=ring t=5
+[52619] audio: notify listern(0, 0)
+[52623] audio: start first stream
+[52627] audio: audio_device_close in
+[52631] audio: audio_device_close do nothing
+[52636] audio: audio_device_open in busy=0 reg=1 c=60414370
+[52642] audio: audio_device_speaker_open
+[52647] drv.audprc: set g_eq_enable=1
+[52651] audio: ch: tx=1 rx=0,rate: tx=16000 rx=0
+[52657] audio: set tx callback
+[52661] drv.audcodec: AUDCODEC set source 0
+
+[52666] audio: prc_codec : sub_type=1 channel 1, samplerate 16000, bits 16
+[52674] drv.audprc: AUDPRC set dest 0
+
+[52679] audio: speaker OUTPUTSRC channel=1 in_rate=16000 out_rate=16000
+[52686] audio: speaker select=0x5050 mixer=0x5150
+[52692] audio: tx[0]: sub_type 0, ch 1, samrate 16000, bits 16
+
+[52699] audio: no eq init volume=-16
+[52703] drv.audcodec: dac set volume: prc=0 codec=-16
+
+[52709] drv.audcodec: codec dac mute set:1
+
+[52714] audio: speaker START stream=0x100
+[52719] drv.audprc: samplerate = 16000, select voice eq
+
+[52726] drv.audprc: bf0_audio_start 0x100 done
+
+[52731] audio: codec START stream=0x100
+enable pll 
+new PLL_ENABLE vco:9, freq_type:2
+pll lock! freq_type:2
+[52765] drv.audcodec: pll config state:2, samplerate:16000 
+
+[52772] drv.audcodec: bf0_audio_start 0x100 done
+
+sifli_aw8155 to do power handle 
+sifli_aw8155_start,mode:1 
+app_motor_power: on 
+[52792] motor_device: rt_motor_open ret:0 flag:80
+[53073] drv.audcodec: codec dac mute set:0
+
+[53078] audio: audio_device_open out
+[53083] audio: mp3 user callback
+[53086] APP.UI: ring_callback_func: cmd 0 
+
+[53091] audio: callback opened ok
+[53095] audio: audio_client_start out
+[53099] audio: tx[0]  len:0
+[53103] audio: audio_open ret=0x60414370
+[53107] audio: wav open ctrl=0x60413dec, client=0x60414370, c=1 samrate=16000
+[53207] audio: server volume=15, mute=0 eq_mute=0
+[53213] audio: not eq change volume=-16
+[53221] drv.audcodec: dac set volume: prc=0 codec=-16
+
+[53649] drv.chsc6417: chsc6x: chsc6x_chip_id 0x5c 0x7c 
+
+[53656] drv.chsc6417: chsc6x: chsc6x_chip_id 0x5c  
+
+[53662] drv.chsc6417: chsc6417tp probe OK
+
+[53667] TOUCH: touch screen found driver  607f2a98, chsc6417tp
+[53674] drv.chsc6417: chsc6417_touch_init++
+
+[53686] drv.chsc6417: chsc6x: read 0x8000-12 OK! 
+
+[53692] drv.chsc6417: chsc6x: g_mccode is 0x1 
+
+[53804] drv.chsc6417: chsc6x: get_running_cfg pass !
+
+[53816] drv.chsc6417: chsc6x: vid=47,pid=96,boot_ver=0x236,cfg_ver=3,chip_id=0x5c
+
+[54386] drv.chsc6417: Enable palmcheck OK 
+
+[54397] drv.chsc6417: chsc6417_touch_init OK
+
+[54687] motor_device: rt_motor_ctrl ret:0 flag:80 *args:1
+[54694] motor_device: rt_motor_ctrl ret:0 flag:80 *args:2
+Motor 10001095
+[56663] motor_device: rt_motor_ctrl ret:0 flag:80 *args:1
+app_motor_power: off 
+[56673] motor_device: rt_motor_close ret:0 flag:0
+[64395] APP.UI: power_on_anim_done_callback: 2
+[64400] APP.UI: power_on_anim_rel_sema: err 0
+[67381] audio: audio_ioctl: ret=0
+[68100] audio: wav--end
+[68103] APP.UI: ring_callback_func: cmd 8 
+
+[68119] APP.UI: app_ring_end_stop:1--1
+[68123] APP.UI: app_ring_stop
+[68289] audio: mp3 close cmd
+[68293] audio: audio_close type=5 n=ring h=0x60414370
+[68299] audio: audio cmd=1
+[68302] audio: audio_client_stop 0x60414370 ring pm_debug=1
+[68309] audio: mp3 user callback
+[68312] APP.UI: ring_callback_func: cmd 1 
+
+[68317] audio: callback closed ok
+[68321] audio: audio_device_close in
+[68325] audio: audio_device_speaker_close
+[68330] audio: close PA
+sifli_aw8155_stop 
+[68340] audio: mute audcodec output
+[68344] drv.audcodec: codec dac mute set:1
+
+[68349] drv.audcodec: bf0_audio_stop 0x100
+
+[68354] drv.audcodec: bf0_audio_stop 0x100 done
+
+[68360] drv.audprc: bf0_audio_stop 0x1102
+
+[68365] drv.audprc: bf0_audio_stop 0x1102 done
+
+[68370] drv.audcodec: bf0_audio_stop 0x401
+
+[68375] drv.audcodec: bf0_audio_stop 0x401 done
+
+PLL disable
+[68382] drv.audcodec: bf0_audio_stop 0x0
+
+[68387] drv.audcodec: bf0_audio_stop 0x0 done
+
+[68392] drv.audprc: bf0_audio_stop 0x0
+
+[68397] drv.audprc: bf0_audio_stop 0x0 done
+
+[68402] drv.audprc: bf0_audio_stop 0x1
+
+[68406] drv.audprc: bf0_audio_stop 0x1 done
+
+[68411] audio: close_hardware_device out
+[68416] audio: audio_device_close out
+[68420] audio: suspend empty
+[68424] audio: notify listern(1, 0)
+[68428] audio: audio_client_stop out
+[68432] audio: audio_close done
+[68436] audio: wav exit..
+[68439] audio: wav exit done
+flashdb_read: mgid len 120 0 time 1786 (ms)
+[69687] APP.UI: message_flashdb_init: total_number 30
+db_read_local: local8210 len 2064
+flashdb_read: local8210 len 2068 2068 time 4 (ms)
+[69746] NO_TAG: fs_file_list_update: /music/song/audio_list.txt not exist,create
+[69784] audio: mp3_getinfo /music/song/local_music1.mp3
+[69790] audio: mp3 open /music/song/local_music1.mp3
+[69808] audio: ID3 len=4200 fsize=1262256 10
+[69814] audio: id3v2 ver:3 flags:00 len:4200
+
+[70112] audio: mp3 open /music/song/local_music1.mp3
+[70117] audio: mp3 open /music/song/local_music1.mp3
+[70135] audio: ID3 len=0x105e
+audio_file_joint_begin:local_music1.mp3;#1:Masked Wolf;#2:Astronaut in the Ocean;#4:78;
+[70201] audio: mp3_getinfo /music/song/local_music10.mp3
+[70207] audio: mp3 open /music/song/local_music10.mp3
+[70228] audio: ID3 len=4181 fsize=1308212 10
+[70233] audio: id3v2 ver:3 flags:00 len:4181
+
+[70533] audio: mp3 open /music/song/local_music10.mp3
+[70539] audio: mp3 open /music/song/local_music10.mp3
+[70558] audio: ID3 len=0x104b
+audio_file_joint_begin:local_music10.mp3;#1:郭顶;#2:凄美地;#4:81;
+[70614] audio: mp3_getinfo /music/song/local_music11.mp3
+[70620] audio: mp3 open /music/song/local_music11.mp3
+[70642] audio: ID3 len=4185 fsize=1704859 10
+[70647] audio: id3v2 ver:3 flags:00 len:4185
+
+[70943] audio: mp3 open /music/song/local_music11.mp3
+[70949] audio: mp3 open /music/song/local_music11.mp3
+[70967] audio: ID3 len=0x104f
+audio_file_joint_begin:local_music11.mp3;#1:三叔说;#2:海市蜃楼;#4:106;
+[71030] audio: mp3_getinfo /music/song/local_music12.mp3
+[71036] audio: mp3 open /music/song/local_music12.mp3
+[71059] audio: ID3 len=4189 fsize=1735792 10
+[71064] audio: id3v2 ver:3 flags:00 len:4189
+
+[71364] audio: mp3 open /music/song/local_music12.mp3
+[71370] audio: mp3 open /music/song/local_music12.mp3
+[71389] audio: ID3 len=0x1053
+audio_file_joint_begin:local_music12.mp3;#1:刘羽晨;#2:想你的声音啊;#4:108;
+[71447] audio: mp3_getinfo /music/song/local_music13.mp3
+[71453] audio: mp3 open /music/song/local_music13.mp3
+[71475] audio: ID3 len=4189 fsize=1452416 10
+[71480] audio: id3v2 ver:3 flags:00 len:4189
+
+[71488] nvds: sifli_nvds_read_tag_value: val:603b426f tag:47
+[71602] bt_common: svc_set init_gainst_data 585
+[71610] bt_common: hfp state change new_sate 0x 0,old_state 0xff
+[71620] bt_common: hid_init
+
+[71640] ble_cm: read_bond_infor_from_flash: 0
+[72017] audio: mp3 open /music/song/local_music13.mp3
+[72023] audio: mp3 open /music/song/local_music13.mp3
+[72043] audio: ID3 len=0x1053
+audio_file_joint_begin:local_music13.mp3;#1:买辣椒也用券;#2:起风了;#4:90;
+[72101] audio: mp3_getinfo /music/song/local_music14.mp3
+[72107] audio: mp3 open /music/song/local_music14.mp3
+[72131] audio: ID3 len=4185 fsize=1287318 10
+[72136] audio: id3v2 ver:3 flags:00 len:4185
+
+[72434] audio: mp3 open /music/song/local_music14.mp3
+[72441] audio: mp3 open /music/song/local_music14.mp3
+[72460] audio: ID3 len=0x104f
+audio_file_joint_begin:local_music14.mp3;#1:王齐铭;#2:海边探戈;#4:80;
+[72518] audio: mp3_getinfo /music/song/local_music2.mp3
+[72524] audio: mp3 open /music/song/local_music2.mp3
+[72550] audio: ID3 len=4184 fsize=1736623 10
+[72555] audio: id3v2 ver:3 flags:00 len:4184
+
+[72851] audio: mp3 open /music/song/local_music2.mp3
+[72857] audio: mp3 open /music/song/local_music2.mp3
+[72876] audio: ID3 len=0x104e
+audio_file_joint_begin:local_music2.mp3;#1:Vanotek;#2:back to me;#4:108;
+[72934] audio: mp3_getinfo /music/song/local_music5.mp3
+[72940] audio: mp3 open /music/song/local_music5.mp3
+[72964] audio: ID3 len=4187 fsize=1227134 10
+[72970] audio: id3v2 ver:3 flags:00 len:4187
+
+[73266] audio: mp3 open /music/song/local_music5.mp3
+[73272] audio: mp3 open /music/song/local_music5.mp3
+[73291] audio: ID3 len=0x1051
+audio_file_joint_begin:local_music5.mp3;#1:全昭弥;#2:Fast forward;#4:76;
+[73349] audio: mp3_getinfo /music/song/local_music6.mp3
+[73355] audio: mp3 open /music/song/local_music6.mp3
+[73378] audio: ID3 len=4189 fsize=1371750 10
+[73383] audio: id3v2 ver:3 flags:00 len:4189
+
+[73679] audio: mp3 open /music/song/local_music6.mp3
+[73685] audio: mp3 open /music/song/local_music6.mp3
+[73704] audio: ID3 len=0x1053
+audio_file_joint_begin:local_music6.mp3;#1:LBI利比;#2:小城夏天;#4:85;
+[73762] audio: mp3_getinfo /music/song/local_music7.mp3
+[73768] audio: mp3 open /music/song/local_music7.mp3
+[73792] audio: ID3 len=4185 fsize=2069738 10
+[73797] audio: id3v2 ver:3 flags:00 len:4185
+
+[74096] audio: mp3 open /music/song/local_music7.mp3
+[74102] audio: mp3 open /music/song/local_music7.mp3
+[74121] audio: ID3 len=0x104f
+audio_file_joint_begin:local_music7.mp3;#1:Olly Murs;#2:That Girl;#4:129;
+[74179] audio: mp3_getinfo /music/song/local_music9.mp3
+[74185] audio: mp3 open /music/song/local_music9.mp3
+[74211] audio: ID3 len=4187 fsize=1224626 10
+[74216] audio: id3v2 ver:3 flags:00 len:4187
+
+[74513] audio: mp3 open /music/song/local_music9.mp3
+[74519] audio: mp3 open /music/song/local_music9.mp3
+[74539] audio: ID3 len=0x1051
+audio_file_joint_begin:local_music9.mp3;#1:蔡健雅;#2:红色高跟鞋;#4:76;
+[74776] NO_TAG: fs_file_list_update: /ring/long/audio_list.txt not exist,create
+[75619] NO_TAG: fs_file_list_update: /ring/short/audio_list.txt not exist,create
+[75633] NO_TAG: fs_file_list_update: open /ring/short/audio_list.txt failed!
+[75646] NO_TAG: fs_file_list_iteration: /ring/short/audio_list.txt not exist
+[75660] NO_TAG: fs_file_list_update: /music/record/audio_list.txt not exist,create
+app_init_all_setting_config_custmize
+[76842] sibles: 
+BLE ready!
+
+[76846] btcomm: Clear mask 1
+[76856] nvds: sifli_nvds_read_tag_value: val:603b3d05 tag:1
+[76864] ble_connect: BLE_POWER_ON_IND!
+
+set cmd 0x91, stop_status:0, msg_status:1
+[76905] sibles: GAP event 3328
+[76909] BLE_GAP: evt 145, ret 0
+
+[76943] bt_common: svc_release gap_dm_sync_reg_cfm_hdl 866
+[76952] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[76962] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[76970] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[76979] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[76986] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[76995] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[77002] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77011] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+st = 0
+[77019] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77027] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+[77034] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77043] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+[77049] bt_common: hid_gap_l2ca_reg_cfm_standbyst
+
+[77056] bt_common: svc_set gap_l2c_reg_req_msg_send 773
+[77064] bt_common: svc_release gap_l2c_reg_cfm_hdl 813
+[77071] bt_common: svc_set gap_rfc_reg_req_msg_send 2437
+[77082] bt_common: << Local device addreess: C2AB:11:2B97A7
+
+[77089] bt_rt_device.urc: URC BT addr ind
+[77096] bt_common: hid_enb_req
+
+[77103] nvds: sifli_nvds_read_tag_value: val:603b9fc5 tag:1
+[77114] bt_common: hidh_enb_req
+
+[77119] bt_common: hidh_enb_req,rec_byte_num = 322
+
+[77128] bt_common: svc_release gap_rfc_reg_cfm_hdl 2539
+[77135] bt_common: hfp state change new_sate 0x 1,old_state 0xff
+[77145] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[77811] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[77819] bt_common: >> AVCTP enabled
+
+[77824] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[77833] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[77840] bt_common: hidh_gap_sds_reg_cfm_idlest
+
+[77846] bt_common: hids_hid_enb_cfm
+
+[77851] bt_common: >> HID enabled
+
+[77856] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[77863] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[77871] bt_common: hfp msg *msg_type 8000 inst_data->st 1
+
+[77878] bt_common: >> Handfree enable success
+
+[77883] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[77891] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[77898] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[77904] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[77914] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[77921] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[77934] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[77941] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[77951] bt_common: << Local LMP version: 12
+
+[77956] bt_common: << Local LMP subversion: 542
+
+[77962] bt_common: << Local controller manufacturer name id: 2636
+
+[77971] bt_common: << Local device name changed!
+
+[77977] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[77990] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+[77998] bt_common: hfp state change new_sate 0x 2,old_state 0x 2
+[78006] bt_common: hfp msg *msg_type 8000 inst_data->st 1
+
+[78013] bt_common: >> Headset enable success
+
+[78021] bt_common: svc_set gap_rfc_acpt_conn_req_hdl 399
+[78028] bt_common: svc_release connable_hdl 8039
+[78036] bt_common: svc_set gap_rfc_acpt_conn_req_hdl 399
+[78043] bt_common: svc_release connable_hdl 8039
+[78069] bt_common: << Class of device has been changed!
+
+[78079] NO_TAG: BT CM rd local dev cfm
+[78083] btcomm: Clear mask 2
+[78087] bt_common: << Local device name: HK9 Mini+ Call
+
+flashdb_read: setting8021 len 76 0 time 3842 (ms)
+db_read_setting: setting8021 ret_len 0
+flashdb_read: settingb022 len 19 0 time 2402 (ms)
+db_read_setting: settingb022 ret_len 0
+flashdb_read: setting8013 len 5 0 time 2401 (ms)
+db_read_setting: setting8013 ret_len 0
+[159877] bt_common: << Class of device: 0x240418
+
+flashdb_read: setting920b len 36 0 time 8890 (ms)
+db_read_setting: setting920b ret_len 0
+[159916] bt_rt_device.control: bt_sifli_control 232 bt_set_event = 0 
+[159926] NO_TAG: bt_cm_close_bt, close_process1 conn_num 0 
+[159933] bt_common: close req closeflag1, hdlffff
+
+[159939] bt_common: close ret1 0 ret2 ffffffff
+
+[159949] bt_common: << Write scan enable success
+
+[159975] bt_common: << Scan mode: 0
+
+[159980] bt_common: <<            No scans enbd.
+
+[160057] bt_rt_device.urc: urc bt close:1
+[160062] bt_rt_device.control: BT_CONTROL_CLOSE_DEVICE cmd:b031
+[160164] bt_device: rt_bt_close ret:0 flag:0
+[160169] bt_service: app_close_bt ret:0
+shor_scan_timer_del
+[160176] bt_rt_device.control: bt_sifli_control_open 204 bt_set_event = 10000 
+[160185] bt_common: open req 
+
+[160192] bt_rt_device.control: bt_sifli_control_open 214 bt_set_event = 0 
+[160218] bt_common: << Write scan enable success
+
+[160231] bt_common: << Scan mode: 3
+
+[160235] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+[160313] bt_rt_device.control: BT_CONTROL_OPEN_DEVICE
+[160318] bt_device: rt_bt_open ret:0 flag:10
+[160323] bt_service: app_open_bt ret:0
+[160328] audio: a2dp set speaker volume: 61-->7
+
+[160334] bt_service: app_bt_set_volume ret:0
+[160339] audio: set speaker volume: 13-->13
+
+[160344] bt_service: app_bt_set_volume ret:0
+shor_bt_scan
+shor_scan_timer_create
+[160451] bt_service: app_bt_switch_off ret:0
+[160458] bt_service: app_bt_switch_on ret:0
+[160463] bt_connect: [app_bt_change_page_activity] is_high:1
+[160475] bt_common: << Write scan enable success
+
+[160510] bt_common: << Write scan enable success
+
+[160520] bt_common: << Scan mode: 3
+
+[160524] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+[160540] bt_common: << Scan mode: 3
+
+[160544] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+[160625] bt_connect: [app_bt_connect_req] mask:23 type:1 addr:00000000
+[160633] bt_connect: db addr:00:00:00:00:00:00
+[160733] bt_connect: [app_bt_connect_req] bt addr invalid
+[160739] bt_common: bt_avsnk_open 0 flag
+
+[160746] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[160752] NO_TAG: fsm: SDS st:0 evt:0
+[160757] NO_TAG: fsm: SDS st:1 evt:3
+[160762] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+st = 2
+[160771] bt_common: enable(1) ret 0
+[160776] bt_common: >> AUDIO SOURCE ENB
+
+[160780] bt_common: << av had been enabled 
+
+[160786] bt_rt_device.urc: URC BT avsnk open complete ind
+[160794] bt_common: svc_set gap_l2c_conn_acpt_req_hdl 2235
+[160801] bt_common: svc_release gap_l2c_profile_st_change_setting_ext 12379
+[160811] bt_common: svc_set gap_sds_reg_req_hdl 2269
+[160818] NO_TAG: fsm: SDS st:0 evt:0
+[160822] NO_TAG: fsm: SDS st:1 evt:3
+[160830] bt_common: svc_release gap_sds_reg_cfm_hdl 2344
+st = 3
+[160838] bt_common: enable(0) ret 0
+[160843] bt_common: << av had been enabled 
+
+[160850] bt_service: app_bt_open_a2dp ret:0
+flashdb_read: setting9b10 len 7 0 time 1593 (ms)
+db_read_setting: setting9b10 ret_len 0
+flashdb_read: setting9b25 len 33 0 time 1547 (ms)
+db_read_setting: setting9b25 ret_len 0
+flashdb_read: setting9b26 len 31 0 time 1575 (ms)
+db_read_setting: setting9b26 ret_len 0
+flashdb_read: setting9b27 len 22 0 time 1552 (ms)
+db_read_setting: setting9b27 ret_len 0
+flashdb_read: setting9b28 len 14 0 time 1542 (ms)
+db_read_setting: setting9b28 ret_len 0
+flashdb_read: setting9b29 len 14 0 time 1527 (ms)
+db_read_setting: setting9b29 ret_len 0
+flashdb_read: setting9b2a len 14 0 time 1516 (ms)
+db_read_setting: setting9b2a ret_len 0
+flashdb_read: setting9b2b len 14 0 time 1513 (ms)
+db_read_setting: setting9b2b ret_len 0
+flashdb_read: setting9b30 len 256 0 time 1518 (ms)
+db_read_setting: setting9b30 ret_len 0
+flashdb_read: setting9b35 len 2904 0 time 1521 (ms)
+db_read_setting: setting9b35 ret_len 0
+flashdb_read: setting9208 len 488 0 time 1519 (ms)
+db_read_setting: setting9208 ret_len 0
+flashdb_read: setting9b39 len 118 0 time 1520 (ms)
+db_read_setting: setting9b39 ret_len 0
+flashdb_read: setting9b3a len 816 0 time 1549 (ms)
+db_read_setting: setting9b3a ret_len 0
+[359166] bt_service: app_bt_switch_off ret:0
+[359172] bt_service: app_bt_switch_on ret:0
+[359177] bt_connect: [app_bt_change_page_activity] is_high:0
+shor_scan_timer_del
+shor_scan_timeroutaudio_time=0
+[359215] bt_common: << Write scan enable success
+
+[359249] bt_common: << Write scan enable success
+
+[359258] bt_common: << Scan mode: 3
+
+[359263] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+[359277] bt_common: << Scan mode: 3
+
+[359281] bt_common: <<            Inquiry scan enbd.
+<<            Page scan enbd.
+
+flashdb_read: setting9b3b len 5 0 time 1532 (ms)
+db_read_setting: setting9b3b ret_len 0
+flashdb_read: setting9b3c len 14 0 time 1526 (ms)
+db_read_setting: setting9b3c ret_len 0
+flashdb_read: setting9b3d len 14 0 time 1529 (ms)
+db_read_setting: setting9b3d ret_len 0
+flashdb_read: setting9b3e len 14 0 time 1526 (ms)
+db_read_setting: setting9b3e ret_len 0
+flashdb_read: setting9b3f len 14 0 time 1527 (ms)
+db_read_setting: setting9b3f ret_len 0
+flashdb_read: setting9b40 len 14 0 time 1534 (ms)
+db_read_setting: setting9b40 ret_len 0
+flashdb_read: setting9b90 len 5 0 time 1531 (ms)
+db_read_setting: setting9b90 ret_len 0
+flashdb_read: setting9b93 len 5 0 time 1533 (ms)
+db_read_setting: setting9b93 ret_len 0
+flashdb_read: setting9b6b len 6 0 time 1563 (ms)
+db_read_setting: setting9b6b ret_len 0
+flashdb_read: setting8002 len 24 0 time 1535 (ms)
+db_read_setting: setting8002 ret_len 0
+flashdb_read: setting801a len 26 0 time 1538 (ms)
+db_read_setting: setting801a ret_len 0
+flashdb_read: setting9b5a len 5 0 time 1542 (ms)
+db_read_setting: setting9b5a ret_len 0
+flashdb_read: setting9b5b len 5 0 time 1539 (ms)
+db_read_setting: setting9b5b ret_len 0
+flashdb_read: setting9207 len 18 0 time 1538 (ms)
+db_read_setting: setting9207 ret_len 0
+flashdb_read: setting920c len 11 0 time 1545 (ms)
+db_read_setting: setting920c ret_len 0
+flashdb_read: setting9b5c len 7 0 time 1541 (ms)
+db_read_setting: setting9b5c ret_len 0
+flashdb_read: setting9219 len 16 0 time 1536 (ms)
+db_read_setting: setting9219 ret_len 0
+flashdb_read: setting9b5d len 12 0 time 1540 (ms)
+db_read_setting: setting9b5d ret_len 0
+flashdb_read: setting9b5e len 8 0 time 1562 (ms)
+db_read_setting: setting9b5e ret_len 0
+flashdb_read: setting9b5f len 23 0 time 1542 (ms)
+db_read_setting: setting9b5f ret_len 0

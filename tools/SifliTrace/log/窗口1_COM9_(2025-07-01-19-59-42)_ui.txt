@@ -1,0 +1,97 @@
+07-01 19:59:42:344    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+07-01 19:59:42:347    NAND ID 0xd1d13c
+07-01 19:59:42:348    det bbm table with 1, 1, 2
+07-01 19:59:42:348    detect result 2
+07-01 19:59:42:348    V1 1 in block 992, V2 0 in block 994
+07-01 19:59:42:348    Latest version 1
+07-01 19:59:42:353    V1 1 in block 993, V2 0 in block 995
+07-01 19:59:42:353    Latest version 1
+07-01 19:59:42:354    v1 1 in blk 992, v2 1 in block 993
+07-01 19:59:42:354    BBM MEM: ctx 2003c7c4, map1 2003c3b4, map2 2003c5bc 
+07-01 19:59:42:356    sif_bbm_init done
+07-01 19:59:42:356    
+07-01 19:59:42:356     \ | /
+07-01 19:59:42:359    - SiFli Corporation
+07-01 19:59:42:360     / | \     build on Jul  1 2025, 2.4.0 build 00000000
+07-01 19:59:42:361     2020 - 2022 Copyright by SiFli team
+07-01 19:59:42:362    mount /dev sucess
+07-01 19:59:42:364    [406] I/drv.rtc main: PSCLR=0x24302100 DivAI=36 DivAF=3080 B=256
+07-01 19:59:42:365    [413] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036236, rtc ppm=0
+07-01 19:59:42:366    
+07-01 19:59:42:366    [421] I/drv.rtc main: DIVA=36, DIVA_FRA=3091, DIVB=256
+07-01 19:59:42:367    
+07-01 19:59:42:367    [427] I/drv.rtc main: Init RTC, wake = 1
+07-01 19:59:42:368    
+07-01 19:59:42:369    NAND factory magic error 0x6e11802 vs 0x53450617
+07-01 19:59:42:370    [440] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+07-01 19:59:42:370    
+07-01 19:59:42:371    [446] I/drv.audprc main: HAL_AUDPRC_Init res 0
+07-01 19:59:42:373    
+07-01 19:59:42:373    [451] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+07-01 19:59:42:374    
+07-01 19:59:42:375    [457] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+07-01 19:59:42:375    lvsf_font_load: faces 1 ft_cache_size 300000
+07-01 19:59:42:376    call par CFG1(3313)
+07-01 19:59:42:377    fc 9, xtal 2000, pll 2132
+07-01 19:59:42:377    call par CFG1(3313)
+07-01 19:59:42:377    fc 7, xtal 2000, pll 1709
+07-01 19:59:42:377    mount fs[elm] on / failed.
+07-01 19:59:42:377    [564] I/drv.rtc app_watc: Get initial cycles: 1036236 rtc=1656666129.0039
+07-01 19:59:42:377    
+07-01 19:59:42:377    [620] I/drv.rtc app_watc: Get initial cycles: 1036236 rtc=1656666000.0039
+07-01 19:59:42:377    
+07-01 19:59:42:377    [629] I/drv.lcd app_watc: [NONE] -> [OPENING]
+07-01 19:59:42:384    [634] I/drv.lcd lcd_task: open
+07-01 19:59:42:384    [638] I/drv.epic lcd_task: drv_gpu opened.
+07-01 19:59:42:384    [642] I/drv.lcd lcd_task: HW open
+07-01 19:59:42:384    [653] I/drv.lcd lcd_task: Try registered LCD driver...
+07-01 19:59:42:384    msh />
+07-01 19:59:42:551    [2231] I/NO_TAG lcd_task: SH8603B_Init 
+07-01 19:59:42:555    
+07-01 19:59:42:737    SH8603B_Init_Finish
+07-01 19:59:42:766    [4245] I/NO_TAG lcd_task: 
+07-01 19:59:42:769     lcd_error  SH8603B_ReadID 0x0 
+07-01 19:59:42:770    
+07-01 19:59:42:771    [4252] I/drv.lcd lcd_task: Found lcd SH8603B id:9c03h
+07-01 19:59:42:771    [4258] I/drv.lcd lcd_task: HW open done.
+07-01 19:59:42:771    [4262] I/drv.lcd lcd_task: [OPENING] -> [INITIALIZED]
+07-01 19:59:42:771    [4268] I/drv.lcd lcd_task: open done.
+07-01 19:59:42:771    [4272] I/drv.lcd_fb app_watc: drv_lcd_fb_init
+07-01 19:59:42:771    [4278] I/drv.lcd_fb app_watc: drv_lcd_fb_init done.
+07-01 19:59:42:771    [4285] I/TOUCH app_watc: Open
+07-01 19:59:42:771    [4289] I/TOUCH tp_init: Find touch screen driver...
+07-01 19:59:42:771    [4295] I/TOUCH tp_init: Probe 10006499
+07-01 19:59:42:771    [4299] I/TOUCH tp_init: touch screen found driver  0x2003c214, ft3169
+07-01 19:59:42:771    [4306] I/TOUCH app_watc: Opened.
+07-01 19:59:42:771    [4328] I/LVGL app_watc: [littlevgl2rtt] Welcome to the littlevgl2rtt lib.
+07-01 19:59:42:771    [4343] D/APP.FWK app_watc: send msg[GUI_APP_MSG_RUN_APP] [Main] to gui_app_mbx tick:426.
+07-01 19:59:42:771    [4353] I/APP.FWK.INT app_watc: [Main]
+07-01 19:59:42:806    [4611] I/drv.lcd lcd_task: Auto turn on display.
+07-01 19:59:42:822    [4616] I/drv.lcd lcd_task: set brightness 50
+07-01 19:59:42:822    lcd_debug run  SH8603B_SetBrightness br = 50, bright = 127
+07-01 19:59:42:822    [4627] I/drv.lcd lcd_task: display on
+07-01 19:59:42:822    lcd_debug  SH8603B_DisplayOn
+07-01 19:59:42:822    [4635] I/drv.lcd lcd_task: [INITIALIZED] -> [ON]
+07-01 19:59:42:822    [4640] I/drv.lcd lcd_task: set brightness 100
+07-01 19:59:42:822    lcd_debug run  SH8603B_SetBrightness br = 100, bright = 255
+07-01 19:59:42:822    [4651] I/drv.lcd lcd_task: display on
+07-01 19:59:42:822    lcd_debug  SH8603B_DisplayOn
+07-01 19:59:42:822    [4659] D/APP.SCHE app_watc: ----------------app_schedule_task---------------start
+07-01 19:59:42:822    [4667] I/APP.SCHE app_watc: >>Execute msg[GUI_APP_MSG_RUN_APP] tick:426
+07-01 19:59:42:822    [4675] I/APP.SCHE app_watc: app[Main] do LOAD, 2004fc60
+07-01 19:59:42:822    [4681] I/APP.FWK app_watc: finding Main in builtin apps...
+07-01 19:59:42:822    [4687] D/APP.SCHE app_watc: app[Main] tgt_state [LAUNCHED] -> [RUNNING]
+07-01 19:59:42:822    [4695] I/APP.SCHE app_watc: app[Main] do START, 2004fc60
+07-01 19:59:42:822    [4701] I/APP.FWK.INT app_watc: [Main]
+07-01 19:59:42:822    [4705] D/APP.FWK app_watc: send msg[GUI_APP_MSG_OPEN_PAGE] [0x2004fc60] to gui_app_mbx tick:465.
+07-01 19:59:42:837    [4715] I/APP.SCHE app_watc: >>Execute msg[GUI_APP_MSG_OPEN_PAGE] tick:465
+07-01 19:59:42:838    [4723] D/APP.SCHE app_watc: app[Main] create page[root] 2004fb88
+07-01 19:59:42:838    [4730] D/APP.SCHE app_watc: page[Main][root] tgt_state [CREATED] -> [RESUMED]
+07-01 19:59:42:840    [4738] D/APP.SCHE app_watc: Stop all app, and return to main app
+07-01 19:59:42:841    [4747] I/APP.SCHE app_watc: page[Main][root] do ONSTART, 2004fb88
+07-01 19:59:42:841    [4769] I/APP.SCHE app_watc: page[Main][root] do ONRESUME, 2004fb88
+07-01 19:59:42:842    [4776] I/APP.SCHE app_watc: Try setup trans-anim
+07-01 19:59:42:842    [4781] I/APP.SCHE app_watc: Trans-anim is OFF, skip.
+07-01 19:59:42:843    [4787] D/APP.SCHE app_watc: app_schedule_task done.
+07-01 19:59:42:854    [5088] E/drv.ft3169 tp_init: ft3169 id_H=64
+07-01 19:59:42:854    [5094] E/drv.ft3169 tp_init: ft3169 id_L=56

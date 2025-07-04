@@ -1,0 +1,69 @@
+07-04 12:14:25:697    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+07-04 12:14:25:699    NAND ID 0xd1d13c
+07-04 12:14:25:702    det bbm table with 1, 1, 2
+07-04 12:14:25:702    detect result 2
+07-04 12:14:25:703    V1 1 in block 992, V2 0 in block 994
+07-04 12:14:25:704    Latest version 1
+07-04 12:14:25:704    V1 1 in block 993, V2 0 in block 995
+07-04 12:14:25:705    Latest version 1
+07-04 12:14:25:706    v1 1 in blk 992, v2 1 in block 993
+07-04 12:14:25:707    BBM MEM: ctx 2003c83c, map1 2003c42c, map2 2003c634 
+07-04 12:14:25:707    sif_bbm_init done
+07-04 12:14:25:708    
+07-04 12:14:25:708     \ | /
+07-04 12:14:25:709    - SiFli Corporation
+07-04 12:14:25:709     / | \     build on Jul  4 2025, 2.4.0 build 00000000
+07-04 12:14:25:709     2020 - 2022 Copyright by SiFli team
+07-04 12:14:25:710    mount /dev sucess
+07-04 12:14:25:710    [406] I/drv.rtc main: PSCLR=0x242f8d00 DivAI=36 DivAF=3043 B=256
+07-04 12:14:25:710    [413] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036311, rtc ppm=0
+07-04 12:14:25:711    
+07-04 12:14:25:711    [421] I/drv.rtc main: DIVA=36, DIVA_FRA=3048, DIVB=256
+07-04 12:14:25:711    
+07-04 12:14:25:712    [427] I/drv.rtc main: Init RTC, wake = 1
+07-04 12:14:25:712    
+07-04 12:14:25:713    NAND factory magic error 0x6e11802 vs 0x53450617
+07-04 12:14:25:713    [440] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+07-04 12:14:25:713    
+07-04 12:14:25:714    [446] I/drv.audprc main: HAL_AUDPRC_Init res 0
+07-04 12:14:25:714    
+07-04 12:14:25:714    [451] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+07-04 12:14:25:714    
+07-04 12:14:25:715    [457] I/TOUCH main: Regist touch screen driver, probe=0x10006519 
+07-04 12:14:25:716    lvsf_font_load: faces 1 ft_cache_size 300000
+07-04 12:14:25:716    call par CFG1(3313)
+07-04 12:14:25:717    fc 9, xtal 2000, pll 2133
+07-04 12:14:25:717    call par CFG1(3313)
+07-04 12:14:25:718    fc 7, xtal 2000, pll 1710
+07-04 12:14:25:718    Register root to mtd device with base addr 0x62840000
+07-04 12:14:25:719    disk_init:0
+07-04 12:14:25:744    init:6096
+07-04 12:14:25:744    mount fs on flash to root success
+07-04 12:14:25:745    mount fs[elm] on /
+07-04 12:14:25:746     failed.
+07-04 12:14:25:746    msh />
+07-04 12:14:55:899 TX:ls
+07-04 12:14:55:903    Directory /:
+07-04 12:14:55:905    app                 <DIR>                    
+07-04 12:14:55:907    sys                 <DIR>                    
+07-04 12:14:55:909    msh />msh />
+07-04 12:15:01:828 TX:ls
+07-04 12:15:01:830    Directory /:
+07-04 12:15:01:834    app                 <DIR>                    
+07-04 12:15:01:835    sys                 <DIR>                    
+07-04 12:15:01:837    msh />msh />
+07-04 12:15:14:089 TX:rm app
+07-04 12:15:14:118    msh />msh />
+07-04 12:15:15:811 TX:ls
+07-04 12:15:15:815    Directory /:
+07-04 12:15:15:818    sys                 <DIR>                    
+07-04 12:15:15:820    msh />msh />
+07-04 12:15:20:426 TX:rm sys
+07-04 12:15:20:455    msh />msh />
+07-04 12:15:21:621 TX:ls
+07-04 12:15:21:627    Directory /:
+07-04 12:15:21:630    msh />msh />
+07-04 12:15:23:860 TX:ls
+07-04 12:15:23:865    Directory /:
+07-04 12:15:23:869    msh />msh />
+07-04 12:26:50:686 SC:receive cmd: stopcom

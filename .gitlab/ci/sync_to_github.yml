@@ -1,0 +1,16 @@
+sync_to_github:
+  stage: sync_to_github
+  image: python:3.10
+  tags:
+    - docker
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  script:
+    - pip install -r tools/ci/requirements.txt -i https://mirrors.ustc.edu.cn/pypi/simple
+    - python3 tools/ci/gitlab_to_github_sync.py
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $SYNC_GITHUB'
+      when: always
+    - if: '$CI_PIPELINE_SOURCE == "web" && $SYNC_GITHUB'
+      when: always
+    - when: never

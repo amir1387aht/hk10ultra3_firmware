@@ -1,0 +1,71 @@
+Directory /:
+readme.txt          48                       
+video_example.mp4   0                        
+msh />msh />del: command not found.
+msh />msh />Directory /:
+readme.txt          48                       
+video_example.mp4   0                        
+msh />msh />msh />msh />Directory /:
+readme.txt          48                       
+msh />msh />mp4ÎÄ¼þÊÇ¿ÕµÄ£¬ÐèÒªÓÃÕæÊµµÄvideo_example.mp4ÎÄ¼þmsh />msh />msh />msh />Directory /:
+msh />msh />SFBL
+Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+NAND ID 0xd1d13c
+det bbm table with 1, 1, 2
+detect result 2
+V1 1 in block 992, V2 0 in block 994
+Latest version 1
+V1 1 in block 993, V2 0 in block 995
+Latest version 1
+v1 1 in blk 992, v2 1 in block 993
+BBM MEM: ctx 2000afc8, map1 2000abb8, map2 2000adc0 
+sif_bbm_init done
+
+ \ | /
+- SiFli Corporation
+ / | \     build on Jul  1 2025, 2.4.0 build 00000000
+ 2020 - 2022 Copyright by SiFli team
+mount /dev sucess
+[I/drv.rtc] PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+[I/drv.rtc] RC10K Freq=9kHz, cycle=1036256, rtc ppm=0
+
+[I/drv.rtc] DIVA=36, DIVA_FRA=3080, DIVB=256
+
+[I/drv.rtc] Init RTC, wake = 0
+
+NAND factory magic error 0x6e11802 vs 0x53450617
+[I/drv.audprc] init 00 ADC_PATH_CFG0 0x606
+
+[I/drv.audprc] HAL_AUDPRC_Init res 0
+
+[I/drv.audcodec] HAL_AUDCODEC_Init res 0
+
+[32m[I/TOUCH] Regist touch screen driver, probe=100064a9 [0m
+call par CFG1(3313)
+fc 9, xtal 2000, pll 2132
+call par CFG1(3313)
+fc 7, xtal 2000, pll 1709
+Register root to mtd device with base addr 0x62840000
+disk_init:0
+init:6096
+mount fs on flash to root success
+Use help to check file system command!
+msh />Directory /:
+msh />msh />msh />msh />msh />msh />Directory /:
+deb                 <DIR>                    
+msh />msh />msh />msh />disk free: 11.8 MB [ 6080 block, 2048 bytes per block ]
+msh />msh />disk free: 11.8 MB [ 6080 block, 2048 bytes per block ]
+msh />msh />mem_usage: command not found.
+msh />msh />mem_usage: command not found.
+msh />msh />app_mem: command not found.
+msh />msh />disk free: 11.8 MB [ 6080 block, 2048 bytes per block ]
+msh />msh />Sat Jan  1 00:01:28 2000
+msh />msh />
+ \ | /
+- SiFli Corporation
+ / | \     build on Jul  1 2025, 2.4.0 build 00000000
+ 2020 - 2022 Copyright by SiFli team
+msh />msh />Directory /:
+deb                 <DIR>                    
+msh />msh />msh />msh />Directory /:
+msh />msh />

@@ -1,0 +1,40 @@
+07-04 11:50:20:849    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+07-04 11:50:20:850    NAND ID 0xd1d13c
+07-04 11:50:20:851    det bbm table with 1, 1, 2
+07-04 11:50:20:852    detect result 2
+07-04 11:50:20:854    V1 1 in block 992, V2 0 in block 994
+07-04 11:50:20:855    Latest version 1
+07-04 11:50:20:856    V1 1 in block 993, V2 0 in block 995
+07-04 11:50:20:856    Latest version 1
+07-04 11:50:20:856    v1 1 in blk 992, v2 1 in block 993
+07-04 11:50:20:858    BBM MEM: ctx 2003c7bc, map1 2003c3ac, map2 2003c5b4 
+07-04 11:50:20:858    sif_bbm_init done
+07-04 11:50:20:859    
+07-04 11:50:20:859     \ | /
+07-04 11:50:20:859    - SiFli Corporation
+07-04 11:50:20:860     / | \     build on Jul  4 2025, 2.4.0 build 00000000
+07-04 11:50:20:860     2020 - 2022 Copyright by SiFli team
+07-04 11:50:20:860    mount /dev sucess
+07-04 11:50:20:861    [406] I/drv.rtc main: PSCLR=0x24305100 DivAI=36 DivAF=3092 B=256
+07-04 11:50:20:862    [413] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036153, rtc ppm=0
+07-04 11:50:20:862    
+07-04 11:50:20:862    [420] I/drv.rtc main: DIVA=36, DIVA_FRA=3139, DIVB=256
+07-04 11:50:20:863    
+07-04 11:50:20:863    [427] I/drv.rtc main: Init RTC, wake = 1
+07-04 11:50:20:863    
+07-04 11:50:20:864    NAND factory magic error 0x6e11802 vs 0x53450617
+07-04 11:50:20:864    [440] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+07-04 11:50:20:864    
+07-04 11:50:20:865    [446] I/drv.audprc main: HAL_AUDPRC_Init res 0
+07-04 11:50:20:865    
+07-04 11:50:20:865    [451] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+07-04 11:50:20:866    
+07-04 11:50:20:866    [457] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+07-04 11:50:20:866    lvsf_font_load: faces 1 ft_cache_size 300000
+07-04 11:50:20:867    call par CFG1(3313)
+07-04 11:50:20:868    fc 9, xtal 2000, pll 2129
+07-04 11:50:20:869    call par CFG1(3313)
+07-04 11:50:20:869    fc 7, xtal 2000, pll 1707
+07-04 11:50:20:871    mount fs[elm] on / failed.
+07-04 11:50:20:871    msh />
+07-04 11:53:34:282 SC:receive cmd: stopcom

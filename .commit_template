@@ -1,0 +1,8 @@
+[bug|new|opt|chore][module_name] one line description
+
+redmine: #id, REDMINE-id
+
+ext-redmine: #id, REDMINE-id
+
+[Description in detail]
+

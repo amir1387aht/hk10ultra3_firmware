@@ -1,0 +1,120 @@
+07-01 19:50:44:577    Directory /:
+07-01 19:50:44:577    readme.txt          48                       
+07-01 19:50:44:577    video_example.mp4   0                        
+07-01 19:50:44:584    msh />msh />
+07-01 19:52:36:371 TX:del video_example.mp4
+07-01 19:52:36:386    del: command not found.
+07-01 19:52:36:386    msh />msh />
+07-01 19:52:38:836 TX:ls
+07-01 19:52:38:836    Directory /:
+07-01 19:52:38:852    readme.txt          48                       
+07-01 19:52:38:852    video_example.mp4   0                        
+07-01 19:52:38:852    msh />msh />
+07-01 19:52:45:820 TX:rm video_example.mp4
+07-01 19:52:45:852    msh />msh />
+07-01 19:52:47:884 TX:ls
+07-01 19:52:47:900    Directory /:
+07-01 19:52:47:900    readme.txt          48                       
+07-01 19:52:47:905    msh />msh />
+07-01 19:52:55:473 TX:cat readme.txt
+07-01 19:52:55:481    mp4ÎÄ¼þÊÇ¿ÕµÄ£¬ÐèÒªÓÃÕæÊµµÄvideo_example.mp4ÎÄ¼þmsh />msh />
+07-01 19:53:14:392 TX:rm readme.txt
+07-01 19:53:14:428    msh />msh />
+07-01 19:53:15:762 TX:ls
+07-01 19:53:15:762    Directory /:
+07-01 19:53:15:762    msh />msh />
+07-01 19:53:21:657    SFBL
+07-01 19:53:23:648    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+07-01 19:53:23:661    NAND ID 0xd1d13c
+07-01 19:53:23:662    det bbm table with 1, 1, 2
+07-01 19:53:23:663    detect result 2
+07-01 19:53:23:664    V1 1 in block 992, V2 0 in block 994
+07-01 19:53:23:665    Latest version 1
+07-01 19:53:23:666    V1 1 in block 993, V2 0 in block 995
+07-01 19:53:23:667    Latest version 1
+07-01 19:53:23:667    v1 1 in blk 992, v2 1 in block 993
+07-01 19:53:23:669    BBM MEM: ctx 2000afc8, map1 2000abb8, map2 2000adc0 
+07-01 19:53:23:669    sif_bbm_init done
+07-01 19:53:23:669    
+07-01 19:53:23:669     \ | /
+07-01 19:53:23:669    - SiFli Corporation
+07-01 19:53:23:669     / | \     build on Jul  1 2025, 2.4.0 build 00000000
+07-01 19:53:23:669     2020 - 2022 Copyright by SiFli team
+07-01 19:53:23:675    mount /dev sucess
+07-01 19:53:23:675    [I/drv.rtc] PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+07-01 19:53:23:675    [I/drv.rtc] RC10K Freq=9kHz, cycle=1036256, rtc ppm=0
+07-01 19:53:23:675    
+07-01 19:53:23:675    [I/drv.rtc] DIVA=36, DIVA_FRA=3080, DIVB=256
+07-01 19:53:23:675    
+07-01 19:53:23:675    [I/drv.rtc] Init RTC, wake = 0
+07-01 19:53:23:675    
+07-01 19:53:23:678    NAND factory magic error 0x6e11802 vs 0x53450617
+07-01 19:53:23:679    [I/drv.audprc] init 00 ADC_PATH_CFG0 0x606
+07-01 19:53:23:679    
+07-01 19:53:23:679    [I/drv.audprc] HAL_AUDPRC_Init res 0
+07-01 19:53:23:679    
+07-01 19:53:23:680    [I/drv.audcodec] HAL_AUDCODEC_Init res 0
+07-01 19:53:23:680    
+07-01 19:53:23:681    [32m[I/TOUCH] Regist touch screen driver, probe=100064a9 [0m
+07-01 19:53:23:681    call par CFG1(3313)
+07-01 19:53:23:682    fc 9, xtal 2000, pll 2132
+07-01 19:53:23:682    call par CFG1(3313)
+07-01 19:53:23:682    fc 7, xtal 2000, pll 1709
+07-01 19:53:23:685    Register root to mtd device with base addr 0x62840000
+07-01 19:53:23:685    disk_init:0
+07-01 19:53:23:702    init:6096
+07-01 19:53:23:702    mount fs on flash to root success
+07-01 19:53:23:711    Use help to check file system command!
+07-01 19:53:23:711    msh />
+07-01 19:53:37:543 TX:ls
+07-01 19:53:37:543    Directory /:
+07-01 19:53:37:561    msh />msh />
+07-01 19:53:43:445 TX:mkdir deb
+07-01 19:53:43:461    msh />msh />
+07-01 19:53:51:094 TX:mkdir dev
+07-01 19:53:51:094    msh />msh />
+07-01 19:53:55:037 TX:ls
+07-01 19:53:55:037    Directory /:
+07-01 19:53:55:053    deb                 <DIR>                    
+07-01 19:53:55:053    msh />msh />
+07-01 19:54:01:544 TX:mkdir dev
+07-01 19:54:01:544    msh />msh />
+07-01 19:54:10:617 TX:df
+07-01 19:54:10:617    disk free: 11.8 MB [ 6080 block, 2048 bytes per block ]
+07-01 19:54:10:617    msh />m
+07-01 19:54:10:617    sh />
+07-01 19:54:26:995 TX:df
+07-01 19:54:27:010    disk free: 11.8 MB [ 6080 block, 2048 bytes per block ]
+07-01 19:54:27:011    msh />msh />
+07-01 19:54:32:259 TX:mem_usage
+07-01 19:54:32:274    mem_usage: command not found.
+07-01 19:54:32:274    msh />msh />
+07-01 19:54:36:567 TX:mem_usage
+07-01 19:54:36:567    mem_usage: command not found.
+07-01 19:54:36:567    msh />msh />
+07-01 19:54:38:808 TX:app_mem
+07-01 19:54:38:808    app_mem: command not found.
+07-01 19:54:38:808    msh />msh />
+07-01 19:54:46:841 TX:df
+07-01 19:54:46:841    disk free: 11.8 MB [ 6080 block, 2048 bytes per block ]
+07-01 19:54:46:841    msh />msh />
+07-01 19:54:51:716 TX:show_date
+07-01 19:54:51:716    Sat Jan  1 00:01:28 2000
+07-01 19:54:51:716    msh />msh />
+07-01 19:54:55:158 TX:version
+07-01 19:54:55:159    
+07-01 19:54:55:162     \ | /
+07-01 19:54:55:163    - SiFli Corporation
+07-01 19:54:55:164     / | \     build on Jul  1 2025, 2.4.0 build 00000000
+07-01 19:54:55:165     2020 - 2022 Copyright by SiFli team
+07-01 19:54:55:167    msh />msh />
+07-01 19:55:07:952 TX:ls
+07-01 19:55:07:957    Directory /:
+07-01 19:55:07:960    deb                 <DIR>                    
+07-01 19:55:07:960    msh />msh />
+07-01 19:55:14:904 TX:rm deb
+07-01 19:55:14:920    msh />msh />
+07-01 19:55:20:788 TX:ls
+07-01 19:55:20:788    Directory /:
+07-01 19:55:20:788    msh />msh />
+07-01 19:57:07:786 SC:receive cmd: stopcom

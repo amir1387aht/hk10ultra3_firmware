@@ -1,0 +1,518 @@
+06-30 13:57:25:535    SFBL
+06-30 13:57:27:792    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 13:57:27:792    NAND ID 0xd1d13c
+06-30 13:57:27:792    det bbm table with 1, 1, 2
+06-30 13:57:27:792    detect result 2
+06-30 13:57:27:792    V1 1 in block 992, V2 0 in block 994
+06-30 13:57:27:792    Latest version 1
+06-30 13:57:27:807    V1 1 in block 993, V2 0 in block 995
+06-30 13:57:27:807    Latest version 1
+06-30 13:57:27:807    v1 1 in blk 992, v2 1 in block 993
+06-30 13:57:27:807    BBM MEM: ctx 20028704, map1 200282f4, map2 200284fc 
+06-30 13:57:27:807    sif_bbm_init done
+06-30 13:57:27:807    
+06-30 13:57:27:807     \ | /
+06-30 13:57:27:807    - SiFli Corporation
+06-30 13:57:27:807     / | \     build on Jun 24 2025, 2.4.0 build 00000000
+06-30 13:57:27:807     2020 - 2022 Copyright by SiFli team
+06-30 13:57:27:807    mount /dev sucess
+06-30 13:57:27:807    [414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+06-30 13:57:27:807    [421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036351, rtc ppm=0
+06-30 13:57:27:807    
+06-30 13:57:27:807    [428] I/drv.rtc main: DIVA=36, DIVA_FRA=3025, DIVB=256
+06-30 13:57:27:807    
+06-30 13:57:27:807    [434] I/drv.rtc main: Init RTC, wake = 0
+06-30 13:57:27:807    
+06-30 13:57:27:807    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 13:57:27:807    [488] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 13:57:27:807    
+06-30 13:57:27:807    [494] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 13:57:27:823    
+06-30 13:57:27:823    [499] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 13:57:27:823    
+06-30 13:57:27:823    [505] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 13:57:27:823    lvsf_font_load: faces 1 ft_cache_size 300000
+06-30 13:57:27:823    call par CFG1(3313)
+06-30 13:57:27:823    fc 9, xtal 2000, pll 2129
+06-30 13:57:27:823    call par CFG1(3313)
+06-30 13:57:27:823    fc 7, xtal 2000, pll 1707
+06-30 13:57:27:823    msh />
+06-30 14:18:57:102    SFBL
+06-30 14:18:59:370    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 14:18:59:370    NAND ID 0xd1d13c
+06-30 14:18:59:370    det bbm table with 1, 1, 2
+06-30 14:18:59:370    dete
+06-30 14:18:59:370    ct result 2
+06-30 14:18:59:370    V1 1 in block 992, V2 0 in block 994
+06-30 14:18:59:370    Latest version 1
+06-30 14:18:59:370    V1 1 in block 993, V2 0 in block 995
+06-30 14:18:59:370    Latest version 1
+06-30 14:18:59:370    v1 1 in blk 992, v2 1 in block 993
+06-30 14:18:59:370    BBM MEM: ctx 20028704, map1 200282f4, map2 200284fc 
+06-30 14:18:59:370    sif_bbm_init done
+06-30 14:18:59:370    
+06-30 14:18:59:370     \ | /
+06-30 14:18:59:370    - SiFli Corporation
+06-30 14:18:59:370     / | \     build on Jun 24 2025, 2.4.0 build 00000000
+06-30 14:18:59:386     2020 - 2022 Copyright by SiFli team
+06-30 14:18:59:386    mount /dev sucess
+06-30 14:18:59:386    [414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+06-30 14:18:59:386    [420] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036185, rtc ppm=0
+06-30 14:18:59:386    
+06-30 14:18:59:386    [428] I/drv.rtc main: DIVA=36, DIVA_FRA=3120, DIVB=256
+06-30 14:18:59:386    
+06-30 14:18:59:386    [434] I/drv.rtc main: Init RTC, wake = 0
+06-30 14:18:59:386    
+06-30 14:18:59:386    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 14:18:59:386    [488] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 14:18:59:386    
+06-30 14:18:59:386    [494] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 14:18:59:386    
+06-30 14:18:59:386    [499] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 14:18:59:386    
+06-30 14:18:59:386    [505] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 14:18:59:386    lvsf_font_load: faces 1 ft_cache_size 300000
+06-30 14:18:59:386    call par CFG1(3313)
+06-30 14:18:59:386    fc 9, xtal 2000, pll 2133
+06-30 14:18:59:386    call par CFG1(3313)
+06-30 14:18:59:401    fc 7, xtal 2000, pll 1709
+06-30 14:18:59:401    msh />
+06-30 14:19:55:578 TX:app_run Main
+06-30 14:19:55:578    [521067] I/APP.FWK tshell: 
+06-30 14:19:55:578    Assertion failed at function:rt_mb_send_wait, line number:1453 ,(rt_object_get_type(&mb->parent.parent) == RT_Object_Class_MailPrevious ISR enable 0
+06-30 14:19:55:578    ===================
+06-30 14:19:55:578    Thread Info        
+06-30 14:19:55:578    ===================
+06-30 14:19:55:578             pri  status      sp      top     stack size max used left tick  error
+06-30 14:19:55:578    -------- ---  ------- ---------- ---------- ----------  ------  ---------- ---
+06-30 14:19:55:578    tshell    20  ready   0x20036db8 0x20036f34 0x00001000    29%   0x00000008 000
+06-30 14:19:55:578    epic_tas  13  suspend 0x2000a1e8 0x2000a488 0x00000c00    22%   0x0000000a 000
+06-30 14:19:55:594    tidle     31  ready   0x2002af98 0x2002aff0 0x00000200    19%   0x00000020 000
+06-30 14:19:55:594    timer      4  suspend 0x2001afc8 0x2001b020 0x00000400    08%   0x00000009 000
+06-30 14:19:55:594    ===================
+06-30 14:19:55:594    Mailbox Info       
+06-30 14:19:55:594    ===================
+06-30 14:19:55:594            entry size suspend thread
+06-30 14:19:55:594    ------- ----  ---- --------------
+06-30 14:19:55:594    ===================
+06-30 14:19:55:594    MessageQueue Info  
+06-30 14:19:55:594    ===================
+06-30 14:19:55:594             entry suspend thread
+06-30 14:19:55:594    -------- ----  --------------
+06-30 14:19:55:594    drv_epic 0000  1:epic_tas
+06-30 14:19:55:594    ===================
+06-30 14:19:55:594    Mutex Info         
+06-30 14:19:55:594    ===================
+06-30 14:19:55:594               owner  hold suspend thread
+06-30 14:19:55:594    -------- -------- ---- --------------
+06-30 14:19:55:594    rtc      (null)   0000 0
+06-30 14:19:55:594    ulog loc (null)   0000 0
+06-30 14:19:55:594    fslock   (null)   0000 0
+06-30 14:19:55:594    i2c_bus_ (null)   0000 0
+06-30 14:19:55:594    i2c_bus_ (null)   0000 0
+06-30 14:19:55:594    ===================
+06-30 14:19:55:594    Semaphore Info     
+06-30 14:19:55:594    ===================
+06-30 14:19:55:594             v   suspend thread
+06-30 14:19:55:594    -------- --- --------------
+06-30 14:19:55:594    shrx     000 0
+06-30 14:19:55:594    epic_rl  002 0
+06-30 14:19:55:594    epic     001 0
+06-30 14:19:55:594    ft3169   000 0
+06-30 14:19:55:594    app_ft_m 001 0
+06-30 14:19:55:594    app_mess 001 0
+06-30 14:19:55:594    app_imag 001 0
+06-30 14:19:55:594    app_imag 001 0
+06-30 14:19:55:594    aes_drv  001 0
+06-30 14:19:55:594    drv_eDma 001 0
+06-30 14:19:55:594    nandlock 001 0
+06-30 14:19:55:594    gpadc    001 0
+06-30 14:19:55:609    i2c4     000 0
+06-30 14:19:55:609    i2c1     000 0
+06-30 14:19:55:609    heap     001 0
+06-30 14:19:55:609    ===================
+06-30 14:19:55:609    Memory Info     
+06-30 14:19:55:609    ===================
+06-30 14:19:55:609    total memory: 233792 used memory : 13588 maximum allocated memory: 17540
+06-30 14:19:55:609    ===================
+06-30 14:19:55:609    MemoryHeap Info     
+06-30 14:19:55:609    ===================
+06-30 14:19:55:609              pool size  max used size available size
+06-30 14:19:55:609    -------- ---------- ------------- --------------
+06-30 14:19:55:609    app_ft_m 400000     4700          395300
+06-30 14:19:55:609    app_mess 96000      72            95928
+06-30 14:19:55:609    app_imag 50000      72            49928
+06-30 14:19:55:609    app_imag 800000     72            799928
+06-30 14:19:55:609    =====================
+06-30 14:19:55:609    PSP: 0x0x20036cd4, MSP: 0x0x20001fe0
+06-30 14:19:55:609    =====================
+06-30 14:19:55:609     sp: 0x20036d30
+06-30 14:19:55:609    psr: 0x40000000
+06-30 14:19:55:609    r00: 0x00000000
+06-30 14:19:55:609    r01: 0x00000017
+06-30 14:19:55:609    r02: 0x000002c3
+06-30 14:19:55:609    r03: 0x30000000
+06-30 14:19:55:609    r12: 0x1004f2d5
+06-30 14:19:55:609     lr: 0x1003dc23
+06-30 14:19:55:609     pc: 0x20005e98
+06-30 14:19:55:609    =====================
+06-30 14:19:55:609    fatal error on thread: tshell
+06-30 14:20:58:118    SFBL
+06-30 14:20:58:118    receive boot info1, stop it!!!
+06-30 14:20:58:165    ~yÐ
+06-30 14:21:24:158    SFBL
+06-30 14:21:26:427    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 14:21:26:427    NAND ID 0xd1d13c
+06-30 14:21:26:430    det bbm table with 1, 1, 2
+06-30 14:21:26:431    detect result 2
+06-30 14:21:26:433    V1 1 in block 992, V2 0 in block 994
+06-30 14:21:26:434    Latest version 1
+06-30 14:21:26:435    V1 1 in block 993, V2 0 in block 995
+06-30 14:21:26:436    Latest version 1
+06-30 14:21:26:436    v1 1 in blk 992, v2 1 in block 993
+06-30 14:21:26:436    BBM MEM: ctx 20028704, map1 200282f4, map2 200284fc 
+06-30 14:21:26:438    sif_bbm_init done
+06-30 14:21:26:438    
+06-30 14:21:26:438     \ | /
+06-30 14:21:26:438    - SiFli Corporation
+06-30 14:21:26:438     / | \     build on Jun 24 2025, 2.4.0 build 00000000
+06-30 14:21:26:438     2020 - 2022 Copyright by SiFli team
+06-30 14:21:26:442    mount /dev sucess
+06-30 14:21:26:442    [415] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+06-30 14:21:26:443    [421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036233, rtc ppm=0
+06-30 14:21:26:443    
+06-30 14:21:26:443    [429] I/drv.rtc main: DIVA=36, DIVA_FRA=3093, DIVB=256
+06-30 14:21:26:443    
+06-30 14:21:26:443    [435] I/drv.rtc main: Init RTC, wake = 0
+06-30 14:21:26:443    
+06-30 14:21:26:443    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 14:21:26:447    [489] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 14:21:26:447    
+06-30 14:21:26:447    [495] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 14:21:26:447    
+06-30 14:21:26:447    [500] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 14:21:26:455    
+06-30 14:21:26:455    [506] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 14:21:26:455    lvsf_font_load: faces 1 ft_cache_size 300000
+06-30 14:21:26:455    call par CFG1(3313)
+06-30 14:21:26:455    fc 9, xtal 2000, pll 2131
+06-30 14:21:26:458    call par CFG1(3313)
+06-30 14:21:26:458    fc 7, xtal 2000, pll 1708
+06-30 14:21:26:458    msh />
+06-30 14:21:34:802 TX:ls
+06-30 14:21:34:817    No such directory
+06-30 14:21:34:820    msh />msh />
+06-30 14:21:54:255 TX:nvds read 1
+06-30 14:21:54:255    nvds: command not found.
+06-30 14:21:54:270    msh />msh />
+06-30 14:22:00:193 TX:show_date
+06-30 14:22:00:193    Sat Jan  1 00:00:34 2000
+06-30 14:22:00:193    msh />msh />
+06-30 14:22:06:523 TX:otp_factory_read
+06-30 14:22:06:523    otp_factory_read: command not found.
+06-30 14:22:06:523    msh />msh />
+06-30 14:22:10:274 TX:assert
+06-30 14:22:10:274    Assertion failed at function:assert_command, line number:460 ,(0)
+06-30 14:22:10:274    Previous ISR enable 0
+06-30 14:22:10:274    ===================
+06-30 14:22:10:274    Thread Info        
+06-30 14:22:10:274    ===================
+06-30 14:22:10:289             pri  status      sp      top     stack size max used left tick  error
+06-30 14:22:10:289    -------- ---  ------- ---------- ---------- ----------  ------  ---------- ---
+06-30 14:22:10:289    tshell    20  ready   0x20036db8 0x20036f34 0x00001000    21%   0x00000006 000
+06-30 14:22:10:289    epic_tas  13  suspend 0x2000a1e8 0x2000a488 0x00000c00    22%   0x0000000a 000
+06-30 14:22:10:289    tidle     31  ready   0x2002af98 0x2002aff0 0x00000200    19%   0x00000013 000
+06-30 14:22:10:289    timer      4  suspend 0x2001afc8 0x2001b020 0x00000400    08%   0x00000009 000
+06-30 14:22:10:289    ===================
+06-30 14:22:10:289    Mailbox Info       
+06-30 14:22:10:289    ===================
+06-30 14:22:10:289            entry size suspend thread
+06-30 14:22:10:289    ------- ----  ---- --------------
+06-30 14:22:10:289    ===================
+06-30 14:22:10:289    MessageQueue Info  
+06-30 14:22:10:289    ===================
+06-30 14:22:10:289             entry suspend thread
+06-30 14:22:10:289    -------- ----  --------------
+06-30 14:22:10:289    drv_epic 0000  1:epic_tas
+06-30 14:22:10:289    ===================
+06-30 14:22:10:289    Mutex Info         
+06-30 14:22:10:289    ===================
+06-30 14:22:10:289               owner  hold suspend thread
+06-30 14:22:10:289    -------- -------- ---- --------------
+06-30 14:22:10:289    rtc      (null)   0000 0
+06-30 14:22:10:289    ulog loc (null)   0000 0
+06-30 14:22:10:289    fslock   (null)   0000 0
+06-30 14:22:10:289    i2c_bus_ (null)   0000 0
+06-30 14:22:10:289    i2c_bus_ (null)   0000 0
+06-30 14:22:10:289    ===================
+06-30 14:22:10:289    Semaphore Info     
+06-30 14:22:10:289    ===================
+06-30 14:22:10:289             v   suspend thread
+06-30 14:22:10:289    -------- --- --------------
+06-30 14:22:10:289    shrx     000 0
+06-30 14:22:10:289    epic_rl  002 0
+06-30 14:22:10:289    epic     001 0
+06-30 14:22:10:289    ft3169   000 0
+06-30 14:22:10:289    app_ft_m 001 0
+06-30 14:22:10:289    app_mess 001 0
+06-30 14:22:10:305    app_imag 001 0
+06-30 14:22:10:305    app_imag 001 0
+06-30 14:22:10:305    aes_drv  001 0
+06-30 14:22:10:305    drv_eDma 001 0
+06-30 14:22:10:305    nandlock 001 0
+06-30 14:22:10:305    gpadc    001 0
+06-30 14:22:10:305    i2c4     000 0
+06-30 14:22:10:305    i2c1     000 0
+06-30 14:22:10:305    heap     001 0
+06-30 14:22:10:305    ===================
+06-30 14:22:10:305    Memory Info     
+06-30 14:22:10:305    ===================
+06-30 14:22:10:305    total memory: 233792 used memory : 13264 maximum allocated memory: 17540
+06-30 14:22:10:305    ===================
+06-30 14:22:10:305    MemoryHeap Info     
+06-30 14:22:10:305    ===================
+06-30 14:22:10:305              pool size  max used size available size
+06-30 14:22:10:305    -------- ---------- ------------- --------------
+06-30 14:22:10:305    app_ft_m 400000     4700          395300
+06-30 14:22:10:305    app_mess 96000      72            95928
+06-30 14:22:10:305    app_imag 50000      72            49928
+06-30 14:22:10:305    app_imag 800000     72            799928
+06-30 14:22:10:305    =====================
+06-30 14:22:10:305    PSP: 0x0x20036e5c, MSP: 0x0x20001fe0
+06-30 14:22:10:305    =====================
+06-30 14:22:10:305     sp: 0x20036eb8
+06-30 14:22:10:305    psr: 0x40000000
+06-30 14:22:10:305    r00: 0x00000000
+06-30 14:22:10:305    r01: 0x00000017
+06-30 14:22:10:305    r02: 0x00000042
+06-30 14:22:10:305    r03: 0x30000000
+06-30 14:22:10:305    r12: 0x1004f2d5
+06-30 14:22:10:305     lr: 0x1003dc23
+06-30 14:22:10:305     pc: 0x20005e98
+06-30 14:22:10:305    =====================
+06-30 14:22:10:305    fatal error on thread: tshell
+06-30 14:22:14:105 TX:sysinfo
+06-30 14:22:18:076    SFBL
+06-30 14:22:20:342    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 14:22:20:342    NAND ID 0xd1d13c
+06-30 14:22:20:342    det bbm table with 1, 1, 2
+06-30 14:22:20:342    dete
+06-30 14:22:20:342    ct result 2
+06-30 14:22:20:342    V1 1 in block 992, V2 0 in block 994
+06-30 14:22:20:342    Latest versio
+06-30 14:22:20:342    n 1
+06-30 14:22:20:342    V1 1 in block 993, V2 0 in block 995
+06-30 14:22:20:342    Latest version 1
+06-30 14:22:20:342    v1 1 in blk 992, v2 1 in block 993
+06-30 14:22:20:342    BBM MEM: ctx 20028704, map1 200282f4, map2 200284fc 
+06-30 14:22:20:342    sif_bbm_init done
+06-30 14:22:20:342    
+06-30 14:22:20:342     \ | /
+06-30 14:22:20:342    - SiFli Corporation
+06-30 14:22:20:342     / | \     build on Jun 24 2025, 2.4.0 build 00000000
+06-30 14:22:20:342     2020 - 2022 Copyright by SiFli team
+06-30 14:22:20:342    mount /dev sucess
+06-30 14:22:20:342    [413] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+06-30 14:22:20:342    [420] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036236, rtc ppm=0
+06-30 14:22:20:342    
+06-30 14:22:20:342    [427] I/drv.rtc main: DIVA=36, DIVA_FRA=3091, DIVB=256
+06-30 14:22:20:357    
+06-30 14:22:20:357    [434] I/drv.rtc main: Init RTC, wake = 0
+06-30 14:22:20:357    
+06-30 14:22:20:357    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 14:22:20:357    [488] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 14:22:20:357    
+06-30 14:22:20:357    [494] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 14:22:20:357    
+06-30 14:22:20:357    [499] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 14:22:20:357    
+06-30 14:22:20:357    [505] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 14:22:20:357    lvsf_font_load: faces 1 ft_cache_size 300000
+06-30 14:22:20:357    call par CFG1(3313)
+06-30 14:22:20:357    fc 9, xtal 2000, pll 2128
+06-30 14:22:20:357    call par CFG1(3313)
+06-30 14:22:20:357    fc 7, xtal 2000, pll 170
+06-30 14:22:20:357    8
+06-30 14:22:20:357    msh />
+06-30 14:22:27:033 TX:fps
+06-30 14:22:27:033    fps: command not found.
+06-30 14:22:27:049    msh />msh />
+06-30 14:22:28:504 TX:ls
+06-30 14:22:28:504    No such directory
+06-30 14:22:28:504    msh />msh />
+06-30 14:22:31:208 TX:help
+06-30 14:22:31:208    RT-Thread shell commands:
+06-30 14:22:31:208    apa_set_mode     - set analog pa mode
+06-30 14:22:31:208    app_sche_print_perf_tick - Print app &subpage costed ticks
+06-30 14:22:31:208    list_app         - list all runing app
+06-30 14:22:31:208    app_exit         - exit specifed app
+06-30 14:22:31:208    app_goback       - go back current page
+06-30 14:22:31:208    app_cleanup      - cleanup all background app
+06-30 14:22:31:208    app_run          - run an app
+06-30 14:22:31:208    cpu              - cpu: view "Cortex-M33" profiling result
+06-30 14:22:31:208    cpu_prof_reset   - reset profiling counter
+06-30 14:22:31:208    cpu_prof_deinit  - detach profiling hook
+06-30 14:22:31:208    cpu_prof_init    - init prof
+06-30 14:22:31:208    mem_usage        - mem_usage: open or close memory usage log
+06-30 14:22:31:208    fps2             - fps2: open or close fps log
+06-30 14:22:31:224    en_lv_perf_debug - Enable lvgl perfomance debug log
+06-30 14:22:31:224    perf_cfg         - perfromance log config
+06-30 14:22:31:224    gpu_cfg          - gpu configurattion
+06-30 14:22:31:224    gif_log          - gif_log: open or close gif_log log
+06-30 14:22:31:224    sysinfo          - Show system information
+06-30 14:22:31:224    lcpu             - forward lcpu command
+06-30 14:22:31:224    pin              - pin gpio functions
+06-30 14:22:31:224    uart             - uart setting
+06-30 14:22:31:224    aprc_debug       - aprc_debug r / w idx value
+06-30 14:22:31:224    mic_gain         - mic_gain
+06-30 14:22:31:224    update_pll       - update PLL freq
+06-30 14:22:31:224    codec_dac_set_vol - set codec dac volume
+06-30 14:22:31:224    codec_hp_sin1k_test - audio_codec
+06-30 14:22:31:224    lcd_ctrl         - lcd control
+06-30 14:22:31:224    lcd_wreg         - lcd_wreg
+06-30 14:22:31:224    lcd_rreg         - lcd_rreg
+06-30 14:22:31:224    drv_lcd_test     - drv lcd test
+06-30 14:22:31:224    tp_ctrl          - Touch panel driver cmd
+06-30 14:22:31:224    en_drvtp_log     - enable touch panel log
+06-30 14:22:31:224    drv_epic_cfg     - drv_epic configuration
+06-30 14:22:31:224    reboot           - Reboot System
+06-30 14:22:31:224    dbguart2jlink    - Switch debug uart to jlink
+06-30 14:22:31:224    assert           - Force ULOG_ASSERT
+06-30 14:22:31:224    pwr_ctrl         - BT TX power adjust
+06-30 14:22:31:224    regop            - Register read / write
+06-30 14:22:31:224    memtrace         - dump memory trace information
+06-30 14:22:31:224    memcheck         - check memory data
+06-30 14:22:31:224    list_mem         - list memory usage information
+06-30 14:22:31:224    list_fd          - list file descriptor
+06-30 14:22:31:224    list_device      - list device in system
+06-30 14:22:31:224    list_timer       - list timer in system
+06-30 14:22:31:224    list_mempool     - list memory pool in system
+06-30 14:22:31:224    list_memheap     - list memory heap in system
+06-30 14:22:31:224    list_msgqueue    - list message queue in system
+06-30 14:22:31:224    list_mailbox     - list mail box in system
+06-30 14:22:31:224    list_mutex       - list mutex in system
+06-30 14:22:31:224    list_event       - list event in system
+06-30 14:22:31:224    list_sem         - list semaphore in system
+06-30 14:22:31:224    list_thread      - list thread
+06-30 14:22:31:224    version          - show RT - Thread version information
+06-30 14:22:31:239    help             - RT - Thread shell help.
+06-30 14:22:31:239    console          - Change MSH / FINSH console device.
+06-30 14:22:31:239    exit             - return to RT - Thread shell mode.
+06-30 14:22:31:239    free             - Show the memory usage in the system.
+06-30 14:22:31:239    time             - Execute command with time.
+06-30 14:22:31:239    ps               - List threads in the system.
+06-30 14:22:31:239    echo             - echo string to file
+06-30 14:22:31:239    df               - disk free
+06-30 14:22:31:239    mountfs          - mount device to file system
+06-30 14:22:31:239    mkfs             - format disk with file system
+06-30 14:22:31:239    mkdir            - Create the DIRECTORY.
+06-30 14:22:31:239    pwd              - Print the name of the current working directory.
+06-30 14:22:31:239    cd               - Change the shell working directory.
+06-30 14:22:31:239    rm               - Remove(unlink) the FILE(s).
+06-30 14:22:31:239    cat              - Concatenate FILE(s)
+06-30 14:22:31:239    mv               - Rename SOURCE to DEST.
+06-30 14:22:31:239    cp               - Copy SOURCE to DEST.
+06-30 14:22:31:239    ls               - List information about the FILEs.
+06-30 14:22:31:239    reset_ft         - reset_ft: close and re - open freetype test
+06-30 14:22:31:239    rotate_gpu_log   - lv_gpu_adv_log
+06-30 14:22:31:239    rotate_run       - rotate_run
+06-30 14:22:31:239    app_mem          - app_mem: open or close app_mem log
+06-30 14:22:31:239    adc              - adc function
+06-30 14:22:31:239    show_date        - get date and time or set [year month day hour min sec]
+06-30 14:22:31:239    list_date        - show date and tim
+06-30 14:22:31:239    e.
+06-30 14:22:31:239    
+06-30 14:22:31:239    msh />msh />
+06-30 14:22:56:311 TX:pwd
+06-30 14:22:56:311    /
+06-30 14:22:56:328    msh />msh />
+06-30 14:23:10:815 TX:mkdir t
+06-30 14:23:10:815    msh />msh />
+06-30 14:23:12:855 TX:ls
+06-30 14:23:12:855    No such directory
+06-30 14:23:12:871    msh />msh />
+06-30 14:23:17:865 TX:pwd
+06-30 14:23:17:865    /
+06-30 14:23:17:865    msh />msh />
+06-30 14:23:27:031 TX:df
+06-30 14:23:27:032    dfs_statfs failed.
+06-30 14:23:27:032    msh />msh />
+06-30 14:23:32:391 TX:mkfs
+06-30 14:23:32:391    Usage: mkfs [-t type] device
+06-30 14:23:32:391    msh />msh />
+06-30 14:23:57:880 TX:reboot
+06-30 14:23:57:907    SFBL
+06-30 14:23:59:297    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 14:23:59:307    NAND ID 0xd1d13c
+06-30 14:23:59:308    det bbm table with 1, 1, 2
+06-30 14:23:59:308    detect result 2
+06-30 14:23:59:309    V1 1 in block 992, V2 0 in block 994
+06-30 14:23:59:309    Latest versio
+06-30 14:23:59:311    n 1
+06-30 14:23:59:312    V1 1 in block 993, V2 0 in block 995
+06-30 14:23:59:312    Latest version 1
+06-30 14:23:59:312    v1 1 in blk 992, v2 1 in block 993
+06-30 14:23:59:312    BBM MEM: ctx 20028704, map1 200282f4, map2 200284fc 
+06-30 14:23:59:312    sif_bbm_init done
+06-30 14:23:59:315    
+06-30 14:23:59:315     \ | /
+06-30 14:23:59:315    - SiFli Corporation
+06-30 14:23:59:315     / | \     build on Jun 24 2025, 2.4.0 build 00000000
+06-30 14:23:59:315     2020 - 2022 Copyright by SiFli team
+06-30 14:23:59:317    mount /dev sucess
+06-30 14:23:59:317    [406] I/drv.rtc main: PSCLR=0x24304d00 DivAI=36 DivAF=3091 B=256
+06-30 14:23:59:317    [413] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036190, rtc ppm=0
+06-30 14:23:59:317    
+06-30 14:23:59:317    [420] I/drv.rtc main: DIVA=36, DIVA_FRA=3117, DIVB=256
+06-30 14:23:59:317    
+06-30 14:23:59:317    [427] I/drv.rtc main: Init RTC, wake = 1
+06-30 14:23:59:317    
+06-30 14:23:59:317    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 14:23:59:320    [440] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 14:23:59:320    
+06-30 14:23:59:320    [446] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 14:23:59:320    
+06-30 14:23:59:322    [451] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 14:23:59:322    
+06-30 14:23:59:322    [457] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 14:23:59:322    lvsf_font_load: faces 1 ft_cache_size 300000
+06-30 14:23:59:324    call par CFG1(3313)
+06-30 14:23:59:325    fc 9, xtal 2000, pll 2130
+06-30 14:23:59:325    call par CFG1(3313)
+06-30 14:23:59:326    fc 7, xtal 2000, pll 170
+06-30 14:23:59:326    8
+06-30 14:23:59:327    msh />
+06-30 14:24:36:254 TX:sysinfo
+06-30 14:24:36:254    --------System information---------
+06-30 14:24:36:254    HPSYS
+06-30 14:24:36:254    SYSCLK: 240.00MHz
+06-30 14:24:36:254    HCLK: 240.00MHz
+06-30 14:24:36:254    PCLK1: 120.00MHz
+06-30 14:24:36:254    PCLK2: 3.75MHz
+06-30 14:24:36:254    
+06-30 14:24:36:254    LPSYS
+06-30 14:24:36:254    SYSCLK: 48.00MHz
+06-30 14:24:36:254    HCLK: 24.00MHz
+06-30 14:24:36:254    PCLK1: 12.00MHz
+06-30 14:24:36:254    PCLK2: 750.00KHz
+06-30 14:24:36:269    
+06-30 14:24:36:270    BLESYS
+06-30 14:24:36:270    SYSCLK: 0.00 Hz
+06-30 14:24:36:270    HCLK: 0.00 Hz
+06-30 14:24:36:270    
+06-30 14:24:36:270    Memory
+06-30 14:24:36:270    MPI1: 144.00MHz
+06-30 14:24:36:270    MPI2: 0.00 Hz
+06-30 14:24:36:270    
+06-30 14:24:36:270    LCD
+06-30 14:24:36:270    Bandwidth: 0.00 bps
+06-30 14:24:36:270    7x0, align:0
+06-30 14:24:36:270    rect type,Other format
+06-30 14:24:36:270    
+06-30 14:24:36:270    msh />msh />
+06-30 14:25:05:192 TX:fps2
+06-30 14:25:05:192    fps_on: 1
+06-30 14:25:05:209    msh />msh />
+06-30 14:25:35:145 TX:mod_load
+06-30 14:25:35:145    mod_load: command not found.
+06-30 14:25:35:145    msh />msh />

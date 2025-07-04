@@ -1,0 +1,28 @@
+name: Batch Merge PRs from GitLab
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge_prs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: 'true'
+      
+      - name: Merge PRs
+        run: |
+          pip install -r tools/ci/requirements.txt
+          python tools/ci/merge_github_prs.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+          GITLAB_URL: ${{ secrets.GITLAB_URL }}
+          GITLAB_REPO: ${{ secrets.GITLAB_REPO }}
+          GITHUB_REPO: OpenSiFli/SiFli-SDK-ci

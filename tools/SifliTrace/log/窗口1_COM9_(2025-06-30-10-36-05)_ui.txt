@@ -1,0 +1,57 @@
+06-30 10:36:05:937    SFBL
+06-30 10:36:05:968    SFBL
+06-30 10:36:08:230    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000080
+06-30 10:36:08:230    NAND ID 0xd1
+06-30 10:36:08:230    d13c
+06-30 10:36:08:230    det bbm table with 1, 1, 2
+06-30 10:36:08:230    dete
+06-30 10:36:08:230    ct result 2
+06-30 10:36:08:230    V1 1 in block 992, 
+06-30 10:36:08:230    V2 0 in block 994
+06-30 10:36:08:230    Latest versio
+06-30 10:36:08:230    n 1
+06-30 10:36:08:230    V1 1 in block 993, V2 0 in 
+06-30 10:36:08:230    block 995
+06-30 10:36:08:230    Latest version 1
+06-30 10:36:08:230    v1 1 in blk 992, v2 1 in block 993
+06-30 10:36:08:230    BBM MEM: ctx 20028788, map1 20028378, map2 20028580 
+06-30 10:36:08:230    sif_bbm_i
+06-30 10:36:08:230    nit done
+06-30 10:36:08:230    
+06-30 10:36:08:230     \ | /
+06-30 10:36:08:230    - SiFli Corporation
+06-30 10:36:08:230     / | \     build on Jun 24 2025, 2.4.0 build 00000000
+06-30 10:36:08:230     2020 - 2022 Copyright by SiFli 
+06-30 10:36:08:230    team
+06-30 10:36:08:246    cal data cc_mn:12 cc_mp:16
+06-30 10:36:08:246     cv_vctrl:40 prog_vlp2:7
+06-30 10:36:08:246    mount /dev sucess
+06-30 10:36:08:246    [32m[432] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+06-30 10:36:08:246    [0m[32m[439] I/drv.rtc main: RC10K Freq=9kH
+06-30 10:36:08:246    z, cycle=1036206, rtc ppm=0
+06-30 10:36:08:246    
+06-30 10:36:08:246    [0m[32m[447] I/drv.rtc main: DIVA=36, DIVA_FRA=3108, DIVB=256
+06-30 10:36:08:246    
+06-30 10:36:08:246    
+06-30 10:36:08:246    [0m[32m[454] I/drv.rtc mai
+06-30 10:36:08:246    n: Init RTC, wake = 0
+06-30 10:36:08:246    
+06-30 10:36:08:246    [0m
+06-30 10:36:08:246    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 10:36:08:246    [32m[510] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 10:36:08:246    
+06-30 10:36:08:246    [0m[32m[517] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 10:36:08:246    
+06-30 10:36:08:246    [0m[32m[523] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 10:36:08:246    
+06-30 10:36:08:246    [0m[32m[530] I/TOUCH main: Regist touch screen dri
+06-30 10:36:08:246    ver, probe=0x10006b05 
+06-30 10:36:08:246    [0mlvsf_font_load: faces 1 ft_cache_si
+06-30 10:36:08:246    ze 300000
+06-30 10:36:08:261    call par CFG1(3313)
+06-30 10:36:08:262    fc 9, xtal 2000, pll 2134
+06-30 10:36:08:262    call par CFG1(3313)
+06-30 10:36:08:262    fc 7, xtal 2000, pll 171
+06-30 10:36:08:262    0
+06-30 10:36:08:262    msh />
+06-30 10:36:15:289    SFBL

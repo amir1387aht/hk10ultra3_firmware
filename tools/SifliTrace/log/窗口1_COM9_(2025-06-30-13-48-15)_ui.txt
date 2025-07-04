@@ -1,0 +1,40 @@
+06-30 13:48:15:792    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 13:48:15:802    NAND ID 0xd1d13c
+06-30 13:48:15:804    det bbm table with 1, 1, 2
+06-30 13:48:15:804    detect result 2
+06-30 13:48:15:805    V1 1 in block 992, V2 0 in block 994
+06-30 13:48:15:805    Latest versio
+06-30 13:48:15:806    n 1
+06-30 13:48:15:806    V1 1 in block 993, V2 0 in block 995
+06-30 13:48:15:808    Latest version 1
+06-30 13:48:15:808    v1 1 in blk 992, v2 1 in block 993
+06-30 13:48:15:809    BBM MEM: ctx 20028704, map1 200282f4, map2 200284fc 
+06-30 13:48:15:810    sif_bbm_init done
+06-30 13:48:15:810    
+06-30 13:48:15:811     \ | /
+06-30 13:48:15:811    - SiFli Corporation
+06-30 13:48:15:811     / | \     build on Jun 24 2025, 2.4.0 build 00000000
+06-30 13:48:15:811     2020 - 2022 Copyright by SiFli team
+06-30 13:48:15:811    mount /dev sucess
+06-30 13:48:15:811    [406] I/drv.rtc main: PSCLR=0x242fd500 DivAI=36 DivAF=3061 B=256
+06-30 13:48:15:811    [413] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036262, rtc ppm=0
+06-30 13:48:15:813    
+06-30 13:48:15:814    [420] I/drv.rtc main: DIVA=36, DIVA_FRA=3076, DIVB=256
+06-30 13:48:15:814    
+06-30 13:48:15:814    [427] I/drv.rtc main: Init RTC, wake = 1
+06-30 13:48:15:815    
+06-30 13:48:15:815    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 13:48:15:816    [440] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 13:48:15:816    
+06-30 13:48:15:817    [446] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 13:48:15:817    
+06-30 13:48:15:817    [451] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 13:48:15:817    
+06-30 13:48:15:817    [457] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 13:48:15:817    lvsf_font_load: faces 1 ft_cache_size 300000
+06-30 13:48:15:819    call par CFG1(3313)
+06-30 13:48:15:820    fc 9, xtal 2000, pll 2128
+06-30 13:48:15:821    call par CFG1(3313)
+06-30 13:48:15:822    fc 7, xtal 2000, pll 170
+06-30 13:48:15:823    7
+06-30 13:48:15:823    msh />

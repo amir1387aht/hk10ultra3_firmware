@@ -1,0 +1,41 @@
+SFBL
+SFBL
+Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000080
+NAND ID 0xd1d13c
+det bbm table with 1, 1, 2
+detect result 2
+V1 1 in block 992, V2 0 in block 994
+Latest version 1
+V1 1 in block 993, V2 0 in block 995
+Latest version 1
+v1 1 in blk 992, v2 1 in block 993
+BBM MEM: ctx 20028788, map1 20028378, map2 20028580 
+sif_bbm_init done
+
+ \ | /
+- SiFli Corporation
+ / | \     build on Jun 24 2025, 2.4.0 build 00000000
+ 2020 - 2022 Copyright by SiFli team
+cal data cc_mn:12 cc_mp:16 cv_vctrl:40 prog_vlp2:7
+mount /dev sucess
+[32m[432] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+[0m[32m[439] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036206, rtc ppm=0
+
+[0m[32m[447] I/drv.rtc main: DIVA=36, DIVA_FRA=3108, DIVB=256
+
+[0m[32m[454] I/drv.rtc main: Init RTC, wake = 0
+
+[0mNAND factory magic error 0x6e11802 vs 0x53450617
+[32m[510] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+
+[0m[32m[517] I/drv.audprc main: HAL_AUDPRC_Init res 0
+
+[0m[32m[523] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+
+[0m[32m[530] I/TOUCH main: Regist touch screen driver, probe=0x10006b05 
+[0mlvsf_font_load: faces 1 ft_cache_size 300000
+call par CFG1(3313)
+fc 9, xtal 2000, pll 2134
+call par CFG1(3313)
+fc 7, xtal 2000, pll 1710
+msh />SFBL

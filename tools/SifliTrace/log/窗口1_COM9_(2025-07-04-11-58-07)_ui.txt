@@ -1,0 +1,238 @@
+07-04 11:58:07:711    SFBL
+07-04 11:58:09:485 TX:help
+07-04 11:58:09:986    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+07-04 11:58:09:987    NAND ID 0xd1d13c
+07-04 11:58:09:989    det bbm table with 1, 1, 2
+07-04 11:58:09:989    dete
+07-04 11:58:09:990    ct result 2
+07-04 11:58:09:990    V1 1 in block 992, V2 0 in block 994
+07-04 11:58:09:991    Latest versio
+07-04 11:58:09:991    n 1
+07-04 11:58:09:991    V1 1 in block 993, V2 0 in block 995
+07-04 11:58:09:993    Latest version 1
+07-04 11:58:09:993    v1 1 in blk 992, v2 1 in block 993
+07-04 11:58:09:994    BBM MEM: ctx 2003c7bc, map1 2003c3ac, map2 2003c5b4 
+07-04 11:58:09:994    sif_bbm_init done
+07-04 11:58:09:996    
+07-04 11:58:09:996     \ | /
+07-04 11:58:09:996    - SiFli Corporation
+07-04 11:58:09:997     / | \     build on Jul  4 2025, 2.4.0 build 00000000
+07-04 11:58:09:997     2020 - 2022 Copyright by SiFli team
+07-04 11:58:09:997    mount /dev sucess
+07-04 11:58:09:998    [414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+07-04 11:58:09:998    [421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036228, rtc ppm=0
+07-04 11:58:09:998    
+07-04 11:58:09:999    [428] I/drv.rtc main: DIVA=36, DIVA_FRA=3096, DIVB=256
+07-04 11:58:09:999    
+07-04 11:58:10:000    [434] I/drv.rtc main: Init RTC, wake = 0
+07-04 11:58:10:001    
+07-04 11:58:10:002    NAND factory magic error 0x6e11802 vs 0x53450617
+07-04 11:58:10:004    [488] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+07-04 11:58:10:004    
+07-04 11:58:10:005    [494] I/drv.audprc main: HAL_AUDPRC_Init res 0
+07-04 11:58:10:005    
+07-04 11:58:10:010    [499] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+07-04 11:58:10:013    
+07-04 11:58:10:014    [505] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+07-04 11:58:10:017    lvsf_font_load: faces 1 ft_cache_size 300000
+07-04 11:58:10:017    call par CFG1(3313)
+07-04 11:58:10:018    fc 9, xtal 2000, pll 2131
+07-04 11:58:10:018    call par CFG1(3313)
+07-04 11:58:10:019    fc 7, xtal 2000, pll 1708
+07-04 11:58:10:019    mount fs[elm] on / failed.
+07-04 11:58:10:020    msh />
+07-04 11:58:11:209 TX:help
+07-04 11:58:11:209    RT-Thread shell commands:
+07-04 11:58:11:212    apa_set_mode     - set analog pa mode
+07-04 11:58:11:214    app_sche_print_perf_tick - Print app &subpage costed ticks
+07-04 11:58:11:214    list_app         - list all runing app
+07-04 11:58:11:215    app_exit         - exit specifed app
+07-04 11:58:11:215    app_goback       - go back current page
+07-04 11:58:11:216    app_cleanup      - cleanup all background app
+07-04 11:58:11:216    app_run          - run an app
+07-04 11:58:11:216    cpu              - cpu: view "Cortex-M33" profiling result
+07-04 11:58:11:217    cpu_prof_reset   - reset profiling counter
+07-04 11:58:11:217    cpu_prof_deinit  - detach profiling hook
+07-04 11:58:11:217    cpu_prof_init    - init prof
+07-04 11:58:11:218    mem_usage        - mem_usage: open or close memory usage log
+07-04 11:58:11:218    fps2             - fps2: open or close fps log
+07-04 11:58:11:219    en_lv_perf_debug - Enable lvgl perfomance debug log
+07-04 11:58:11:219    perf_cfg         - perfromance log config
+07-04 11:58:11:219    gpu_cfg          - gpu configurattion
+07-04 11:58:11:220    gif_log          - gif_log: open or close gif_log log
+07-04 11:58:11:220    sysinfo          - Show system information
+07-04 11:58:11:221    lcpu             - forward lcpu command
+07-04 11:58:11:221    pin              - pin gpio functions
+07-04 11:58:11:221    uart             - uart setting
+07-04 11:58:11:222    aprc_debug       - aprc_debug r / w idx value
+07-04 11:58:11:222    mic_gain         - mic_gain
+07-04 11:58:11:223    update_pll       - update PLL freq
+07-04 11:58:11:223    codec_dac_set_vol - set codec dac volume
+07-04 11:58:11:223    codec_hp_sin1k_test - audio_codec
+07-04 11:58:11:223    lcd_ctrl         - lcd control
+07-04 11:58:11:224    lcd_wreg         - lcd_wreg
+07-04 11:58:11:224    lcd_rreg         - lcd_rreg
+07-04 11:58:11:225    drv_lcd_test     - drv lcd test
+07-04 11:58:11:225    tp_ctrl          - Touch panel driver cmd
+07-04 11:58:11:226    en_drvtp_log     - enable touch panel log
+07-04 11:58:11:227    drv_epic_cfg     - drv_epic configuration
+07-04 11:58:11:227    reboot           - Reboot System
+07-04 11:58:11:227    dbguart2jlink    - Switch debug uart to jlink
+07-04 11:58:11:227    assert           - Force ULOG_ASSERT
+07-04 11:58:11:228    pwr_ctrl         - BT TX power adjust
+07-04 11:58:11:228    regop            - Register read / write
+07-04 11:58:11:229    memtrace         - dump memory trace information
+07-04 11:58:11:229    memcheck         - check memory data
+07-04 11:58:11:230    list_mem         - list memory usage information
+07-04 11:58:11:230    list_fd          - list file descriptor
+07-04 11:58:11:230    list_device      - list device in system
+07-04 11:58:11:231    list_timer       - list timer in system
+07-04 11:58:11:231    list_mempool     - list memory pool in system
+07-04 11:58:11:232    list_memheap     - list memory heap in system
+07-04 11:58:11:232    list_msgqueue    - list message queue in system
+07-04 11:58:11:233    list_mailbox     - list mail box in system
+07-04 11:58:11:233    list_mutex       - list mutex in system
+07-04 11:58:11:234    list_event       - list event in system
+07-04 11:58:11:234    list_sem         - list semaphore in system
+07-04 11:58:11:234    list_thread      - list thread
+07-04 11:58:11:235    version          - show RT - Thread version information
+07-04 11:58:11:235    help             - RT - Thread shell help.
+07-04 11:58:11:236    console          - Change MSH / FINSH console device.
+07-04 11:58:11:236    exit             - return to RT - Thread shell mode.
+07-04 11:58:11:237    free             - Show the memory usage in the system.
+07-04 11:58:11:238    time             - Execute command with time.
+07-04 11:58:11:238    ps               - List threads in the system.
+07-04 11:58:11:238    echo             - echo string to file
+07-04 11:58:11:239    df               - disk free
+07-04 11:58:11:240    unmountfs        - unmountfs all device
+07-04 11:58:11:240    mountfs          - mount device to file system
+07-04 11:58:11:241    mkfs             - format disk with file system
+07-04 11:58:11:241    mkdir            - Create the DIRECTORY.
+07-04 11:58:11:242    pwd              - Print the name of the current working directory.
+07-04 11:58:11:243    cd               - Change the shell working directory.
+07-04 11:58:11:243    rm               - Remove(unlink) the FILE(s).
+07-04 11:58:11:243    cat              - Concatenate FILE(s)
+07-04 11:58:11:244    mv               - Rename SOURCE to DEST.
+07-04 11:58:11:244    cp               - Copy SOURCE to DEST.
+07-04 11:58:11:244    ls               - List information about the FILEs.
+07-04 11:58:11:245    reset_ft         - reset_ft: close and re - open freetype test
+07-04 11:58:11:245    rotate_gpu_log   - lv_gpu_adv_log
+07-04 11:58:11:246    rotate_run       - rotate_run
+07-04 11:58:11:247    app_mem          - app_mem: open or close app_mem log
+07-04 11:58:11:247    adc              - adc function
+07-04 11:58:11:248    show_date        - get date and time or set [year month day hour min sec]
+07-04 11:58:11:249    list_date        - show dat
+07-04 11:58:11:250    e and time.
+07-04 11:58:11:250    
+07-04 11:58:11:251    msh />msh />
+07-04 11:58:12:463 TX:help
+07-04 11:58:12:463    RT-Thread shell commands:
+07-04 11:58:12:469    apa_set_mode     - set analog pa mode
+07-04 11:58:12:470    app_sche_print_perf_tick - Print app &subpage costed ticks
+07-04 11:58:12:471    list_app         - list all runing app
+07-04 11:58:12:472    app_exit         - exit specifed app
+07-04 11:58:12:472    app_goback       - go back current page
+07-04 11:58:12:473    app_cleanup      - cleanup all background app
+07-04 11:58:12:473    app_run          - run an app
+07-04 11:58:12:474    cpu              - cpu: view "Cortex-M33" profiling result
+07-04 11:58:12:475    cpu_prof_reset   - reset profiling counter
+07-04 11:58:12:476    cpu_prof_deinit  - detach profiling hook
+07-04 11:58:12:476    cpu_prof_init    - init prof
+07-04 11:58:12:476    mem_usage        - mem_usage: open or close memory usage log
+07-04 11:58:12:477    fps2             - fps2: open or close fps log
+07-04 11:58:12:477    en_lv_perf_debug - Enable lvgl perfomance debug log
+07-04 11:58:12:477    perf_cfg         - perfromance log config
+07-04 11:58:12:477    gpu_cfg          - gpu configurattion
+07-04 11:58:12:478    gif_log          - gif_log: open or close gif_log log
+07-04 11:58:12:478    sysinfo          - Show system information
+07-04 11:58:12:478    lcpu             - forward lcpu command
+07-04 11:58:12:479    pin              - pin gpio functions
+07-04 11:58:12:479    uart             - uart setting
+07-04 11:58:12:480    aprc_debug       - aprc_debug r / w idx value
+07-04 11:58:12:481    mic_gain         - mic_gain
+07-04 11:58:12:481    update_pll       - update PLL freq
+07-04 11:58:12:482    codec_dac_set_vol - set codec dac volume
+07-04 11:58:12:482    codec_hp_sin1k_test - audio_codec
+07-04 11:58:12:482    lcd_ctrl         - lcd control
+07-04 11:58:12:482    lcd_wreg         - lcd_wreg
+07-04 11:58:12:483    lcd_rreg         - lcd_rreg
+07-04 11:58:12:483    drv_lcd_test     - drv lcd test
+07-04 11:58:12:483    tp_ctrl          - Touch panel driver cmd
+07-04 11:58:12:484    en_drvtp_log     - enable touch panel log
+07-04 11:58:12:484    drv_epic_cfg     - drv_epic configuration
+07-04 11:58:12:484    reboot           - Reboot System
+07-04 11:58:12:484    dbguart2jlink    - Switch debug uart to jlink
+07-04 11:58:12:485    assert           - Force ULOG_ASSERT
+07-04 11:58:12:485    pwr_ctrl         - BT TX power adjust
+07-04 11:58:12:486    regop            - Register read / write
+07-04 11:58:12:486    memtrace         - dump memory trace information
+07-04 11:58:12:487    memcheck         - check memory data
+07-04 11:58:12:487    list_mem         - list memory usage information
+07-04 11:58:12:487    list_fd          - list file descriptor
+07-04 11:58:12:488    list_device      - list device in system
+07-04 11:58:12:488    list_timer       - list timer in system
+07-04 11:58:12:488    list_mempool     - list memory pool in system
+07-04 11:58:12:489    list_memheap     - list memory heap in system
+07-04 11:58:12:489    list_msgqueue    - list message queue in system
+07-04 11:58:12:491    list_mailbox     - list mail box in system
+07-04 11:58:12:491    list_mutex       - list mutex in system
+07-04 11:58:12:491    list_event       - list event in system
+07-04 11:58:12:492    list_sem         - list semaphore in system
+07-04 11:58:12:492    list_thread      - list thread
+07-04 11:58:12:492    version          - show RT - Thread version information
+07-04 11:58:12:493    help             - RT - Thread shell help.
+07-04 11:58:12:493    console          - Change MSH / FINSH console device.
+07-04 11:58:12:494    exit             - return to RT - Thread shell mode.
+07-04 11:58:12:494    free             - Show the memory usage in the system.
+07-04 11:58:12:494    time             - Execute command with time.
+07-04 11:58:12:495    ps               - List threads in the system.
+07-04 11:58:12:495    echo             - echo string to file
+07-04 11:58:12:495    df               - disk free
+07-04 11:58:12:496    unmountfs        - unmountfs all device
+07-04 11:58:12:496    mountfs          - mount device to file system
+07-04 11:58:12:497    mkfs             - format disk with file system
+07-04 11:58:12:497    mkdir            - Create the DIRECTORY.
+07-04 11:58:12:497    pwd              - Print the name of the current working directory.
+07-04 11:58:12:498    cd               - Change the shell working directory.
+07-04 11:58:12:498    rm               - Remove(unlink) the FILE(s).
+07-04 11:58:12:499    cat              - Concatenate FILE(s)
+07-04 11:58:12:500    mv               - Rename SOURCE to DEST.
+07-04 11:58:12:500    cp               - Copy SOURCE to DEST.
+07-04 11:58:12:501    ls               - List information about the FILEs.
+07-04 11:58:12:501    reset_ft         - reset_ft: close and re - open freetype test
+07-04 11:58:12:501    rotate_gpu_log   - lv_gpu_adv_log
+07-04 11:58:12:502    rotate_run       - rotate_run
+07-04 11:58:12:502    app_mem          - app_mem: open or close app_mem log
+07-04 11:58:12:503    adc              - adc function
+07-04 11:58:12:503    show_date        - get date and time or set [year month day hour min sec]
+07-04 11:58:12:504    list_date        - show date and time.
+07-04 11:58:12:504    
+07-04 11:58:12:504    msh />msh />
+07-04 11:58:14:361 TX:ls
+07-04 11:58:14:363    No such directory
+07-04 11:58:14:366    msh />msh />
+07-04 11:58:16:584 TX:ls
+07-04 11:58:16:586    No such directory
+07-04 11:58:16:589    msh />msh />
+07-04 11:58:17:379 TX:ls
+07-04 11:58:17:380    No such directory
+07-04 11:58:17:382    msh />msh />
+07-04 11:58:17:961 TX:ls
+07-04 11:58:17:964    No such directory
+07-04 11:58:17:965    msh />msh />
+07-04 11:58:18:585 TX:ls
+07-04 11:58:18:587    No such directory
+07-04 11:58:18:590    msh />msh />
+07-04 11:58:19:171 TX:ls
+07-04 11:58:19:173    No such directory
+07-04 11:58:19:175    msh />msh />
+07-04 11:58:19:690 TX:ls
+07-04 11:58:19:692    No such directory
+07-04 11:58:19:693    msh />msh />
+07-04 11:58:20:473 TX:ls
+07-04 11:58:20:475    No such directory
+07-04 11:58:20:476    msh />msh />
+07-04 11:58:21:402 TX:ls
+07-04 11:58:21:404    No such directory
+07-04 11:58:21:407    msh />msh />
+07-04 11:59:15:025 SC:receive cmd: stopcom

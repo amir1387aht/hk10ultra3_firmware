@@ -1,0 +1,43 @@
+07-03 14:26:36:637    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+07-03 14:26:36:638    NAND ID 0xd1d13c
+07-03 14:26:36:638    det bbm table with 1, 1, 2
+07-03 14:26:36:638    detect result 2
+07-03 14:26:36:638    V1 1 in block 992, V2 0 in block 994
+07-03 14:26:36:638    Latest version 1
+07-03 14:26:36:638    V1 1 in block 993, V2 0 in block 995
+07-03 14:26:36:638    Latest version 1
+07-03 14:26:36:638    v1 1 in blk 992, v2 1 in block 993
+07-03 14:26:36:638    BBM MEM: ctx 2000afc8, map1 2000abb8, map2 2000adc0 
+07-03 14:26:36:638    sif_bbm_init done
+07-03 14:26:36:638    
+07-03 14:26:36:638     \ | /
+07-03 14:26:36:638    - SiFli Corporation
+07-03 14:26:36:638     / | \     build on Jul  1 2025, 2.4.0 build 00000000
+07-03 14:26:36:638     2020 - 2022 Copyright by SiFli team
+07-03 14:26:36:638    mount /dev sucess
+07-03 14:26:36:638    [I/drv.rtc] PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+07-03 14:26:36:638    [I/drv.rtc] RC10K Freq=9kHz, cycle=1036220, rtc ppm=0
+07-03 14:26:36:638    
+07-03 14:26:36:638    [I/drv.rtc] DIVA=36, DIVA_FRA=3100, DIVB=256
+07-03 14:26:36:638    
+07-03 14:26:36:638    [I/drv.rtc] Init RTC, wake = 0
+07-03 14:26:36:638    
+07-03 14:26:36:638    NAND factory magic error 0x6e11802 vs 0x53450617
+07-03 14:26:36:646    [I/drv.audprc] init 00 ADC_PATH_CFG0 0x606
+07-03 14:26:36:646    
+07-03 14:26:36:646    [I/drv.audprc] HAL_AUDPRC_Init res 0
+07-03 14:26:36:646    
+07-03 14:26:36:646    [I/drv.audcodec] HAL_AUDCODEC_Init res 0
+07-03 14:26:36:646    
+07-03 14:26:36:646    [32m[I/TOUCH] Regist touch screen driver, probe=100064a9 [0m
+07-03 14:26:36:646    call par CFG1(3313)
+07-03 14:26:36:646    fc 9, xtal 2000, pll 2134
+07-03 14:26:36:650    call par CFG1(3313)
+07-03 14:26:36:650    fc 7, xtal 2000, pll 1710
+07-03 14:26:36:650    Register root to mtd device with base addr 0x62840000
+07-03 14:26:36:650    disk_init:0
+07-03 14:26:36:653    init:6096
+07-03 14:26:36:653    mount fs on flash to 
+07-03 14:26:36:669    root success
+07-03 14:26:36:669    Use help to check file system command!
+07-03 14:26:36:670    msh />

@@ -1,0 +1,202 @@
+06-30 10:49:15:249    þøøüþü€ls: command not found.
+06-30 10:49:15:249    msh />msh />
+06-30 10:49:17:666 TX:help
+06-30 10:49:17:666    RT-Thread shell commands:
+06-30 10:49:17:666    apa_set_mode     - set analog pa mode
+06-30 10:49:17:666    app_sche_print_perf_tick - Print app &subpage costed ticks
+06-30 10:49:17:666    list_app         - list all runing app
+06-30 10:49:17:666    app_exit         - exit specifed app
+06-30 10:49:17:666    app_goback       - go back current page
+06-30 10:49:17:666    app_cleanup      - cleanup all background app
+06-30 10:49:17:666    app_run          - run an app
+06-30 10:49:17:682    cpu              - cpu: view "Cortex-M33" profiling result
+06-30 10:49:17:682    cpu_prof_reset   - reset profiling counter
+06-30 10:49:17:682    cpu_prof_deinit  - detach profiling hook
+06-30 10:49:17:682    cpu_prof_init    - init prof
+06-30 10:49:17:682    mem_usage        - mem_usage: open or close memory usage log
+06-30 10:49:17:682    fps2             - fps2: open or close fps log
+06-30 10:49:17:682    en_lv_perf_debug - Enable lvgl perfomance debug log
+06-30 10:49:17:682    perf_cfg         - perfromance log config
+06-30 10:49:17:682    gpu_cfg          - gpu configurattion
+06-30 10:49:17:682    gif_log          - gif_log: open or close gif_log log
+06-30 10:49:17:682    sysinfo          - Show system information
+06-30 10:49:17:682    lcpu             - forward lcpu command
+06-30 10:49:17:682    pin              - pin gpio functions
+06-30 10:49:17:682    uart             - uart setting
+06-30 10:49:17:682    aprc_debug       - aprc_debug r / w idx value
+06-30 10:49:17:682    mic_gain         - mic_gain
+06-30 10:49:17:682    update_pll       - update PLL freq
+06-30 10:49:17:698    codec_dac_set_vol - set codec dac volume
+06-30 10:49:17:698    codec_hp_sin1k_test - audio_codec
+06-30 10:49:17:698    lcd_ctrl         - lcd control
+06-30 10:49:17:698    lcd_wreg         - lcd_wreg
+06-30 10:49:17:698    lcd_rreg         - lcd_rreg
+06-30 10:49:17:698    drv_lcd_test     - drv lcd test
+06-30 10:49:17:698    tp_ctrl          - Touch panel driver cmd
+06-30 10:49:17:698    en_drvtp_log     - enable touch panel log
+06-30 10:49:17:698    drv_epic_cfg     - drv_epic configuration
+06-30 10:49:17:698    reboot           - Reboot System
+06-30 10:49:17:698    dbguart2jlink    - Switch debug uart to jlink
+06-30 10:49:17:698    assert           - Force ULOG_ASSERT
+06-30 10:49:17:698    pwr_ctrl         - BT TX power adjust
+06-30 10:49:17:698    regop            - Register read / write
+06-30 10:49:17:698    memtrace         - dump memory trace information
+06-30 10:49:17:698    memcheck         - check memory data
+06-30 10:49:17:698    list_mem         - list memory usage information
+06-30 10:49:17:698    list_fd          - list file descriptor
+06-30 10:49:17:698    list_device      - list device in system
+06-30 10:49:17:698    list_timer       - list timer in system
+06-30 10:49:17:713    list_mempool     - list memory pool in system
+06-30 10:49:17:713    list_memheap     - list memory heap in system
+06-30 10:49:17:713    list_msgqueue    - list message queue in system
+06-30 10:49:17:713    list_mailbox     - list mail box in system
+06-30 10:49:17:713    list_mutex       - list mutex in system
+06-30 10:49:17:713    list_event       - list event in system
+06-30 10:49:17:713    list_sem         - list semaphore in system
+06-30 10:49:17:713    list_thread      - list thread
+06-30 10:49:17:713    version          - show RT - Thread version information
+06-30 10:49:17:713    help             - RT - Thread shell help.
+06-30 10:49:17:713    console          - Change MSH / FINSH console device.
+06-30 10:49:17:713    exit             - return to RT - Thread shell mode.
+06-30 10:49:17:713    free             - Show the memory usage in the system.
+06-30 10:49:17:713    time             - Execute command with time.
+06-30 10:49:17:713    ps               - List threads in the system.
+06-30 10:49:17:713    echo             - echo string to file
+06-30 10:49:17:713    df               - disk free
+06-30 10:49:17:713    mountfs          - mount device to file system
+06-30 10:49:17:713    mkfs             - format disk with file system
+06-30 10:49:17:713    mkdir            - Create the DIRECTORY.
+06-30 10:49:17:713    pwd              - Print the name of the current working directory.
+06-30 10:49:17:713    cd               - Change the shell working directory.
+06-30 10:49:17:713    rm               - Remove(unlink) the FILE(s).
+06-30 10:49:17:713    cat              - Concatenate FILE(s)
+06-30 10:49:17:713    mv               - Rename SOURCE to DEST.
+06-30 10:49:17:713    cp               - Copy SOURCE to DEST.
+06-30 10:49:17:713    ls               - List information about the FILEs.
+06-30 10:49:17:729    reset_ft         - reset_ft: close and re - open freetype test
+06-30 10:49:17:729    rotate_gpu_log   - lv_gpu_adv_log
+06-30 10:49:17:729    rotate_run       - rotate_run
+06-30 10:49:17:729    app_mem          - app_mem: open or close app_mem log
+06-30 10:49:17:729    adc              - adc function
+06-30 10:49:17:729    show_date        - get date and time or set [year month day hour min sec]
+06-30 10:49:17:729    list_date        - show date and time.
+06-30 10:49:17:729    
+06-30 10:49:17:729    msh />msh />
+06-30 10:49:34:518 TX:list_thread
+06-30 10:49:34:518             pri  status      sp      top     stack size max used left tick  error
+06-30 10:49:34:518    -------- ---  ------- ---------- ---------- ----------  ------  ---------- ---
+06-30 10:49:34:534    tshell    20  ready   0x20036db8 0x20036f34 0x00001000    20%   0x00000005 000
+06-30 10:49:34:534    epic_tas  13  suspend 0x2000a1e8 0x2000a488 0x00000c00    22%   0x0000000a 000
+06-30 10:49:34:534    tidle     31  ready   0x2002af98 0x2002aff0 0x00000200    19%   0x00000019 000
+06-30 10:49:34:534    timer      4  suspend 0x2001afc8 0x2001b020 0x00000400    08%   0x00000009 000
+06-30 10:49:34:534    msh />msh />
+06-30 10:49:52:789 TX:free
+06-30 10:49:52:789    total memory: 233792 used memory : 13264 maximum allocated memory: 17540
+06-30 10:49:52:789    msh />msh />
+06-30 10:50:07:216 TX:mem_usage
+06-30 10:50:07:216    mem_disp: 1
+06-30 10:50:07:231    msh />msh />
+06-30 10:50:11:139 TX:show_date
+06-30 10:50:11:139    Sat Jan  1 00:12:08 2000
+06-30 10:50:11:139    msh />msh />
+06-30 10:50:14:963 TX:list_module_sym
+06-30 10:50:14:978    list_module_sym: command not found.
+06-30 10:50:14:978    msh />msh />
+06-30 10:50:16:020 TX:list_module
+06-30 10:50:16:020    list_module: command not found.
+06-30 10:50:16:020    msh />msh />
+06-30 10:50:18:270 TX:list_symbols
+06-30 10:50:18:286    list_symbols: command not found.
+06-30 10:50:18:286    msh />msh />
+06-30 10:50:19:463 TX:list_app
+06-30 10:50:19:479    [4608057] I/APP.FWK tshell: ##Built in apps##
+06-30 10:50:19:479    [4608062] I/APP.FWK tshell: id	name	icon	entry
+06-30 10:50:19:479    [4608067] I/APP.FWK tshell: ##Runing apps##
+06-30 10:50:19:479     sp: 0x20036e80
+06-30 10:50:19:479    psr: 0x81000000
+06-30 10:50:19:479    r00: 0x20028afc
+06-30 10:50:19:479    r01: 0x0000000a
+06-30 10:50:19:479    r02: 0x00000014
+06-30 10:50:19:479    r03: 0x00000000
+06-30 10:50:19:479    r04: 0x00000000
+06-30 10:50:19:479    r05: 0x00000008
+06-30 10:50:19:479    r06: 0x20035e30
+06-30 10:50:19:479    r07: 0x20028afc
+06-30 10:50:19:479    r08: 0x20028ae4
+06-30 10:50:19:479    r09: 0x20028ada
+06-30 10:50:19:494    r10: 0x1008b334
+06-30 10:50:19:494    r11: 0xdeadbeef
+06-30 10:50:19:494    r12: 0x1004f2d5
+06-30 10:50:19:494     lr: 0x1002b21d
+06-30 10:50:19:494     pc: 0x1002b170
+06-30 10:50:19:494    hard fault on thread: tshell
+06-30 10:50:19:494    
+06-30 10:50:19:494    =====================
+06-30 10:50:19:494    PSP: 0x0x20036dec, MSP: 0x0x20001fc4
+06-30 10:50:19:494    ===================
+06-30 10:50:19:494    Thread Info        
+06-30 10:50:19:494    ===================
+06-30 10:50:19:494             pri  status      sp      top     stack size max used left tick  error
+06-30 10:50:19:494    -------- ---  ------- ---------- ---------- ----------  ------  ---------- ---
+06-30 10:50:19:494    tshell    20  ready   0x20036db8 0x20036f34 0x00001000    20%   0x00000005 000
+06-30 10:50:19:494    epic_tas  13  suspend 0x2000a1e8 0x2000a488 0x00000c00    22%   0x0000000a 000
+06-30 10:50:19:494    tidle     31  ready   0x2002af98 0x2002aff0 0x00000200    19%   0x0000000e 000
+06-30 10:50:19:494    timer      4  suspend 0x2001afc8 0x2001b020 0x00000400    08%   0x00000009 000
+06-30 10:50:19:494    ===================
+06-30 10:50:19:494    Mailbox Info       
+06-30 10:50:19:494    ===================
+06-30 10:50:19:494            entry size suspend thread
+06-30 10:50:19:494    ------- ----  ---- --------------
+06-30 10:50:19:494    ===================
+06-30 10:50:19:510    MessageQueue Info  
+06-30 10:50:19:510    ===================
+06-30 10:50:19:510             entry suspend thread
+06-30 10:50:19:510    -------- ----  --------------
+06-30 10:50:19:510    drv_epic 0000  1:epic_tas
+06-30 10:50:19:510    ===================
+06-30 10:50:19:510    Mutex Info         
+06-30 10:50:19:510    ===================
+06-30 10:50:19:510               owner  hold suspend thread
+06-30 10:50:19:510    -------- -------- ---- --------------
+06-30 10:50:19:510    rtc      (null)   0000 0
+06-30 10:50:19:510    ulog loc (null)   0000 0
+06-30 10:50:19:510    fslock   (null)   0000 0
+06-30 10:50:19:510    i2c_bus_ (null)   0000 0
+06-30 10:50:19:510    i2c_bus_ (null)   0000 0
+06-30 10:50:19:510    ===================
+06-30 10:50:19:510    Semaphore Info     
+06-30 10:50:19:510    ===================
+06-30 10:50:19:510             v   suspend thread
+06-30 10:50:19:510    -------- --- --------------
+06-30 10:50:19:510    shrx     000 0
+06-30 10:50:19:510    epic_rl  002 0
+06-30 10:50:19:510    epic     001 0
+06-30 10:50:19:510    ft3169   000 0
+06-30 10:50:19:510    app_ft_m 001 0
+06-30 10:50:19:510    app_mess 001 0
+06-30 10:50:19:510    app_imag 001 0
+06-30 10:50:19:510    app_imag 001 0
+06-30 10:50:19:510    aes_drv  001 0
+06-30 10:50:19:510    drv_eDma 001 0
+06-30 10:50:19:510    nandlock 001 0
+06-30 10:50:19:510    gpadc    001 0
+06-30 10:50:19:510    i2c4     000 0
+06-30 10:50:19:510    i2c1     000 0
+06-30 10:50:19:526    heap     001 0
+06-30 10:50:19:526    ===================
+06-30 10:50:19:526    Memory Info     
+06-30 10:50:19:526    ===================
+06-30 10:50:19:526    total memory: 233792 used memory : 13264 maximum allocated memory: 17540
+06-30 10:50:19:526    ===================
+06-30 10:50:19:526    MemoryHeap Info     
+06-30 10:50:19:526    ===================
+06-30 10:50:19:526              pool size  max used size available size
+06-30 10:50:19:526    -------- ---------- ------------- --------------
+06-30 10:50:19:526    app_ft_m 400000     4700          395300
+06-30 10:50:19:526    app_mess 96000      72            95928
+06-30 10:50:19:526    app_imag 50000      72            49928
+06-30 10:50:19:526    app_imag 800000     72            799928
+06-30 10:50:19:526    FPU active!
+06-30 10:50:19:526    mem manage fault:
+06-30 10:50:19:526    SCB_CFSR_MFSR:0x82 DACCVIOL SCB->MMAR:FFFFFFF8
+06-30 10:50:58:533 TX:pin mode 115 0

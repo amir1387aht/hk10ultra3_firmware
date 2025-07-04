@@ -1,0 +1,98 @@
+ÿSFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+SFBL
+Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+NAND ID 0xd1d13c
+det bbm table with 1, 1, 2
+detect result 2
+V1 1 in block 992, V2 0 in block 994
+Latest version 1
+V1 1 in block 993, V2 0 in block 995
+Latest version 1
+v1 1 in blk 992, v2 1 in block 993
+BBM MEM: ctx 20028704, map1 200282f4, map2 200284fc 
+sif_bbm_init done
+
+ \ | /
+- SiFli Corporation
+ / | \     build on Jun 24 2025, 2.4.0 build 00000000
+ 2020 - 2022 Copyright by SiFli team
+mount /dev sucess
+[414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+[421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036344, rtc ppm=0
+
+[428] I/drv.rtc main: DIVA=36, DIVA_FRA=3029, DIVB=256
+
+[435] I/drv.rtc main: Init RTC, wake = 0
+
+NAND factory magic error 0x6e11802 vs 0x53450617
+[489] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+
+[495] I/drv.audprc main: HAL_AUDPRC_Init res 0
+
+[500] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+
+[506] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+lvsf_font_load: faces 1 ft_cache_size 300000
+call par CFG1(3313)
+fc 9, xtal 2000, pll 2126
+call par CFG1(3313)
+fc 7, xtal 2000, pll 1706
+msh />SFBL
+SFBL
+SFBL
+SFBL
+Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+NAND ID 0xd1d13c
+det bbm table with 1, 1, 2
+detect result 2
+V1 1 in block 992, V2 0 in block 994
+Latest version 1
+V1 1 in block 993, V2 0 in block 995
+Latest version 1
+v1 1 in blk 992, v2 1 in block 993
+BBM MEM: ctx 20028704, map1 200282f4, map2 200284fc 
+sif_bbm_init done
+
+ \ | /
+- SiFli Corporation
+ / | \     build on Jun 24 2025, 2.4.0 build 00000000
+ 2020 - 2022 Copyright by SiFli team
+mount /dev sucess
+[414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+[421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036308, rtc ppm=0
+
+[429] I/drv.rtc main: DIVA=36, DIVA_FRA=3050, DIVB=256
+
+[435] I/drv.rtc main: Init RTC, wake = 0
+
+NAND factory magic error 0x6e11802 vs 0x53450617
+[489] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+
+[495] I/drv.audprc main: HAL_AUDPRC_Init res 0
+
+[500] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+
+[506] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+lvsf_font_load: faces 1 ft_cache_size 300000
+call par CFG1(3313)
+fc 9, xtal 2000, pll 2125
+call par CFG1(3313)
+fc 7, xtal 2000, pll 1705
+msh />

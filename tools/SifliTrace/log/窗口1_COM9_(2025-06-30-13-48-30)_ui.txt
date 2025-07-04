@@ -1,0 +1,39 @@
+06-30 13:48:30:974    SFBL
+06-30 13:48:33:227    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 13:48:33:227    NAND ID 0xd1d13c
+06-30 13:48:33:227    det bbm table with 1, 1, 2
+06-30 13:48:33:243    detect result 2
+06-30 13:48:33:243    V1 1 in block 992, V2 0 in block 994
+06-30 13:48:33:243    Latest version 1
+06-30 13:48:33:243    V1 1 in block 993, V2 0 in block 995
+06-30 13:48:33:243    Latest version 1
+06-30 13:48:33:243    v1 1 in blk 992, v2 1 in block 993
+06-30 13:48:33:243    BBM MEM: ctx 20028704, map1 200282f4, map2 200284fc 
+06-30 13:48:33:243    sif_bbm_init done
+06-30 13:48:33:243    
+06-30 13:48:33:243     \ | /
+06-30 13:48:33:243    - SiFli Corporation
+06-30 13:48:33:243     / | \     build on Jun 24 2025, 2.4.0 build 00000000
+06-30 13:48:33:243     2020 - 2022 Copyright by SiFli team
+06-30 13:48:33:243    mount /dev sucess
+06-30 13:48:33:243    [414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+06-30 13:48:33:243    [421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036274, rtc ppm=0
+06-30 13:48:33:243    
+06-30 13:48:33:243    [429] I/drv.rtc main: DIVA=36, DIVA_FRA=3069, DIVB=256
+06-30 13:48:33:243    
+06-30 13:48:33:243    [435] I/drv.rtc main: Init RTC, wake = 0
+06-30 13:48:33:243    
+06-30 13:48:33:243    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 13:48:33:258    [489] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 13:48:33:258    
+06-30 13:48:33:258    [495] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 13:48:33:258    
+06-30 13:48:33:258    [500] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 13:48:33:258    
+06-30 13:48:33:258    [506] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 13:48:33:258    lvsf_font_load: faces 1 ft_cache_size 300000
+06-30 13:48:33:258    call par CFG1(3313)
+06-30 13:48:33:258    fc 9, xtal 2000, pll 2130
+06-30 13:48:33:258    call par CFG1(3313)
+06-30 13:48:33:258    fc 7, xtal 2000, pll 1707
+06-30 13:48:33:258    msh />

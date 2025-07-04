@@ -1,0 +1,223 @@
+06-30 13:46:42:989    SFBL
+06-30 13:46:43:068    SFBL
+06-30 13:46:43:209    SFBL
+06-30 13:46:45:533    SFBL
+06-30 13:46:47:573    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 13:46:47:581    NAND ID 0xd1d13c
+06-30 13:46:47:582    det bbm table with 1, 1, 2
+06-30 13:46:47:583    detect result 2
+06-30 13:46:47:584    V1 1 in block 992, V2 0 in block 994
+06-30 13:46:47:585    Latest version 1
+06-30 13:46:47:586    V1 1 in block 993, V2 0 in block 995
+06-30 13:46:47:587    Latest version 1
+06-30 13:46:47:587    v1 1 in blk 992, v2 1 in block 993
+06-30 13:46:47:587    BBM MEM: ctx 2001f860, map1 2001f450, map2 2001f658 
+06-30 13:46:47:589    sif_bbm_init done
+06-30 13:46:47:589    
+06-30 13:46:47:589     \ | /
+06-30 13:46:47:589    - SiFli Corporation
+06-30 13:46:47:589     / | \     build on Jun  9 2025, 2.4.0 build 00000000
+06-30 13:46:47:589     2020 - 2022 Copyright by SiFli team
+06-30 13:46:47:593    mount /dev sucess
+06-30 13:46:47:593    [413] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+06-30 13:46:47:593    [420] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036237, rtc ppm=0
+06-30 13:46:47:593    
+06-30 13:46:47:593    [427] I/drv.rtc main: DIVA=36, DIVA_FRA=3091, DIVB=256
+06-30 13:46:47:593    
+06-30 13:46:47:593    [433] I/drv.rtc main: Init RTC, wake = 0
+06-30 13:46:47:597    
+06-30 13:46:47:597    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 13:46:47:599    [488] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 13:46:47:599    
+06-30 13:46:47:599    [494] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 13:46:47:601    
+06-30 13:46:47:601    [499] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 13:46:47:601    
+06-30 13:46:47:601    [505] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 13:46:47:605    call par CFG1(3313)
+06-30 13:46:47:605    fc 9, xtal 2000, pll 2129
+06-30 13:46:47:607    call par CFG1(3313)
+06-30 13:46:47:607    fc 7, xtal 2000, pll 1707
+06-30 13:46:47:607    [550] I/drv.lcd main: [NONE] -> [OPENING]
+06-30 13:46:47:607    [555] I/drv.lcd lcd_task: open
+06-30 13:46:47:607    [558] I/drv.epic lcd_task: drv_gpu opened.
+06-30 13:46:47:607    [563] I/drv.lcd lcd_task: HW open
+06-30 13:46:47:607    [573] I/drv.lcd lcd_task: Try registered LCD driver...
+06-30 13:46:47:607    msh />
+06-30 13:46:47:762    [2148] I/NO_TAG lcd_task: SH8603
+06-30 13:46:47:778    B_Init 
+06-30 13:46:47:780    
+06-30 13:46:47:968    SH8603B_Init_Finish
+06-30 13:46:47:983    [4162] I/NO_TAG lcd_task: 
+06-30 13:46:47:983     lcd_error  SH8603B_ReadID 0x0 
+06-30 13:46:47:983    
+06-30 13:46:47:983    [4169] I/drv.lcd lcd_task: Found lcd SH8603B id:9c03h
+06-30 13:46:47:983    [4175] I/drv.lcd lcd_task: HW open done.
+06-30 13:46:47:983    [4179] I/drv.lcd lcd_task: [OPENING] -> [INITIALIZED]
+06-30 13:46:47:983    [4185] I/drv.lcd lcd_task: open done.
+06-30 13:46:47:983    [4189] I/drv.lcd_fb main: drv_lcd_fb_init
+06-30 13:46:47:998    [4194] I/drv.lcd_fb main: drv_lcd_fb_init done.
+06-30 13:46:47:998    [4219] I/TOUCH main: Open
+06-30 13:46:47:998    [4223] I/TOUCH tp_init: Find touch screen driver...
+06-30 13:46:47:998    [4228] I/TOUCH tp_init: Probe 10006499
+06-30 13:46:47:998    [4233] I/TOUCH tp_init: touch screen found driver  0x2001f28c, ft3169
+06-30 13:46:47:998    [4240] I/TOUCH main: Opened.
+06-30 13:46:47:998    [4244] I/LVGL main: [littlevgl2rtt] Welcome to the littlevgl2rtt lib.
+06-30 13:46:48:030    [4525] I/drv.lcd lcd_task: Auto turn on display.
+06-30 13:46:48:030    [4531] I/drv.lcd lcd_task: set brightness 50
+06-30 13:46:48:030    lcd_debug run  SH8603B_SetBrightness br = 50, bright = 127
+06-30 13:46:48:030    [4542] I/drv.lcd lcd_task: display on
+06-30 13:46:48:030    lcd_debug  SH8603B_DisplayOn
+06-30 13:46:48:030    [4549] I/drv.lcd lcd_task: [INITIALIZED] -> [ON]
+06-30 13:46:48:077    [5024] E/drv.ft3169 tp_init: ft3169 id_H=64
+06-30 13:46:48:077    [5030] E/drv.ft316
+06-30 13:46:48:077    9 tp_init: ft3169 id_L=56
+06-30 13:46:51:470    SFBL
+06-30 13:46:51:658    SFBL
+06-30 13:46:51:862    SFBL
+06-30 13:46:52:209    SFBL
+06-30 13:46:52:431    SFBL
+06-30 13:46:54:475    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 13:46:54:475    NAND ID 0xd1d13c
+06-30 13:46:54:475    det bbm table with 1, 1, 2
+06-30 13:46:54:475    detect result 2
+06-30 13:46:54:475    V1 1 in block 992, V2 0 in block 994
+06-30 13:46:54:475    Latest versio
+06-30 13:46:54:475    n 1
+06-30 13:46:54:491    V1 1 in block 993, V2 0 in block 995
+06-30 13:46:54:491    Latest version 1
+06-30 13:46:54:491    v1 1 in blk 992, v2 1 in block 993
+06-30 13:46:54:491    BBM MEM: ctx 2001f860, map1 2001f450, map2 2001f658 
+06-30 13:46:54:491    sif_bbm_init done
+06-30 13:46:54:491    
+06-30 13:46:54:491     \ | /
+06-30 13:46:54:491    - SiFli Corporation
+06-30 13:46:54:491     / | \     build on Jun  9 2025, 2.4.0 build 00000000
+06-30 13:46:54:491     2020 - 2022 Copyright by SiFli team
+06-30 13:46:54:491    mount /dev sucess
+06-30 13:46:54:491    [413] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+06-30 13:46:54:491    [420] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036221, rtc ppm=0
+06-30 13:46:54:491    
+06-30 13:46:54:491    [427] I/drv.rtc main: DIVA=36, DIVA_FRA=3100, DIVB=256
+06-30 13:46:54:491    
+06-30 13:46:54:491    [433] I/drv.rtc main: Init RTC, wake = 0
+06-30 13:46:54:491    
+06-30 13:46:54:491    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 13:46:54:491    [488] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 13:46:54:491    
+06-30 13:46:54:491    [494] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 13:46:54:491    
+06-30 13:46:54:491    [499] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 13:46:54:491    
+06-30 13:46:54:491    [505] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 13:46:54:506    call par CFG1(3313)
+06-30 13:46:54:506    fc 9, xtal 2000, pll 2129
+06-30 13:46:54:506    call par CFG1(3313)
+06-30 13:46:54:506    fc 7, xtal 2000, pll 1707
+06-30 13:46:54:506    [550] I/drv.lcd main: [NONE] -> [OPENING]
+06-30 13:46:54:506    [555] I/drv.lcd lcd_task: open
+06-30 13:46:54:506    [558] I/drv.epic lcd_task: drv_gpu opened.
+06-30 13:46:54:506    [563] I/drv.lcd lcd_task: HW open
+06-30 13:46:54:506    [573] I/drv.lcd lcd_task: Try registered LCD driver...
+06-30 13:46:54:506    msh />
+06-30 13:46:54:678    [2146] I/NO_TAG lcd_task: SH8603B_Init 
+06-30 13:46:54:678    
+06-30 13:46:54:866    SH8603B_Init_Finish
+06-30 13:46:54:898    [4160] I/NO_TAG lcd_task: 
+06-30 13:46:54:898     lcd_error  SH8603B_ReadID 0x0 
+06-30 13:46:54:898    
+06-30 13:46:54:898    [4166] I/drv.lcd lcd_task: Found lcd SH8603B id:9c03h
+06-30 13:46:54:898    [4172] I/drv.lcd lcd_task: HW open done.
+06-30 13:46:54:898    [4176] I/drv.lcd lcd_task: [OPENING] -> [INITIALIZED]
+06-30 13:46:54:898    [4182] I/drv.lcd lcd_task: open done.
+06-30 13:46:54:898    [4187] I/drv.lcd_fb main: drv_lcd_fb_init
+06-30 13:46:54:898    [4191] I/drv.lcd_fb main: drv_lcd_fb_init done.
+06-30 13:46:54:898    [4217] I/TOUCH main: Open
+06-30 13:46:54:898    [4220] I/TOUCH tp_init: Find touch screen driver...
+06-30 13:46:54:898    [4226] I/TOUCH tp_init: Probe 10006499
+06-30 13:46:54:898    [4230] I/TOUCH tp_init: touch screen found driver  0x2001f28c, ft3169
+06-30 13:46:54:898    [4238] I/TOUCH main: Opened.
+06-30 13:46:54:898    [4241] I/LVGL main: [littlevgl2rtt] Welcome to the littlevgl2r
+06-30 13:46:54:898    tt lib.
+06-30 13:46:54:929    [4524] I/drv.lcd lcd_task: Auto turn on display.
+06-30 13:46:54:929    [4529] I/drv.lcd lcd_task: set brightness 50
+06-30 13:46:54:929    lcd_debug run  SH8603B_SetBrightness br = 50, bright = 127
+06-30 13:46:54:929    [4541] I/drv.lcd lcd_task: display on
+06-30 13:46:54:929    lcd_debug  SH8603B_DisplayOn
+06-30 13:46:54:929    [4548] I/drv.lcd lcd_task: [INITIALIZED] -> [ON]
+06-30 13:46:54:991    [5020] E/drv.ft3169 tp_init: ft3169 id_H=64
+06-30 13:46:54:991    [5027] E/drv.ft316
+06-30 13:46:54:991    9 tp_init: ft3169 id_L=56
+06-30 13:47:17:285    SFBL
+06-30 13:47:19:332    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 13:47:19:332    NAND ID 0xd1d13c
+06-30 13:47:19:332    det bbm table with 1, 1, 2
+06-30 13:47:19:332    detect result 2
+06-30 13:47:19:332    V1 1 in block 992, V2 0 in block 994
+06-30 13:47:19:348    Latest version 1
+06-30 13:47:19:348    V1 1 in block 993, V2 0 in block 995
+06-30 13:47:19:348    Latest version 1
+06-30 13:47:19:348    v1 1 in blk 992, v2 1 in block 993
+06-30 13:47:19:348    BBM MEM: ctx 2001f860, map1 2001f450, map2 2001f658 
+06-30 13:47:19:348    sif_bbm_init done
+06-30 13:47:19:348    
+06-30 13:47:19:348     \ | /
+06-30 13:47:19:348    - SiFli Corporation
+06-30 13:47:19:348     / | \     build on Jun  9 2025, 2.4.0 build 00000000
+06-30 13:47:19:348     2020 - 2022 Copyright by SiFli team
+06-30 13:47:19:348    mount /dev sucess
+06-30 13:47:19:348    [414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+06-30 13:47:19:348    [421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036289, rtc ppm=0
+06-30 13:47:19:348    
+06-30 13:47:19:348    [428] I/drv.rtc main: DIVA=36, DIVA_FRA=3061, DIVB=256
+06-30 13:47:19:348    
+06-30 13:47:19:348    [434] I/drv.rtc main: Init RTC, wake = 0
+06-30 13:47:19:348    
+06-30 13:47:19:348    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 13:47:19:348    [489] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 13:47:19:348    
+06-30 13:47:19:348    [495] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 13:47:19:348    
+06-30 13:47:19:364    [500] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 13:47:19:364    
+06-30 13:47:19:364    [506] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 13:47:19:364    call par CFG1(3313)
+06-30 13:47:19:364    fc 9, xtal 2000, pll 2128
+06-30 13:47:19:364    call par CFG1(3313)
+06-30 13:47:19:364    fc 7, xtal 2000, pll 1706
+06-30 13:47:19:364    [551] I/drv.lcd main: [NONE] -> [OPENING]
+06-30 13:47:19:364    [556] I/drv.lcd lcd_task: open
+06-30 13:47:19:364    [559] I/drv.epic lcd_task: drv_gpu opened.
+06-30 13:47:19:364    [564] I/drv.lcd lcd_task: HW open
+06-30 13:47:19:364    [574] I/drv.lcd lcd_task: Try registered LCD driver...
+06-30 13:47:19:364    msh />
+06-30 13:47:19:536    [2148] I/NO_TAG lcd_task: SH8603B_Init 
+06-30 13:47:19:536    
+06-30 13:47:19:739    SH8603B_Init_Finish
+06-30 13:47:19:754    [4162] I/NO_TAG lcd_task: 
+06-30 13:47:19:754     lcd_error  SH8603B_ReadID 0x0 
+06-30 13:47:19:754    
+06-30 13:47:19:754    [4169] I/drv.lcd lcd_task: Found lcd SH8603B id:9c03h
+06-30 13:47:19:754    [4175] I/drv.lcd lcd_task: HW open done.
+06-30 13:47:19:754    [4179] I/drv.lcd lcd_task: [OPENING] -> [INITIALIZED]
+06-30 13:47:19:754    [4185] I/drv.lcd lcd_task: open done.
+06-30 13:47:19:754    [4189] I/drv.lcd_fb main: drv_lcd_fb_init
+06-30 13:47:19:754    [4194] I/drv.lcd_fb main: drv_lcd_fb_init done.
+06-30 13:47:19:754    
+06-30 13:47:19:754    [4219] I/TOUCH main: Open
+06-30 13:47:19:754    [4223] I/TOUCH tp_init: Find touch screen driver...
+06-30 13:47:19:754    [4228] I/TOUCH tp_init: Probe 10006499
+06-30 13:47:19:754    [4233] I/TOUCH tp_init: touch screen found driver  0x2001f28c, ft3169
+06-30 13:47:19:754    [4240] I/TOUCH main: Opened.
+06-30 13:47:19:754    [4243] I/LVGL main: [littlevgl2rtt] Welcome to the littlevgl2r
+06-30 13:47:19:754    tt lib.
+06-30 13:47:19:785    [4526] I/drv.lcd lcd_task: Auto turn on display.
+06-30 13:47:19:785    [4531] I/drv.lcd lcd_task: set brightness 50
+06-30 13:47:19:785    lcd_debug run  SH8603B_SetBrightness br = 50, bright = 127
+06-30 13:47:19:785    [4543] I/drv.lcd lcd_task: display on
+06-30 13:47:19:785    lcd_debug  SH8603B_DisplayOn
+06-30 13:47:19:785    [4550] I/drv.lcd lcd_task: [INITIALIZED] -> [ON]
+06-30 13:47:19:848    [5023] E/drv.ft3169 tp_init: ft3169 id_H=64
+06-30 13:47:19:848    [5030] E/drv.ft316
+06-30 13:47:19:848    9 tp_init: ft3169 id_L=56
+06-30 13:47:50:257 SC:receive cmd: stopcom

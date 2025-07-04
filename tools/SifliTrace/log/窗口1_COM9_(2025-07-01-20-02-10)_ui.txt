@@ -1,0 +1,4 @@
+07-01 20:02:10:894    No such directory
+07-01 20:02:10:899    msh />msh />
+07-01 20:02:56:113    SFBL
+07-01 20:02:58:232 SC:receive cmd: stopcom

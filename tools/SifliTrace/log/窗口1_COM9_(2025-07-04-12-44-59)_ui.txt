@@ -1,0 +1,2 @@
+07-04 12:44:59:523    SFBL
+07-04 12:45:00:661 SC:receive cmd: stopcom

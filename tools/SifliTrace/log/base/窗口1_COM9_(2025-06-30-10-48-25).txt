@@ -1,0 +1,81 @@
+RT-Thread shell commands:
+apa_set_mode     - set analog pa mode
+app_sche_print_perf_tick - Print app &subpage costed ticks
+list_app         - list all runing app
+app_exit         - exit specifed app
+app_goback       - go back current page
+app_cleanup      - cleanup all background app
+app_run          - run an app
+cpu              - cpu: view "Cortex-M33" profiling result
+cpu_prof_reset   - reset profiling counter
+cpu_prof_deinit  - detach profiling hook
+cpu_prof_init    - init prof
+mem_usage        - mem_usage: open or close memory usage log
+fps2             - fps2: open or close fps log
+en_lv_perf_debug - Enable lvgl perfomance debug log
+perf_cfg         - perfromance log config
+gpu_cfg          - gpu configurattion
+gif_log          - gif_log: open or close gif_log log
+sysinfo          - Show system information
+lcpu             - forward lcpu command
+pin              - pin gpio functions
+uart             - uart setting
+aprc_debug       - aprc_debug r / w idx value
+mic_gain         - mic_gain
+update_pll       - update PLL freq
+codec_dac_set_vol - set codec dac volume
+codec_hp_sin1k_test - audio_codec
+lcd_ctrl         - lcd control
+lcd_wreg         - lcd_wreg
+lcd_rreg         - lcd_rreg
+drv_lcd_test     - drv lcd test
+tp_ctrl          - Touch panel driver cmd
+en_drvtp_log     - enable touch panel log
+drv_epic_cfg     - drv_epic configuration
+reboot           - Reboot System
+dbguart2jlink    - Switch debug uart to jlink
+assert           - Force ULOG_ASSERT
+pwr_ctrl         - BT TX power adjust
+regop            - Register read / write
+memtrace         - dump memory trace information
+memcheck         - check memory data
+list_mem         - list memory usage information
+list_fd          - list file descriptor
+list_device      - list device in system
+list_timer       - list timer in system
+list_mempool     - list memory pool in system
+list_memheap     - list memory heap in system
+list_msgqueue    - list message queue in system
+list_mailbox     - list mail box in system
+list_mutex       - list mutex in system
+list_event       - list event in system
+list_sem         - list semaphore in system
+list_thread      - list thread
+version          - show RT - Thread version information
+help             - RT - Thread shell help.
+console          - Change MSH / FINSH console device.
+exit             - return to RT - Thread shell mode.
+free             - Show the memory usage in the system.
+time             - Execute command with time.
+ps               - List threads in the system.
+echo             - echo string to file
+df               - disk free
+mountfs          - mount device to file system
+mkfs             - format disk with file system
+mkdir            - Create the DIRECTORY.
+pwd              - Print the name of the current working directory.
+cd               - Change the shell working directory.
+rm               - Remove(unlink) the FILE(s).
+cat              - Concatenate FILE(s)
+mv               - Rename SOURCE to DEST.
+cp               - Copy SOURCE to DEST.
+ls               - List information about the FILEs.
+reset_ft         - reset_ft: close and re - open freetype test
+rotate_gpu_log   - lv_gpu_adv_log
+rotate_run       - rotate_run
+app_mem          - app_mem: open or close app_mem log
+adc              - adc function
+show_date        - get date and time or set [year month day hour min sec]
+list_date        - show date and time.
+
+msh />msh />

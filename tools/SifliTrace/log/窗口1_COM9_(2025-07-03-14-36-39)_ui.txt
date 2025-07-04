@@ -1,0 +1,113 @@
+07-03 14:36:39:051    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+07-03 14:36:39:056    NAND ID 0xd1d13c
+07-03 14:36:39:056    det bbm table with 1, 1, 2
+07-03 14:36:39:056    dete
+07-03 14:36:39:056    ct result 2
+07-03 14:36:39:056    V1 1 in block 992, V2 0 in block 994
+07-03 14:36:39:056    Latest versio
+07-03 14:36:39:056    n 1
+07-03 14:36:39:056    V1 1 in block 993, V2 0 in block 995
+07-03 14:36:39:056    Latest version 1
+07-03 14:36:39:056    v1 1 in blk 992, v2 1 in block 993
+07-03 14:36:39:056    BBM MEM: ctx 2003c844, map1 2003c434, map2 2003c63c 
+07-03 14:36:39:056    sif_bbm_init done
+07-03 14:36:39:056    
+07-03 14:36:39:056     \ | /
+07-03 14:36:39:064    - SiFli Corporation
+07-03 14:36:39:064     / | \     build on Jul  1 2025, 2.4.0 build 00000000
+07-03 14:36:39:064     2020 - 2022 Copyright by SiFli team
+07-03 14:36:39:064    mount /dev sucess
+07-03 14:36:39:064    [406] I/drv.rtc main: PSCLR=0x242fa500 DivAI=36 DivAF=3049 B=256
+07-03 14:36:39:064    [414] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036200, rtc ppm=0
+07-03 14:36:39:064    
+07-03 14:36:39:064    [421] I/drv.rtc main: DIVA=36, DIVA_FRA=3112, DIVB=256
+07-03 14:36:39:064    
+07-03 14:36:39:064    [427] I/drv.rtc main: Init RTC, wake = 1
+07-03 14:36:39:064    
+07-03 14:36:39:064    NAND factory magic error 0x6e11802 vs 0x53450617
+07-03 14:36:39:064    [440] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+07-03 14:36:39:064    
+07-03 14:36:39:064    [446] I/drv.audprc main: HAL_AUDPRC_Init res 0
+07-03 14:36:39:064    
+07-03 14:36:39:071    [451] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+07-03 14:36:39:071    
+07-03 14:36:39:071    [457] I/TOUCH main: Regist touch screen driver, probe=0x10006519 
+07-03 14:36:39:071    lvsf_font_load: faces 1 ft_cache_size 300000
+07-03 14:36:39:071    call par CFG1(3313)
+07-03 14:36:39:074    fc 9, xtal 2000, pll 2133
+07-03 14:36:39:074    call par CFG1(3313)
+07-03 14:36:39:074    fc 7, xtal 2000, pll 1710
+07-03 14:36:39:074    [510] E/DFS main: There is no space to register this file system (yaffs).
+07-03 14:36:39:074    Register root to mtd device with base addr 0x628
+07-03 14:36:39:074    40000
+07-03 14:36:39:074    disk_init:0
+07-03 14:36:39:096    init:6096
+07-03 14:36:39:098    mount fs on flash to root success
+07-03 14:36:39:098    mount fs[elm] on /
+07-03 14:36:39:098     failed.
+07-03 14:36:39:105    [779] I/drv.rtc app_watc: Get initial cycles: 1036200 rtc=165663
+07-03 14:36:39:105    3626.0000
+07-03 14:36:39:105    
+07-03 14:36:39:108    [835] I/drv.rtc app_watc: Get initial cycles: 1036200 rtc=1656666000.0000
+07-03 14:36:39:108    
+07-03 14:36:39:108    [844] I/drv.lcd app_watc: [NONE] -> [OPENING]
+07-03 14:36:39:108    [849] I/drv.lcd lcd_task: open
+07-03 14:36:39:108    [853] I/drv.epic lcd_task: drv_gpu opened.
+07-03 14:36:39:108    [857] I/drv.lcd lcd_task: HW open
+07-03 14:36:39:108    [868] I/drv.lcd lcd_task: Try registered LCD dr
+07-03 14:36:39:108    iver...
+07-03 14:36:39:108    msh />
+07-03 14:36:39:282    [2446] I/NO_TAG lcd_task: SH8603
+07-03 14:36:39:286    B_Init 
+07-03 14:36:39:286    
+07-03 14:36:39:486    SH8603B_Init_Finish
+07-03 14:36:39:501    [4461] I/NO_TAG lcd_task: 
+07-03 14:36:39:501     lcd_error  SH8603B_ReadID 0x0 
+07-03 14:36:39:501    
+07-03 14:36:39:501    [4468] I/drv.lcd lcd_task: Found lcd SH8603B id:9c03h
+07-03 14:36:39:501    [4473] I/drv.lcd lcd_task: HW open done.
+07-03 14:36:39:501    [4478] I/drv.lcd lcd_task: [OPENING] -> [INITIALIZED]
+07-03 14:36:39:501    [4484] I/drv.lcd lcd_task: open done.
+07-03 14:36:39:501    [4488] I/drv.lcd_fb app_watc: drv_lcd_fb_init
+07-03 14:36:39:507    [4493] I/drv.lcd_fb app_watc: drv_lcd_fb_init done.
+07-03 14:36:39:508    [4501] I/TOUCH app_watc: Open
+07-03 14:36:39:508    [4505] I/TOUCH tp_init: Find touch screen driver...
+07-03 14:36:39:508    [4510] I/TOUCH tp_init: Probe 10006519
+07-03 14:36:39:508    [4515] I/TOUCH tp_init: touch screen found driver  0x2003c294, ft3169
+07-03 14:36:39:508    [4522] I/TOUCH app_watc: Opened.
+07-03 14:36:39:508    [4543] I/LVGL app_watc: [littlevgl2rtt] Welcome to the littlevgl
+07-03 14:36:39:508    2rtt lib.
+07-03 14:36:39:508    [4558] D/APP.FWK app_watc: send msg[GUI_APP_MSG_RUN_APP] [Main] to gui_app_mbx tick:449.
+07-03 14:36:39:513    [4568] I/APP.FWK.INT app_
+07-03 14:36:39:513    watc: [Main]
+07-03 14:36:39:541    [4828] I/drv.lcd lcd_task: Auto turn on display.
+07-03 14:36:39:542    [4833] I/drv.lcd lcd_task: set brightness 50
+07-03 14:36:39:543    lcd_debug run  SH8603B_SetBrightness br = 50, bright = 127
+07-03 14:36:39:543    [4844] I/drv.lcd lcd_task: display on
+07-03 14:36:39:543    lcd_debug  SH8603B_DisplayOn
+07-03 14:36:39:544    [4852] I/drv.lcd lcd_task: [INITIALIZED] -> [ON]
+07-03 14:36:39:544    [4857] I/drv.lcd lcd_task: set brightness 100
+07-03 14:36:39:544    lcd_debug run  SH8603B_SetBrightness br = 100, bright = 255
+07-03 14:36:39:544    [4868] I/drv.lcd lcd_task: display on
+07-03 14:36:39:544    lcd_debug  SH8603B_DisplayOn
+07-03 14:36:39:547    [4876] D/APP.SCHE app_watc: ----------------app_schedule_task---------------start
+07-03 14:36:39:548    [4884] I/APP.SCHE app_watc: >>Execute msg[GUI_APP_MSG_RUN_APP] tick:449
+07-03 14:36:39:548    [4892] I/APP.SCHE app_watc: app[Main] do LOAD, 20056838
+07-03 14:36:39:548    [4898] I/APP.FWK app_watc: finding Main in builtin apps...
+07-03 14:36:39:548    [4904] D/APP.SCHE app_watc: app[Main] tgt_state [LAUNCHED] -> [RUNNING]
+07-03 14:36:39:548    [4912] I/APP.SCHE app_watc: app[Main] do START, 20056838
+07-03 14:36:39:548    [4918] I/APP.FWK.INT app_watc: [Main]
+07-03 14:36:39:548    [4922] D/APP.FWK app_watc: send msg[GUI_APP_MSG_OPEN_PAGE] [0x20056838] to gui_app_mbx tick:489.
+07-03 14:36:39:553    [4932] I/APP.SCHE app_watc: >>Execute msg[GUI_APP_MSG_OPEN_PAGE] tick:489
+07-03 14:36:39:554    [4940] D/APP.SCHE app_watc: app[Main] create page[root] 20056760
+07-03 14:36:39:556    [4947] D/APP.SCHE app_watc: page[Main][root] tgt_state [CREATED] -> [RESUMED]
+07-03 14:36:39:557    [4955] D/APP.SCHE app_watc: Stop all app, and return to main app
+07-03 14:36:39:557    [4964] I/APP.SCHE app_watc: page[Main][root] do ONSTART, 20056760
+07-03 14:36:39:557    [4985] I/APP.SCHE app_watc: page[Main][root] do ONRESUME, 20056760
+07-03 14:36:39:557    [4993] I/APP.SCHE app_watc: Try setup trans-anim
+07-03 14:36:39:557    [4998] I/APP.SCHE app_watc: Trans-anim is OFF, skip.
+07-03 14:36:39:557    [5004] D/APP.SCHE app_watc: app_schedule_task don
+07-03 14:36:39:562    e.
+07-03 14:36:39:589    [5304] E/drv.ft3169 tp_init: ft3169 id_H=64
+07-03 14:36:39:593    [5310] E/drv.ft316
+07-03 14:36:39:593    9 tp_init: ft3169 id_L=56

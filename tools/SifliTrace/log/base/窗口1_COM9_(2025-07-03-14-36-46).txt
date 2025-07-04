@@ -1,0 +1,29 @@
+Directory /:
+msh />msh />Directory /:
+msh />msh />No such directory: sys
+msh />msh />msh />msh />Directory /:
+sys                 <DIR>                    
+msh />msh />l: command not found.
+msh />msh />sl: command not found.
+msh />msh />Directory /:
+sys                 <DIR>                    
+msh />msh />Directory /:
+sys                 <DIR>                    
+msh />msh />Directory /:
+sys                 <DIR>                    
+msh />msh />Directory /:
+sys                 <DIR>                    
+msh />msh />Directory /:
+sys                 <DIR>                    
+msh />msh />msh />msh />Directory /:
+sys                 <DIR>                    
+msh />msh />Directory /:
+sys                 <DIR>                    
+msh />msh />Directory /:
+sys                 <DIR>                    
+msh />msh />Directory /:
+sys                 <DIR>                    
+msh />msh />s: command not found.
+msh />msh />Directory /:
+sys                 <DIR>                    
+msh />msh />

@@ -1,0 +1,81 @@
+06-30 10:48:25:271    RT-Thread shell commands:
+06-30 10:48:25:271    apa_set_mode     - set analog pa mode
+06-30 10:48:25:271    app_sche_print_perf_tick - Print app &subpage costed ticks
+06-30 10:48:25:271    list_app         - list all runing app
+06-30 10:48:25:271    app_exit         - exit specifed app
+06-30 10:48:25:271    app_goback       - go back current page
+06-30 10:48:25:271    app_cleanup      - cleanup all background app
+06-30 10:48:25:271    app_run          - run an app
+06-30 10:48:25:271    cpu              - cpu: view "Cortex-M33" profiling result
+06-30 10:48:25:271    cpu_prof_reset   - reset profiling counter
+06-30 10:48:25:286    cpu_prof_deinit  - detach profiling hook
+06-30 10:48:25:286    cpu_prof_init    - init prof
+06-30 10:48:25:286    mem_usage        - mem_usage: open or close memory usage log
+06-30 10:48:25:286    fps2             - fps2: open or close fps log
+06-30 10:48:25:286    en_lv_perf_debug - Enable lvgl perfomance debug log
+06-30 10:48:25:286    perf_cfg         - perfromance log config
+06-30 10:48:25:286    gpu_cfg          - gpu configurattion
+06-30 10:48:25:286    gif_log          - gif_log: open or close gif_log log
+06-30 10:48:25:286    sysinfo          - Show system information
+06-30 10:48:25:286    lcpu             - forward lcpu command
+06-30 10:48:25:286    pin              - pin gpio functions
+06-30 10:48:25:286    uart             - uart setting
+06-30 10:48:25:286    aprc_debug       - aprc_debug r / w idx value
+06-30 10:48:25:286    mic_gain         - mic_gain
+06-30 10:48:25:302    update_pll       - update PLL freq
+06-30 10:48:25:302    codec_dac_set_vol - set codec dac volume
+06-30 10:48:25:302    codec_hp_sin1k_test - audio_codec
+06-30 10:48:25:302    lcd_ctrl         - lcd control
+06-30 10:48:25:302    lcd_wreg         - lcd_wreg
+06-30 10:48:25:302    lcd_rreg         - lcd_rreg
+06-30 10:48:25:302    drv_lcd_test     - drv lcd test
+06-30 10:48:25:302    tp_ctrl          - Touch panel driver cmd
+06-30 10:48:25:302    en_drvtp_log     - enable touch panel log
+06-30 10:48:25:302    drv_epic_cfg     - drv_epic configuration
+06-30 10:48:25:302    reboot           - Reboot System
+06-30 10:48:25:302    dbguart2jlink    - Switch debug uart to jlink
+06-30 10:48:25:302    assert           - Force ULOG_ASSERT
+06-30 10:48:25:302    pwr_ctrl         - BT TX power adjust
+06-30 10:48:25:302    regop            - Register read / write
+06-30 10:48:25:302    memtrace         - dump memory trace information
+06-30 10:48:25:302    memcheck         - check memory data
+06-30 10:48:25:302    list_mem         - list memory usage information
+06-30 10:48:25:318    list_fd          - list file descriptor
+06-30 10:48:25:318    list_device      - list device in system
+06-30 10:48:25:318    list_timer       - list timer in system
+06-30 10:48:25:318    list_mempool     - list memory pool in system
+06-30 10:48:25:318    list_memheap     - list memory heap in system
+06-30 10:48:25:318    list_msgqueue    - list message queue in system
+06-30 10:48:25:318    list_mailbox     - list mail box in system
+06-30 10:48:25:318    list_mutex       - list mutex in system
+06-30 10:48:25:318    list_event       - list event in system
+06-30 10:48:25:318    list_sem         - list semaphore in system
+06-30 10:48:25:318    list_thread      - list thread
+06-30 10:48:25:318    version          - show RT - Thread version information
+06-30 10:48:25:318    help             - RT - Thread shell help.
+06-30 10:48:25:318    console          - Change MSH / FINSH console device.
+06-30 10:48:25:318    exit             - return to RT - Thread shell mode.
+06-30 10:48:25:318    free             - Show the memory usage in the system.
+06-30 10:48:25:318    time             - Execute command with time.
+06-30 10:48:25:318    ps               - List threads in the system.
+06-30 10:48:25:318    echo             - echo string to file
+06-30 10:48:25:318    df               - disk free
+06-30 10:48:25:318    mountfs          - mount device to file system
+06-30 10:48:25:318    mkfs             - format disk with file system
+06-30 10:48:25:318    mkdir            - Create the DIRECTORY.
+06-30 10:48:25:318    pwd              - Print the name of the current working directory.
+06-30 10:48:25:318    cd               - Change the shell working directory.
+06-30 10:48:25:318    rm               - Remove(unlink) the FILE(s).
+06-30 10:48:25:318    cat              - Concatenate FILE(s)
+06-30 10:48:25:318    mv               - Rename SOURCE to DEST.
+06-30 10:48:25:318    cp               - Copy SOURCE to DEST.
+06-30 10:48:25:318    ls               - List information about the FILEs.
+06-30 10:48:25:318    reset_ft         - reset_ft: close and re - open freetype test
+06-30 10:48:25:318    rotate_gpu_log   - lv_gpu_adv_log
+06-30 10:48:25:318    rotate_run       - rotate_run
+06-30 10:48:25:318    app_mem          - app_mem: open or close app_mem log
+06-30 10:48:25:318    adc              - adc function
+06-30 10:48:25:333    show_date        - get date and time or set [year month day hour min sec]
+06-30 10:48:25:333    list_date        - show date and time.
+06-30 10:48:25:333    
+06-30 10:48:25:333    msh />msh />

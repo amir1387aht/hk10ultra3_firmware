@@ -1,0 +1,43 @@
+07-01 20:17:50:216    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+07-01 20:17:50:218    NAND ID 0xd1d13c
+07-01 20:17:50:219    det bbm table with 1, 1, 2
+07-01 20:17:50:220    detect result 2
+07-01 20:17:50:221    V1 1 in block 992, V2 0 in block 994
+07-01 20:17:50:221    Latest version 1
+07-01 20:17:50:222    V1 1 in block 993, V2 0 in block 995
+07-01 20:17:50:223    Latest version 1
+07-01 20:17:50:224    v1 1 in blk 992, v2 1 in block 993
+07-01 20:17:50:226    BBM MEM: ctx 2000afc8, map1 2000abb8, map2 2000adc0 
+07-01 20:17:50:227    sif_bbm_init done
+07-01 20:17:50:227    
+07-01 20:17:50:228     \ | /
+07-01 20:17:50:229    - SiFli Corporation
+07-01 20:17:50:229     / | \     build on Jul  1 2025, 2.4.0 build 00000000
+07-01 20:17:50:230     2020 - 2022 Copyright by SiFli team
+07-01 20:17:50:231    mount /dev sucess
+07-01 20:17:50:233    [I/drv.rtc] PSCLR=0x242fa500 DivAI=36 DivAF=3049 B=256
+07-01 20:17:50:234    [I/drv.rtc] RC10K Freq=9kHz, cycle=1036271, rtc ppm=0
+07-01 20:17:50:235    
+07-01 20:17:50:235    [I/drv.rtc] DIVA=36, DIVA_FRA=3071, DIVB=256
+07-01 20:17:50:236    
+07-01 20:17:50:236    [I/drv.rtc] Init RTC, wake = 1
+07-01 20:17:50:237    
+07-01 20:17:50:238    NAND factory magic error 0x6e11802 vs 0x53450617
+07-01 20:17:50:238    [I/drv.audprc] init 00 ADC_PATH_CFG0 0x606
+07-01 20:17:50:240    
+07-01 20:17:50:241    [I/drv.audprc] HAL_AUDPRC_Init res 0
+07-01 20:17:50:242    
+07-01 20:17:50:243    [I/drv.audcodec] HAL_AUDCODEC_Init res 0
+07-01 20:17:50:244    
+07-01 20:17:50:244    [32m[I/TOUCH] Regist touch screen driver, probe=100064a9 [0m
+07-01 20:17:50:246    call par CFG1(3313)
+07-01 20:17:50:249    fc 9, xtal 2000, pll 2133
+07-01 20:17:50:249    call par CFG1(3313)
+07-01 20:17:50:252    fc 7, xtal 2000, pll 1709
+07-01 20:17:50:253    Register root to mtd device with base addr 0x62840000
+07-01 20:17:50:253    disk_init:0
+07-01 20:17:50:254    init:6096
+07-01 20:17:50:254    mount fs on flash to root success
+07-01 20:17:50:255    Use help to check file system command!
+07-01 20:17:50:256    msh />
+07-01 20:22:06:642 SC:receive cmd: stopcom

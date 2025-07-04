@@ -1,0 +1,28 @@
+# 只允许手动和定时触发，并支持MR/Push
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: always
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: always
+    - if: $CI_PIPELINE_SOURCE == "api"
+      when: always
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: always
+    - if: $CI_PIPELINE_SOURCE == "push"
+      when: always
+    - when: never
+
+stages:
+  - prepare
+  - build
+  - sync_to_github
+  - mirror
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+include:
+  - local: '.gitlab/ci/build_sdk.yml'
+  - local: '.gitlab/ci/sync_to_github.yml'
+  - local: '.gitlab/ci/mirror_to_external.yml'

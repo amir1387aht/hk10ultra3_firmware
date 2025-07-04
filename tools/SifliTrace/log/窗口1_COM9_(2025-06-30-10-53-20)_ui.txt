@@ -1,0 +1,100 @@
+06-30 10:53:20:413    ÿ
+06-30 10:53:30:088    SFBL
+06-30 10:53:30:433    SFBL
+06-30 10:53:35:061    SFBL
+06-30 10:53:35:389    SFBL
+06-30 10:53:35:639    SFBL
+06-30 10:53:35:655    SFBL
+06-30 10:53:35:655    SFBL
+06-30 10:53:35:749    SFBL
+06-30 10:53:36:202    SFBL
+06-30 10:53:36:264    SFBL
+06-30 10:53:36:296    SFBL
+06-30 10:53:36:327    SFBL
+06-30 10:53:36:374    SFBL
+06-30 10:53:36:874    SFBL
+06-30 10:53:36:890    SFBL
+06-30 10:53:38:516    SFBL
+06-30 10:53:38:985    SFBL
+06-30 10:53:41:079    SFBL
+06-30 10:53:43:257    SFBL
+06-30 10:53:45:528    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 10:53:45:528    NAND ID 0xd1d13c
+06-30 10:53:45:528    det bbm table with 1, 1, 2
+06-30 10:53:45:528    detect result 2
+06-30 10:53:45:528    V1 1 in block 992, V2 0 in block 994
+06-30 10:53:45:537    Latest version 1
+06-30 10:53:45:537    V1 1 in block 993, V2 0 in block 995
+06-30 10:53:45:537    Latest version 1
+06-30 10:53:45:537    v1 1 in blk 992, v2 1 in block 993
+06-30 10:53:45:537    BBM MEM: ctx 20028704, map1 200282f4, map2 200284fc 
+06-30 10:53:45:537    sif_bbm_init done
+06-30 10:53:45:537    
+06-30 10:53:45:537     \ | /
+06-30 10:53:45:537    - SiFli Corporation
+06-30 10:53:45:537     / | \     build on Jun 24 2025, 2.4.0 build 00000000
+06-30 10:53:45:537     2020 - 2022 Copyright by SiFli team
+06-30 10:53:45:553    mount /dev sucess
+06-30 10:53:45:553    [414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+06-30 10:53:45:553    [421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036344, rtc ppm=0
+06-30 10:53:45:553    
+06-30 10:53:45:553    [428] I/drv.rtc main: DIVA=36, DIVA_FRA=3029, DIVB=256
+06-30 10:53:45:553    
+06-30 10:53:45:553    [435] I/drv.rtc main: Init RTC, wake = 0
+06-30 10:53:45:553    
+06-30 10:53:45:553    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 10:53:45:553    [489] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 10:53:45:553    
+06-30 10:53:45:553    [495] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 10:53:45:553    
+06-30 10:53:45:553    [500] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 10:53:45:553    
+06-30 10:53:45:553    [506] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 10:53:45:553    lvsf_font_load: faces 1 ft_cache_size 300000
+06-30 10:53:45:553    call par CFG1(3313)
+06-30 10:53:45:553    fc 9, xtal 2000, pll 2126
+06-30 10:53:45:553    call par CFG1(3313)
+06-30 10:53:45:553    fc 7, xtal 2000, pll 1706
+06-30 10:53:45:553    msh />
+06-30 10:53:54:700    SFBL
+06-30 10:53:54:731    SFBL
+06-30 10:53:54:762    SFBL
+06-30 10:53:55:155    SFBL
+06-30 10:53:57:423    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+06-30 10:53:57:430    NAND ID 0xd1d13c
+06-30 10:53:57:431    det bbm table with 1, 1, 2
+06-30 10:53:57:433    detect result 2
+06-30 10:53:57:434    V1 1 in block 992, V2 0 in block 994
+06-30 10:53:57:435    Latest version 1
+06-30 10:53:57:435    V1 1 in block 993, V2 0 in block 995
+06-30 10:53:57:436    Latest version 1
+06-30 10:53:57:436    v1 1 in blk 992, v2 1 in block 993
+06-30 10:53:57:436    BBM MEM: ctx 20028704, map1 200282f4, map2 200284fc 
+06-30 10:53:57:438    sif_bbm_init done
+06-30 10:53:57:438    
+06-30 10:53:57:439     \ | /
+06-30 10:53:57:440    - SiFli Corporation
+06-30 10:53:57:440     / | \     build on Jun 24 2025, 2.4.0 build 00000000
+06-30 10:53:57:440     2020 - 2022 Copyright by SiFli team
+06-30 10:53:57:442    mount /dev sucess
+06-30 10:53:57:442    [414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+06-30 10:53:57:442    [421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036308, rtc ppm=0
+06-30 10:53:57:442    
+06-30 10:53:57:442    [429] I/drv.rtc main: DIVA=36, DIVA_FRA=3050, DIVB=256
+06-30 10:53:57:442    
+06-30 10:53:57:442    [435] I/drv.rtc main: Init RTC, wake = 0
+06-30 10:53:57:445    
+06-30 10:53:57:445    NAND factory magic error 0x6e11802 vs 0x53450617
+06-30 10:53:57:447    [489] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+06-30 10:53:57:448    
+06-30 10:53:57:448    [495] I/drv.audprc main: HAL_AUDPRC_Init res 0
+06-30 10:53:57:448    
+06-30 10:53:57:448    [500] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+06-30 10:53:57:450    
+06-30 10:53:57:450    [506] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+06-30 10:53:57:450    lvsf_font_load: faces 1 ft_cache_size 300000
+06-30 10:53:57:452    call par CFG1(3313)
+06-30 10:53:57:454    fc 9, xtal 2000, pll 2125
+06-30 10:53:57:454    call par CFG1(3313)
+06-30 10:53:57:456    fc 7, xtal 2000, pll 1705
+06-30 10:53:57:457    msh />

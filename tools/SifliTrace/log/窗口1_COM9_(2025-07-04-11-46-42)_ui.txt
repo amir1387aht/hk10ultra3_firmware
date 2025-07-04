@@ -1,0 +1,42 @@
+07-04 11:46:42:749    SFBL
+07-04 11:46:45:016    Serial:c2,Chip:4,Package:3,Rev:3  Reason:00000000
+07-04 11:46:45:017    NAND ID 0xd1d13c
+07-04 11:46:45:019    det bbm table with 1, 1, 2
+07-04 11:46:45:020    detect result 2
+07-04 11:46:45:021    V1 1 in block 992, V2 0 in block 994
+07-04 11:46:45:022    Latest version 1
+07-04 11:46:45:023    V1 1 in block 993, V2 0 in block 995
+07-04 11:46:45:023    Latest version 1
+07-04 11:46:45:024    v1 1 in blk 992, v2 1 in block 993
+07-04 11:46:45:025    BBM MEM: ctx 2003c7c4, map1 2003c3b4, map2 2003c5bc 
+07-04 11:46:45:026    sif_bbm_init done
+07-04 11:46:45:027    
+07-04 11:46:45:028     \ | /
+07-04 11:46:45:028    - SiFli Corporation
+07-04 11:46:45:029     / | \     build on Jul  1 2025, 2.4.0 build 00000000
+07-04 11:46:45:030     2020 - 2022 Copyright by SiFli team
+07-04 11:46:45:030    mount /dev sucess
+07-04 11:46:45:031    [414] I/drv.rtc main: PSCLR=0x80000100 DivAI=128 DivAF=0 B=256
+07-04 11:46:45:031    [421] I/drv.rtc main: RC10K Freq=9kHz, cycle=1036235, rtc ppm=0
+07-04 11:46:45:032    
+07-04 11:46:45:033    [428] I/drv.rtc main: DIVA=36, DIVA_FRA=3092, DIVB=256
+07-04 11:46:45:034    
+07-04 11:46:45:035    [434] I/drv.rtc main: Init RTC, wake = 0
+07-04 11:46:45:036    
+07-04 11:46:45:036    NAND factory magic error 0x6e11802 vs 0x53450617
+07-04 11:46:45:037    [488] I/drv.audprc main: init 00 ADC_PATH_CFG0 0x606
+07-04 11:46:45:038    
+07-04 11:46:45:038    [494] I/drv.audprc main: HAL_AUDPRC_Init res 0
+07-04 11:46:45:039    
+07-04 11:46:45:040    [499] I/drv.audcodec main: HAL_AUDCODEC_Init res 0
+07-04 11:46:45:041    
+07-04 11:46:45:041    [505] I/TOUCH main: Regist touch screen driver, probe=0x10006499 
+07-04 11:46:45:042    lvsf_font_load: faces 1 ft_cache_size 300000
+07-04 11:46:45:043    call par CFG1(3313)
+07-04 11:46:45:044    fc 9, xtal 2000, pll 2133
+07-04 11:46:45:046    call par CFG1(3313)
+07-04 11:46:45:046    fc 7, xtal 2000, pll 1709
+07-04 11:46:45:047    [558] E/DFS main: There is no space to register this file system (yaffs).
+07-04 11:46:45:047    mount fs[elm] on / failed.
+07-04 11:46:45:049    msh />
+07-04 11:49:55:230 SC:receive cmd: stopcom
