@@ -16,3 +16,4 @@ Kconfig.tmp
 /docs/
 /example/
 /**/.vs
+/tools/SifliTrace/log
