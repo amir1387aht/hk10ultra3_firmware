@@ -25,6 +25,13 @@ int mnt_init(void)
             rt_kprintf("dfs_mkfs elm flash fail\n");
         }
     }
+
+    // FlashDB Init
+    if (flashdb_init() != RT_EOK) {
+        rt_kprintf("FlashDB initialization failed!\n");
+        return RT_ERROR;
+    }
+
     return RT_EOK;
 }
 

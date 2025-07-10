@@ -6,6 +6,7 @@
       ],
       "name": "x86-Debug",
       "includePath": [
+        "${workspaceRoot}\\..\\..\\..\\..\\external\\FlashDB\\inc",
         "${workspaceRoot}\\..\\..\\..\\..\\rtos\\rtthread\\components\\dfs\\include",
         "${workspaceRoot}\\..\\..\\..\\..\\customer\\boards\\eh-lb52xu",
         "${workspaceRoot}\\..\\..\\..\\..\\middleware\\cell_transform",

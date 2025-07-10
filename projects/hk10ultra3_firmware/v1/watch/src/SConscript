@@ -9,7 +9,6 @@ cwd = GetCurrentDir() # get current dir path
 src+=Glob('*.c')
 inc+= [cwd]
 
-
 #Add resources.
 # Ensure directory is created before any builder is executed
 # If the path is not present, it would not be added in "include path" and 'lang_pack.h' dependency would not work
@@ -27,6 +26,7 @@ src.extend(app_objs)
 src.extend(SConscript(os.path.join(cwd, 'app_utils/SConscript'), variant_dir="app_utils", duplicate=0))
 
 src.extend(SConscript(os.path.join(cwd, 'fs/SConscript'), variant_dir="fs", duplicate=0))
+src.extend(SConscript(os.path.join(cwd, 'flashdb/SConscript'), variant_dir="flashdb", duplicate=0))
 
 group = DefineGroup('app', src, depend = ['PKG_USING_LITTLEVGL2RTT'], CPPPATH = inc)
 Return('group')

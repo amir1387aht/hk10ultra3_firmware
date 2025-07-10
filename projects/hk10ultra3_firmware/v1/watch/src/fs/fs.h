@@ -7,6 +7,7 @@
 #include "drv_flash.h"
 #include <custom_mem_map.h>
 #include <rtthread.h>
+#include "../flashdb/fdb.h"
 
 int mnt_init(void);
 

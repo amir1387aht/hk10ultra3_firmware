@@ -13,7 +13,5 @@
 Kconfig.tmp
 .venv
 .DS_Store
-/docs/
-/example/
 /**/.vs
 /tools/SifliTrace/log

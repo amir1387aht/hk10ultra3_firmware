@@ -5,7 +5,6 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
-
 #include "drv_flash.h"
 #include "drv_io.h"
 
