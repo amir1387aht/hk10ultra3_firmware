@@ -38,14 +38,6 @@
 
 #ifdef RT_USING_DFS_MNTTABLE
     #include "dfs_fs.h"
-const struct dfs_mount_tbl mount_table[] = {
-    {.device_name = "flash2",
-     .path = "/",
-     .filesystemtype = "elm",
-     .rwflag = 0,
-     .data = 0},
-    {0},
-};
 #endif
 
 #define BOOT_LOCATION 1

@@ -120,8 +120,6 @@ int flashdb_init(void)
     return RT_EOK;
 }
 
-INIT_ENV_EXPORT(flashdb_init);
-
 /* KV wrappers with debug */
 bool kv_set_int(const char *key, int value)
 {
