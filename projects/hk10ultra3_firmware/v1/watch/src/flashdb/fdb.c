@@ -16,9 +16,8 @@ fdb_tsdb_t p_tsdb_db = &g_tsdb_db;
 #endif
 
 /* Default KV values and nodes */
-static char model_name_value[] =
-    "HK10 Ultra 3";                    /* Remove const to avoid warning */
-static char version_value[] = "1.0.0"; /* Remove const to avoid warning */
+static const char model_name_value[] = "HK10 Ultra 3";
+static const char version_value[] = "1.0.0";
 
 static struct fdb_default_kv_node default_kv_nodes[] = {
     {"model_name", model_name_value, sizeof(model_name_value)},
@@ -120,6 +119,8 @@ int flashdb_init(void)
 
     return RT_EOK;
 }
+
+INIT_ENV_EXPORT(flashdb_init);
 
 /* KV wrappers with debug */
 bool kv_set_int(const char *key, int value)
@@ -322,10 +323,7 @@ void ts_clear(void)
     fdb_tsl_clean(p_tsdb_db);
 }
 
-/*=========================================================================
- * 1) ts_add: expect one string argument
- *    usage: msh_ts_add "some log entry"
- *=========================================================================*/
+/* MSH Wrappers */
 static int msh_ts_add(int argc, char **argv)
 {
     if (argc != 2)
@@ -347,10 +345,6 @@ static int msh_ts_add(int argc, char **argv)
 }
 MSH_CMD_EXPORT(msh_ts_add, ts_add<string> : append a log entry to TSDB);
 
-/*=========================================================================
- * 2) ts_print_query_by_time: expect two timestamps (seconds since epoch)
- *    usage: msh_ts_print_query_by_time <from> <to>
- *=========================================================================*/
 static int msh_ts_print_query_by_time(int argc, char **argv)
 {
     if (argc != 3)
@@ -373,10 +367,6 @@ static int msh_ts_print_query_by_time(int argc, char **argv)
 }
 MSH_CMD_EXPORT(msh_ts_print_query_by_time, ts_print_query_by_time <from> <to>: query logs by time);
 
-/*=========================================================================
- * 3) ts_count_all: no arguments
- *    usage: msh_ts_count_all
- *=========================================================================*/
 static int msh_ts_count_all(int argc, char **argv)
 {
     if (argc != 1)
@@ -391,10 +381,6 @@ static int msh_ts_count_all(int argc, char **argv)
 }
 MSH_CMD_EXPORT(msh_ts_count_all, ts_count_all : print count of all logs);
 
-/*=========================================================================
- * 4) ts_clear: no arguments
- *    usage: msh_ts_clear
- *=========================================================================*/
 static int msh_ts_clear(int argc, char **argv)
 {
     if (argc != 1)
@@ -408,10 +394,6 @@ static int msh_ts_clear(int argc, char **argv)
 }
 MSH_CMD_EXPORT(msh_ts_clear, ts_clear : delete all logs);
 
-/*=========================================================================
- * 5) ts_print_all_query: no arguments
- *    usage: msh_ts_print_all
- *=========================================================================*/
 static int msh_ts_print_all(int argc, char **argv)
 {
     if (argc != 1)

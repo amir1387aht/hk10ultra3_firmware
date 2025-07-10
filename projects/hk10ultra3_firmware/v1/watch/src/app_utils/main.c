@@ -34,6 +34,8 @@
     #include "bf0_ble_tipc.h"
 #endif
 
+#include "flashdb/fdb.h"
+
 #ifdef RT_USING_DFS_MNTTABLE
     #include "dfs_fs.h"
 const struct dfs_mount_tbl mount_table[] = {
@@ -86,7 +88,7 @@ int mod_load(int argc, char **argv)
 }
 MSH_CMD_EXPORT(mod_load, Load module);
 
-    #ifdef RT_USING_XIP_MODULE
+#ifdef RT_USING_XIP_MODULE
 
 static struct rt_dlmodule *test_module;
 
@@ -99,11 +101,9 @@ int mod_run(int argc, char **argv)
     }
 
     const char *mod_name = argv[1];
-    const char *install_path = (argc >= 3) ? argv[2] : "/app";
+    const char *install_path = (argc >= 3) ? argv[2] : "/apps";
 
     test_module = dlrun(mod_name, install_path);
-
-    rt_kprintf("run %s:0x%x,%d\n", mod_name, test_module, test_module->nref);
 
     if (test_module->nref && test_module->init_func)
         test_module->init_func(test_module);
@@ -123,8 +123,10 @@ int get_f_phy_addr(int argc, char **argv)
         uint32_t addr;
         uint8_t buf[10];
         read(fid, buf, 5);
+
         if (ioctl(fid, F_GET_PHY_ADDR, &addr) >= 0)
             rt_kprintf("addr: 0x%p\n", addr);
+
         close(fid);
     }
 
@@ -132,7 +134,7 @@ int get_f_phy_addr(int argc, char **argv)
 }
 MSH_CMD_EXPORT(get_f_phy_addr, Get file physical address);
 
-    #endif // RT_USING_XIP_MODULE
+#endif // RT_USING_XIP_MODULE
 
 int mod_free(int argc, char **argv)
 {

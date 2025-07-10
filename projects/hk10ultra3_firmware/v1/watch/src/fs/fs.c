@@ -20,16 +20,7 @@ int mnt_init(void)
             else
                 rt_kprintf("mount to fs on flash fail\n");
         }
-        else
-        {
-            rt_kprintf("dfs_mkfs elm flash fail\n");
-        }
-    }
-
-    // FlashDB Init
-    if (flashdb_init() != RT_EOK) {
-        rt_kprintf("FlashDB initialization failed!\n");
-        return RT_ERROR;
+        else rt_kprintf("dfs_mkfs elm flash fail\n");
     }
 
     return RT_EOK;
