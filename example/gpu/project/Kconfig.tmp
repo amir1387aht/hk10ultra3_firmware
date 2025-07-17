@@ -1,0 +1,4 @@
+source "D:/SiFli-SDK/customer/boards/eh-lb525/hcpu/Kconfig.board"
+source "$SIFLI_SDK/customer/boards/Kconfig.v2"
+source "$SIFLI_SDK/Kconfig.v2"
+rsource "Kconfig.proj"
