@@ -66,6 +66,16 @@ int main(void)
     ble_tipc_init(true);
 #endif
 
+    rt_pin_mode(BSP_LED1_PIN, PIN_MODE_OUTPUT);
+    bool state = RT_TRUE;
+
+    while (1)
+    {
+        rt_pin_write(BSP_LED1_PIN, state);
+        state = !state;
+        rt_thread_mdelay(2000);
+    }
+
     return RT_EOK;
 }
 

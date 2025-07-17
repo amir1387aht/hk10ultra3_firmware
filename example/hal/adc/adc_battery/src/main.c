@@ -8,7 +8,7 @@
 #include <stdlib.h>
 
 //#define BSP_GPADC_USING_DMA 1
-#define ADC_DEV_CHANNEL     7           /* ADC channe7 */
+#define ADC_DEV_CHANNEL    6           /* ADC channel */
 
 #define ADC_RATIO_ACCURATE          (1000)
 

@@ -42,7 +42,10 @@ static void _unlock(fdb_db_t db)
 /* Time callback */
 static fdb_time_t _get_time(void)
 {
-    return (fdb_time_t)rt_tick_get();
+    time_t t = 0;
+
+    time(&t);
+    return t;
 }
 
 int flashdb_init(void)
@@ -236,8 +239,12 @@ bool ts_add(const char *value)
     fdb_err_t err = fdb_tsl_append(
         p_tsdb_db, fdb_blob_make(&blob, value, strlen(value) + 1));
 
-    if (err != FDB_NO_ERR)
-        rt_kprintf("[TS] Failed to append value, error: %d\n", err);
+    if (err == FDB_SAVED_FULL)
+    {
+        ts_clear();
+        return ts_add(value);
+    }
+    else if (err != FDB_NO_ERR) rt_kprintf("[TS] Failed to append value, error: %d\n", err);
 
     return err == FDB_NO_ERR;
 }
@@ -306,9 +313,7 @@ void ts_query_all(fdb_tsl_cb cb)
 
 size_t ts_count_all()
 {
-    size_t result = ts_count_get(0, 0x7FFFFFFF);
-    rt_kprintf("[ts_count_all] count: %d\n", result);
-    return result;
+    return ts_count_get(0, 0x7FFFFFFF);
 }
 
 size_t ts_count_get(fdb_time_t from, fdb_time_t to)

@@ -27,8 +27,7 @@ int mnt_init(void)
                 ? "mount fs on flash success\n"
                 : "mount to fs on flash fail\n");
         }
-        else
-            rt_kprintf("dfs_mkfs flash fail\n");
+        else rt_kprintf("dfs_mkfs flash fail\n");
     }
 
     if (flashdb_init() != RT_EOK)
