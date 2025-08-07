@@ -357,9 +357,8 @@ if BSP_USING_LCD
         config LCD_USING_TFT_CO5300
             bool "1.85 rect QSPI Single-Screen LCD(LCD_1P85_390*450_DevKit_Adapter_V1.0.0)"
             select LCD_USING_CO5300
-            select TSC_USING_FT6146 if BSP_USING_TOUCHD
+            select TSC_USING_CHSC6417 if BSP_USING_TOUCHD
             select BSP_LCDC_USING_QADSPI
-            select LCD_USING_PWM_AS_BACKLIGHT
             if LCD_USING_TFT_CO5300
                config LCD_CO5300_VSYNC_ENABLE
                     bool "Enable LCD VSYNC (TE signal)"

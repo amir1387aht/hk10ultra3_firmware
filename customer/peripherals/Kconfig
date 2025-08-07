@@ -77,6 +77,10 @@ config TSC_USING_CHSC5816
     bool
     default n
 
+config TSC_USING_CHSC6417
+    bool
+    default n
+
 config TSC_USING_GT9271
     bool
     default n

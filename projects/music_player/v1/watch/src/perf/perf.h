@@ -1,0 +1,24 @@
+#ifndef PERF_H
+#define PERF_H
+
+#include <stdint.h>
+#include <rtthread.h>
+#include <rtdevice.h>
+#include "button.h"
+#include "littlevgl2rtt.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+// Button registration API
+void perf_buttons_init(void);
+void perf_button_key_read(uint32_t *last_key, lv_indev_state_t *state);
+
+// Add more APIs for LED, etc. as needed
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // PERF_H

@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\gui_apps"
+    "\\src\\app_utils",
+    "\\src\\gui_apps",
+    "\\src\\gui_apps\\mainmenu",
+    "\\src\\perf"
   ],
   "PreviewInSolutionExplorer": false
 }

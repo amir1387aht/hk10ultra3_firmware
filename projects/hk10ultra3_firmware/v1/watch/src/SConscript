@@ -28,5 +28,7 @@ src.extend(SConscript(os.path.join(cwd, 'app_utils/SConscript'), variant_dir="ap
 src.extend(SConscript(os.path.join(cwd, 'fs/SConscript'), variant_dir="fs", duplicate=0))
 src.extend(SConscript(os.path.join(cwd, 'flashdb/SConscript'), variant_dir="flashdb", duplicate=0))
 
+src.extend(SConscript(os.path.join(cwd, 'perf/SConscript'), variant_dir="perf", duplicate=0))
+
 group = DefineGroup('app', src, depend = ['PKG_USING_LITTLEVGL2RTT'], CPPPATH = inc)
 Return('group')

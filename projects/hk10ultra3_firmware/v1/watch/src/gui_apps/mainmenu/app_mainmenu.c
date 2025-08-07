@@ -899,33 +899,33 @@ static void app_mainmenu_read_app_icons(lv_obj_t *page)
 
     mainmenu_icon_style = 0x00;
 
-    // /*1. load builtin app list*/
-    // p_builtin_app = gui_builtin_app_list_open();
+     /*1. load builtin app list*/
+     p_builtin_app = gui_builtin_app_list_open();
 
-    // if (p_builtin_app)
-    // {
-    //     do
-    //     {
-    //         // Fix 1st icon for clock
-    //         idx = reorder_clock_icon(idx, clock_idx, p_builtin_app, page);
-    //         p_builtin_app = gui_builtin_app_list_get_next(p_builtin_app);
-    //     } 
-    //     while (p_builtin_app);
+     if (p_builtin_app)
+     {
+         do
+         {
+             // Fix 1st icon for clock
+             idx = reorder_clock_icon(idx, clock_idx, p_builtin_app, page);
+             p_builtin_app = gui_builtin_app_list_get_next(p_builtin_app);
+         } 
+         while (p_builtin_app);
 
-    //     while (1)
-    //     {
-    //         // Fix 1st icon for clock
-    //         p_builtin_app = gui_script_app_list_get_next(p_builtin_app);
+         while (1)
+         {
+             // Fix 1st icon for clock
+             p_builtin_app = gui_script_app_list_get_next(p_builtin_app);
 
-    //         if (p_builtin_app == NULL)
-    //             break;
+             if (p_builtin_app == NULL)
+                 break;
 
-    //         idx = reorder_clock_icon(idx, clock_idx, p_builtin_app, page);
-    //     }
+             idx = reorder_clock_icon(idx, clock_idx, p_builtin_app, page);
+         }
 
-    //     gui_builtin_app_list_close(p_builtin_app);
-    //     p_builtin_app = NULL;
-    // }
+         gui_builtin_app_list_close(p_builtin_app);
+         p_builtin_app = NULL;
+     }
 
     LV_IMG_DECLARE(img_workout)
     layout_get_icon_col_row_by_idx(idx++, &col, &row);

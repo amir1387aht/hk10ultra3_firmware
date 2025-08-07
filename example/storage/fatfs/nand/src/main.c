@@ -14,7 +14,6 @@
 #endif
 int mnt_init(void)
 {
-    rt_kprintf("0x%08X, 0x%08X, 0x%08X", FS_REGION_START_ADDR, FS_REGION_SIZE, FS_ROOT);
     register_mtd_device(FS_REGION_START_ADDR, FS_REGION_SIZE, FS_ROOT);
     if (dfs_mount(FS_ROOT, "/", "elm", 0, 0) == 0) // fs exist
     {
